@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Dragon Ball Xenoverse 2 Wiki - Builds, Skills & DLC",
+  "short_name": "Dragon Ball Xenoverse 2",
+  "description": "Dragon Ball Xenoverse 2 Wiki with builds, race guides, skills, transformations, Parallel Quests, DLC characters, QQ Bangs, raids, and update guides.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#0f77e6",
+  "background_color": "#0a0e1a",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
