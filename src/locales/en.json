@@ -10,14 +10,7 @@
       "twitterDescription": "Dragon Ball Xenoverse 2 Wiki with builds, race guides, skills, transformations, Parallel Quests, DLC characters, QQ Bangs, raids, and update guides."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
