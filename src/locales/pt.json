@@ -1,12 +1,854 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Dragon Ball Xenoverse 2 - Builds, Habilidades e DLC",
+      "description": "Wiki de Dragon Ball Xenoverse 2 com builds, guias de raças, habilidades, transformações, Parallel Quests, personagens de DLC, QQ Bangs, raids e guias de atualização.",
+      "keywords": "dragon ball xenoverse 2, wiki de xenoverse 2, builds, habilidades, transformações, DLC, QQ Bangs",
+      "ogTitle": "Wiki de Dragon Ball Xenoverse 2 - Builds, Habilidades e DLC",
+      "ogDescription": "Wiki de Dragon Ball Xenoverse 2 com builds, guias de raças, habilidades, transformações, Parallel Quests, personagens de DLC, QQ Bangs, raids e guias de atualização.",
+      "twitterTitle": "Wiki de Dragon Ball Xenoverse 2 - Builds, Habilidades e DLC",
+      "twitterDescription": "Wiki de Dragon Ball Xenoverse 2 com builds, guias de raças, habilidades, transformações, Parallel Quests, personagens de DLC, QQ Bangs, raids e guias de atualização."
+    }
+  },
   "nav": {
     "builds": "Builds",
     "characters": "Personagens",
     "abilities": "Habilidades",
     "quests": "Missões",
-    "equipment": "Equipamento",
+    "equipment": "Equipamentos",
     "dlc": "DLC",
     "updates": "Atualizações",
     "mods": "Mods"
+  },
+  "pages": {
+    "builds": {
+      "title": "Builds de Dragon Ball Xenoverse 2",
+      "description": "Builds de atributos otimizadas para todas as raças, PvE e PvP, com conjuntos de habilidades, Super Soul e QQ Bang.",
+      "metaTitle": "Builds de Dragon Ball Xenoverse 2 - Melhores Conjuntos para PvE e PvP",
+      "metaDescription": "Domine as builds de Dragon Ball Xenoverse 2: distribuição de atributos por raça, Super Golpes vs Super Explosões de Ki, Super Souls, habilidades e receitas de QQ Bang para PvE e PvP.",
+      "categoryLabel": "BUILDS DE JOGADORES",
+      "whatIs": "O que são Builds?",
+      "whatIsDescription": "Builds são conjuntos completos para o seu Time Patroller personalizado — pontos de atributos distribuídos em Saúde, Ki, Stamina, Ataques Básicos, Super Golpes e Super Explosões de Ki, combinados com habilidades, Super Souls e equipamentos QQ Bang. A build certa transforma um CAC recém-criado em um lutador pronto para raids.",
+      "why": "Por que usar essas builds?",
+      "whySteps": {
+        "step1Title": "Sinergia de raça e estilo de jogo",
+        "step1Description": "Cada raça tem passivas e transformações únicas; as builds são ajustadas para amplificar essas forças para um estilo de jogo focado em Super Golpes, Super Explosões de Ki ou híbrido.",
+        "step2Title": "Distribuição equilibrada de atributos",
+        "step2Description": "Evite pontos desperdiçados com distribuições testadas que mantêm a Saúde, Stamina e Ki sustentáveis em longas Parallel Quests e raids.",
+        "step3Title": "Pacotes de conjuntos completos",
+        "step3Description": "Cada build inclui as habilidades correspondentes, Super Soul e receita de QQ Bang para que você possa replicar a configuração de ponta a ponta."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Builds"
+    },
+    "characters": {
+      "title": "Personagens de Dragon Ball Xenoverse 2",
+      "description": "Todos os personagens jogáveis e predefinições com condições de desbloqueio, conjuntos de habilidades e classificações de tier para cada modo.",
+      "metaTitle": "Personagens de Dragon Ball Xenoverse 2 - Guia de Desbloqueio e Tier List",
+      "metaDescription": "Desbloqueie e domine cada personagem de Dragon Ball Xenoverse 2: predefinições, transformações, conjuntos de habilidades e classificações de tier para PvP e PvE.",
+      "categoryLabel": "ELENCO",
+      "whatIs": "O que são Personagens?",
+      "whatIsDescription": "Personagens abrange o elenco oficial jogável — Goku, Vegeta, adições de DLC e cada forma predefinida — com como desbloqueá-los, seus conjuntos de habilidades, transformações e onde cada um se destaca em Parallel Quests, Expert Missions e batalhas online.",
+      "why": "Por que usar este elenco?",
+      "whySteps": {
+        "step1Title": "Condições de desbloqueio claras",
+        "step1Description": "Descubra exatamente qual Parallel Quest, capítulo da história ou pacote de DLC desbloqueia cada personagem e forma predefinida.",
+        "step2Title": "Classificações de tier por modo",
+        "step2Description": "Veja quais personagens têm o melhor desempenho em PvP, raids e Expert Missions para escolher o lutador certo para o trabalho.",
+        "step3Title": "Dados completos de habilidades e transformações",
+        "step3Description": "Cada entrada lista habilidades equipadas, Super Souls e transformações disponíveis para trocas informadas."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Personagens"
+    },
+    "abilities": {
+      "title": "Habilidades de Dragon Ball Xenoverse 2",
+      "description": "Cada habilidade Super, Ultimate, Evasive e Awoken Skill com local de desbloqueio, custo e melhores casos de uso.",
+      "metaTitle": "Habilidades de Dragon Ball Xenoverse 2 - Habilidades e Transformações",
+      "metaDescription": "Banco de dados completo de habilidades de Dragon Ball Xenoverse 2: habilidades Super, Ultimate, Evasive e Awoken Skill com locais de desbloqueio, custo de Ki e combos.",
+      "categoryLabel": "HABILIDADES",
+      "whatIs": "O que são Habilidades?",
+      "whatIsDescription": "Habilidades abrange as próprias skills e transformações — Super Attacks, Ultimate Attacks, Evasive Skills e Awoken Skills — com como desbloquear cada uma, custo de Ki ou Stamina, tipo de dano e os melhores combos e situações para usá-las.",
+      "why": "Por que usar esta lista de habilidades?",
+      "whySteps": {
+        "step1Title": "Locais exatos de desbloqueio",
+        "step1Description": "Saiba qual Parallel Quest concede uma habilidade, qual mentor a ensina ou qual loja de TP Medal a vende.",
+        "step2Title": "Custos de Ki e Stamina",
+        "step2Description": "Planeje combos em torno dos custos de recursos para que transformações e ultimates estejam prontos quando você precisar deles.",
+        "step3Title": "Guia de melhor uso",
+        "step3Description": "Cada habilidade indica os combos ideais, a sinergia com as builds e contra quais inimigos ela é eficaz."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Habilidades"
+    },
+    "quests": {
+      "title": "Missões de Dragon Ball Xenoverse 2",
+      "description": "Parallel Quests e Expert Missions com objetivos, condições ocultas, Z Rank e recompensas de Ultimate Finish.",
+      "metaTitle": "Missões de Dragon Ball Xenoverse 2 - Parallel Quests e Expert Missions",
+      "metaDescription": "Conclua todas as Parallel Quests e Expert Missions de Dragon Ball Xenoverse 2: objetivos, condições ocultas, Ultimate Finish, Z Rank e drops.",
+      "categoryLabel": "MISSÕES",
+      "whatIs": "O que são Missões?",
+      "whatIsDescription": "As Missões cobrem os desafios PvE permanentes — Parallel Quests e Expert Missions — com listas completas de objetivos, condições de vitória ocultas para o Ultimate Finish, requisitos de Z Rank e as habilidades, equipamentos e personagens que cada uma dropa.",
+      "why": "Por que usar estes guias?",
+      "whySteps": {
+        "step1Title": "Condições de Ultimate Finish",
+        "step1Description": "Ative os gatilhos ocultos que liberam o Ultimate Finish para obter as melhores taxas de drop de habilidades e equipamentos raros.",
+        "step2Title": "Estratégias para Z Rank",
+        "step2Description": "Obtenha Z Rank de forma consistente com metas de dano, combo e tempo que maximizam sua pontuação.",
+        "step3Title": "Tabelas de drop completas",
+        "step3Description": "Veja exatamente quais habilidades, roupas e Super Souls cada missão pode render antes de começar o grind."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Missões"
+    },
+    "equipment": {
+      "title": "Equipamentos de Dragon Ball Xenoverse 2",
+      "description": "Receitas de QQ Bang, atributos de roupas, Super Souls e materiais de mistura para obter os melhores bônus passivos.",
+      "metaTitle": "Equipamentos de Dragon Ball Xenoverse 2 - QQ Bangs e Super Souls",
+      "metaDescription": "Otimize seus equipamentos de Dragon Ball Xenoverse 2: receitas de QQ Bang, atributos de roupas, efeitos de Super Soul e materiais de mistura para qualquer build.",
+      "categoryLabel": "EQUIPAMENTOS",
+      "whatIs": "O que são Equipamentos?",
+      "whatIsDescription": "Os Equipamentos cobrem QQ Bangs, conjuntos de roupas, Super Souls e materiais de mistura — os bônus de atributos passivos e efeitos que definem uma build. Encontre receitas de QQ Bang, compare atributos de roupas e combine Super Souls com o seu estilo de jogo.",
+      "why": "Por que usar estes dados de equipamentos?",
+      "whySteps": {
+        "step1Title": "Receitas de QQ Bang",
+        "step1Description": "Combine as roupas e os itens de mistura certos para criar QQ Bangs com bônus de atributos fortes e equilibrados.",
+        "step2Title": "Efeitos de Super Soul",
+        "step2Description": "Procure Super Souls pelas suas condições de ativação e bônus para escolher a que melhor se adapta à sua build.",
+        "step3Title": "Comparação de atributos de roupas",
+        "step3Description": "Compare trajes em todos os seis atributos para criar o perfil de atributos passivos ideal."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Equipamentos"
+    },
+    "dlc": {
+      "title": "Dragon Ball Xenoverse 2 DLC",
+      "description": "Todos os pacotes de DLC com personagens, missões, habilidades inclusas e um guia de prioridade de compra.",
+      "metaTitle": "Dragon Ball Xenoverse 2 DLC - Lista de Pacotes e Guia de Compra",
+      "metaDescription": "Guia completo de DLC de Dragon Ball Xenoverse 2: personagens, missões e habilidades de cada pacote, além de qual DLC comprar primeiro.",
+      "categoryLabel": "DLC",
+      "whatIs": "O que é DLC?",
+      "whatIsDescription": "DLC abrange os pacotes de conteúdo pago — do Legendary Pack à Future Saga — listando os personagens, Parallel Quests, habilidades e capítulos da história que cada um adiciona, além das diferenças de versão e uma ordem de compra recomendada para você gastar com sabedoria.",
+      "why": "Por que usar este guia de DLC?",
+      "whySteps": {
+        "step1Title": "Conteúdo completo dos pacotes",
+        "step1Description": "Veja exatamente quais personagens, missões e habilidades cada pacote de DLC adiciona antes de comprar.",
+        "step2Title": "Prioridade de compra",
+        "step2Description": "Siga uma ordem de compra ranqueada baseada no valor dos personagens, volume de conteúdo e impacto no meta.",
+        "step3Title": "Clareza de versões",
+        "step3Description": "Entenda as diferenças entre pacotes, passes de temporada e bundles para não comprar o mesmo conteúdo duas vezes."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as DLCs"
+    },
+    "updates": {
+      "title": "Atualizações de Dragon Ball Xenoverse 2",
+      "description": "Notas de atualização, cronogramas de raid, festivais e manutenção de servidor com datas de início e término.",
+      "metaTitle": "Atualizações de Dragon Ball Xenoverse 2 - Notas de Atualização e Cronograma de Raids",
+      "metaDescription": "Acompanhe as atualizações de Dragon Ball Xenoverse 2: notas de atualização, cronogramas de raid, eventos de festival e janelas de manutenção com datas.",
+      "categoryLabel": "ATUALIZAÇÕES",
+      "whatIs": "O que são Atualizações?",
+      "whatIsDescription": "Atualizações cobrem patches por tempo limitado, manutenção de servidor, cronogramas de raid e eventos de festival — com mudanças de balanceamento, tabelas de recompensas de raid e datas claras de início e término para você nunca perder uma atividade de tempo limitado.",
+      "why": "Por que acompanhar as atualizações?",
+      "whySteps": {
+        "step1Title": "Cronogramas de raid",
+        "step1Description": "Saiba quando cada raid abre e fecha e quais recompensas estão disponíveis durante o período.",
+        "step2Title": "Notas de patch e balanceamento",
+        "step2Description": "Fique atualizado sobre as mudanças de balanceamento de habilidades e personagens que alteram o meta PvP e PvE.",
+        "step3Title": "Eventos de festival",
+        "step3Description": "Aproveite os festivais de tempo limitado e suas recompensas exclusivas antes que o evento termine."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Atualizações"
+    },
+    "mods": {
+      "title": "Dragon Ball Xenoverse 2 Mods",
+      "description": "Instalação de mods para PC, compatibilidade e solução de problemas para instaladores, trajes e habilidades.",
+      "metaTitle": "Dragon Ball Xenoverse 2 Mods - Guia de Instalação e Solução de Problemas",
+      "metaDescription": "Domine os mods de Dragon Ball Xenoverse 2 no PC: configuração do instalador, mods de trajes e habilidades, compatibilidade e correções de erros comuns.",
+      "categoryLabel": "MODS",
+      "whatIs": "O que são Mods?",
+      "whatIsDescription": "Mods abrange o cenário de modding para PC — instaladores como XV2 Mods, substituições de trajes e habilidades e reformulações de jogabilidade — com etapas de instalação seguras, notas de compatibilidade de versão e correções para erros que surgem após patches do jogo.",
+      "why": "Por que usar este guia de mods?",
+      "whySteps": {
+        "step1Title": "Etapas de instalação seguras",
+        "step1Description": "Instale instaladores de mods e carregue mods corretamente sem corromper os arquivos base do jogo.",
+        "step2Title": "Compatibilidade com patches",
+        "step2Description": "Acompanhe quais mods param de funcionar após cada atualização e saiba como corrigi-los ou substituí-los.",
+        "step3Title": "Solução de problemas de erro",
+        "step3Description": "Resolva crashes comuns, texturas ausentes e erros de carregador com correções testadas."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Mods"
+    }
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogue no Steam",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Leia Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "RPG de Ação e Luta de Anime",
+    "title": "Dragon Ball Xenoverse 2 Wiki",
+    "description": "Crie um Time Patroller personalizado, domine habilidades e transformações, complete Parallel Quests, lute em raids online e explore cada capítulo de DLC em Conton City.",
+    "getFreeCodesCTA": "Ver Builds",
+    "playOnSteamCTA": "Jogue no Steam",
+    "stats": {
+      "stat1": {
+        "value": "27 de out. de 2016",
+        "label": "Data de Lançamento"
+      },
+      "stat2": {
+        "value": "40+",
+        "label": "Personagens de DLC"
+      },
+      "stat3": {
+        "value": "31",
+        "label": "Itens de DLC no Steam"
+      },
+      "stat4": {
+        "value": "61",
+        "label": "Conquistas do Steam"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Dragon Ball Xenoverse 2",
+    "description": "Um RPG de ação e luta em arena 3D onde você cria seu próprio Time Patroller, aprende habilidades com mestres de Dragon Ball, se transforma e batalha pela história, Parallel Quests, Expert Missions e raids por toda Conton City."
+  },
+  "tools": {
+    "title": "Dragon Ball Xenoverse 2",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para criar um Time Patroller, ranquear personagens, farmar Dragon Balls e dominar cada DLC em Dragon Ball Xenoverse 2.",
+    "cards": [
+      {
+        "icon": "GraduationCap",
+        "title": "Guia para Iniciantes",
+        "description": "Escolha de raça, o básico do combate e uma rota para o início do jogo"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List de Personagens",
+        "description": "Os melhores personagens de PvE, raid e PvP ranqueados"
+      },
+      {
+        "icon": "Dumbbell",
+        "title": "Melhores Builds e QQ Bangs",
+        "description": "Distribuição de atributos, Awoken Skills e criação de QQ Bangs"
+      },
+      {
+        "icon": "Zap",
+        "title": "Transformações",
+        "description": "Todas as Awoken Skills, custo de Ki e rotas de desbloqueio"
+      },
+      {
+        "icon": "Swords",
+        "title": "Parallel Quests",
+        "description": "Missões de alto valor, recompensas e rotas para Z Rank"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Habilidades e Super Souls",
+        "description": "Melhores supers, ultimates, evasivas e Super Souls"
+      },
+      {
+        "icon": "Orbit",
+        "title": "Esferas do Dragão e Shenlong",
+        "description": "Rotas rápidas de farm e os melhores desejos para escolher"
+      },
+      {
+        "icon": "Package",
+        "title": "DLCs e Atualizações",
+        "description": "Todos os passes, pacotes, atualizações gratuitas e edições"
+      }
+    ]
+  },
+  "modules": {
+    "beginnerGuide": {
+      "title": "Guia para Iniciantes de Dragon Ball Xenoverse 2",
+      "eyebrow": "Primeiros Passos",
+      "intro": "Crie um Time Patroller, escolha uma raça, aprenda os fundamentos do combate e siga uma rota eficiente de início de jogo pela história, mentores e atividades de Conton City. Dragon Ball Xenoverse 2 recompensa uma direção de build clara desde a primeira hora.",
+      "steps": [
+        {
+          "title": "Crie seu Time Patroller e Escolha uma Raça",
+          "description": "Escolha entre Saiyajin, Majin, Raça Freeza, Namekuseijin, Terráqueo e raças de DLC. Cada raça tem atributos básicos únicos e sua própria linha de transformação: Saiyajins acessam formas Super Saiyajin, Terráqueos carregam Ki automaticamente e aumentam ataques básicos, Majins são naturalmente resistentes, Namekuseijins regeneram vida e a Raça Freeza é a mais rápida em movimentação."
+        },
+        {
+          "title": "Domine o Combate Básico e a Stamina",
+          "description": "Aprenda sequências de golpes leves e pesados, Vanishes, Just Guard e stamina breaks. A Stamina alimenta Vanishes e evasivas, enquanto o Ki potencializa supers e ultimates, então gerenciar ambos é a habilidade principal que separa jogadores novos de veteranos."
+        },
+        {
+          "title": "Treine com Instrutores",
+          "description": "Aproxime-se de mestres como Goku, Vegeta, Cell e Beerus em Conton City e conclua suas sequências de lições. Terminar as lições de um instrutor desbloqueia suas habilidades, Super Souls e opções de personalização para o seu Time Patroller."
+        },
+        {
+          "title": "Avance na História Principal e Abra Conton City",
+          "description": "Avance na história principal para desbloquear Parallel Quests, Expert Missions, raids e atividades do hub. O progresso da história também libera novos mentores, o Pedestal das Esferas do Dragão e as lojas de QQ Bang e de mistura."
+        },
+        {
+          "title": "Escolha a Direção da sua Primeira Build",
+          "description": "Distribua seus pontos de atributo em apenas um tipo de dano logo no início — Super de Explosão de Ki, Super de Golpe ou Ataque Básico — em vez de espalhá-los igualmente. Uma build focada conclui Parallel Quests mais rápido e é fácil de refinar quando você entender melhor o jogo."
+        }
+      ],
+      "quickTips": [
+        "Equipe uma habilidade de carregar Ki assim que desbloquear uma, para que o Ki nunca limite seus supers.",
+        "Economize seus pontos de atributo para focar em um atributo específico; Shenlong pode resetar seus pontos totalmente mais tarde.",
+        "Conclua todas as lições dos instrutores para desbloquear permanentemente suas habilidades e Super Souls.",
+        "Aumente a amizade com mentores-chave para desbloquear recompensas específicas de raça, como o Super Saiyajin Deus."
+      ]
+    },
+    "charactersTierList": {
+      "title": "Tier List de Personagens de Dragon Ball Xenoverse 2",
+      "eyebrow": "Ranking de Poder",
+      "intro": "Ranqueando os personagens jogáveis mais fortes para Parallel Quests, Expert Missions, raids e PvP. As melhores escolhas combinam longo alcance, potencial de combo, supers fáceis de usar e alto dano de ultimate, enquanto um Time Patroller personalizado bem construído pode superar qualquer personagem predefinido no endgame.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Top Tier",
+          "characters": [
+            "Goku (Instinto Superior)",
+            "Gogeta SSGSS",
+            "Jiren (Poder Total)",
+            "Broly (Super Saiyajin de Poder Total)",
+            "Vegetto SSGSS"
+          ],
+          "description": "Os melhores personagens versáteis para raids e PvE de endgame: dano massivo de ultimate, supers seguros e ótimas ferramentas de jogo neutro."
+        },
+        {
+          "tier": "A",
+          "label": "Fortes e Versáteis",
+          "characters": [
+            "Goku (Besta)",
+            "Gohan (Besta)",
+            "Gogeta (DB Super)",
+            "Goku SSGSS",
+            "Vegeta SSGSS"
+          ],
+          "description": "Confiáveis em todos os modos, com ótimas rotas de combo e Awoken Skills de alto dano."
+        },
+        {
+          "tier": "B",
+          "label": "Nicho Sólido",
+          "characters": [
+            "Piccolo (Despertar do Poder)",
+            "Kefla",
+            "Hit",
+            "Kyabe",
+            "Toppo (Deus da Destruição)"
+          ],
+          "description": "Forte em confrontos e modos específicos, frequentemente escolhido por estilo ou funções específicas de raid."
+        },
+        {
+          "tier": "C",
+          "label": "Iniciante e Estilo",
+          "characters": [
+            "Goku Base",
+            "Vegeta Base",
+            "Personagens de DLC iniciais"
+          ],
+          "description": "Escolhas iniciais divertidas e acessíveis que acabam superadas por personagens de tier S e A no endgame."
+        }
+      ],
+      "note": "Um Time Patroller personalizado com uma build focada, uma boa QQ Bang e a Awoken Skill certa pode causar mais dano do que qualquer personagem predefinido nesta lista."
+    },
+    "bestBuildsAndQQBangs": {
+      "title": "Melhores Builds e QQ Bangs de Dragon Ball Xenoverse 2",
+      "eyebrow": "Loadouts",
+      "intro": "Distribuições de atributos recomendadas, Awoken Skills, Super Souls e QQ Bangs para cada raça e estilo de jogo. Abrange builds de Ki Blast, Strike, híbridas, suporte de raid e PvP, cada uma com um foco claro e fraquezas conhecidas.",
+      "builds": [
+        {
+          "name": "Saiyajin de Ki Blast",
+          "role": "PvE e Raids",
+          "focus": "Super Ráfagas de Ki no Máximo",
+          "description": "Acumule Super Ráfagas de Ki, use Super Saiyajin Azul ou Instinto Superior e use repetidamente ataques supremos de feixe teleguiado. A build de dano PvE geral mais forte."
+        },
+        {
+          "name": "Artista Marcial de Golpes",
+          "role": "Pressão no PvP",
+          "focus": "Super Golpes e Ataques Básicos no Máximo",
+          "description": "Terráqueo ou Majin com Potencial Liberado, stamina alta e combos corpo a corpo implacáveis combinados com stamina-break. Domina o PvP de curto alcance."
+        },
+        {
+          "name": "Híbrido Equilibrado",
+          "role": "Flexível",
+          "focus": "Divisão de Ki Blast e Strike",
+          "description": "Uma build híbrida tolerante para jogadores que ainda estão escolhendo uma direção. Funciona na maioria das Parallel Quests enquanto você descobre do que gosta."
+        },
+        {
+          "name": "Tank de Suporte para Raid",
+          "role": "Expert Missions",
+          "focus": "Saúde e Stamina no Máximo",
+          "description": "Majin ou Namekuseijin com Superguarda, Zona de Energia e uma Super Soul de cura de equipe. Mantém escoltas e aliados vivos em meio aos perigos da raid."
+        },
+        {
+          "name": "Zoner no PvP",
+          "role": "Espaçamento no PvP",
+          "focus": "Velocidade e Explosão de Ki",
+          "description": "Raça Freeza focada em movimento e supers à distância, usando a velocidade para punir aproximações e contra-atacar erros com supers de feixe."
+        },
+        {
+          "name": "Canhão de Vidro",
+          "role": "PvE de Dano Explosivo",
+          "focus": "Atributo de dano único máximo",
+          "description": "Ofensiva total combinada com a Super Soul que troca defesa por dano bruto. Alto risco, mas elimina chefes com Stamina quebrada."
+        }
+      ],
+      "qqBangs": [
+        {
+          "name": "O que uma QQ Bang faz",
+          "description": "Uma QQ Bang adiciona modificadores de atributos sobre seus atributos e roupas. Uma QQ Bang perfeita pode adicionar até +5 a um atributo principal, como Super Explosão de Ki ou Super Golpe."
+        },
+        {
+          "name": "Foque em um Atributo Principal",
+          "description": "Crie até que seu atributo de dano primário seja fortemente positivo, sem penalidades de Ki ou Stamina. Mesmo uma QQ Bang mista é uma grande melhoria em relação a não ter nenhuma."
+        },
+        {
+          "name": "Misturando para Melhores Resultados",
+          "description": "Combine roupas de mais estrelas com materiais correspondentes e Cápsulas de Super Mistura na loja de QQ Bang para aumentar o potencial dos seus resultados."
+        }
+      ]
+    },
+    "transformationsAndAwokenSkills": {
+      "title": "Transformações e Awoken Skills de Dragon Ball Xenoverse 2",
+      "eyebrow": "Power-Ups",
+      "intro": "Todas as Awoken Skills específicas de raça e universais, com custo de Ki, rota de desbloqueio e efeito. Escolha a transformação que combina com o tipo de dano e a economia de Ki da sua build.",
+      "transformations": [
+        {
+          "name": "Super Saiyajin (1 / 2 / 3)",
+          "race": "Saiyajin",
+          "kiCost": "3 barras",
+          "unlock": "Lições de mentor e Parallel Quests",
+          "effect": "Aumenta o dano corpo a corpo e de golpes; formas superiores adicionam mais poder, mas drenam Ki mais rápido."
+        },
+        {
+          "name": "Super Saiyajin Deus",
+          "race": "Saiyajin",
+          "kiCost": "3 barras",
+          "unlock": "Desejo de Shenlong + amizade máxima com Goku, Vegeta, Gohan e Videl, Gotenks e Pan",
+          "effect": "Uma transformação equilibrada com atributos gerais fortes e um dreno de Ki controlável."
+        },
+        {
+          "name": "Super Saiyajin Azul (SSGSS)",
+          "race": "Saiyajin",
+          "kiCost": "3 a 5 barras",
+          "unlock": "Mentor / Conteúdo de DLC",
+          "effect": "Excelente Explosão de Ki e defesa; uma das formas de endgame mais fortes dos Saiyajins."
+        },
+        {
+          "name": "Instinto Superior",
+          "race": "Universal (CaC)",
+          "kiCost": "3 barras",
+          "unlock": "Atualização gratuita (outubro de 2023)",
+          "effect": "Janela de esquiva automática e autorrecuperação de Ki; uma das melhores escolhas para qualquer raça no endgame."
+        },
+        {
+          "name": "Beast",
+          "race": "Universal (CaC)",
+          "kiCost": "3 barras",
+          "unlock": "Atualização gratuita (março de 2023)",
+          "effect": "Dano massivo e roubo de vida; uma transformação agressiva e equilibrada."
+        },
+        {
+          "name": "Potencial Liberado",
+          "race": "Universal (CaC)",
+          "kiCost": "3 barras",
+          "unlock": "Missão do Kaiô Antigo no limite de nível",
+          "effect": "Um aumento de atributos confiável e equilibrado, sendo a escolha padrão para a maioria das builds de PvP."
+        },
+        {
+          "name": "Torne-se Dourado",
+          "race": "Raça Freeza",
+          "kiCost": "3 barras",
+          "unlock": "Nave do Freeza",
+          "effect": "Ataques de Ki fortes e aumento de velocidade feitos sob medida para a Raça Freeza."
+        },
+        {
+          "name": "Purificação",
+          "race": "Majin",
+          "kiCost": "3 barras",
+          "unlock": "Casa do Majin Boo",
+          "effect": "Transforma-se em uma forma estilo Kid Boo com dano alto e consumo rápido de Stamina."
+        },
+        {
+          "name": "Torne-se Gigante",
+          "race": "Namekuseijin",
+          "kiCost": "3 barras",
+          "unlock": "Casa do Patriarca",
+          "effect": "Torne-se um Grande Namekuseijin com muita vida e superataques que cobrem toda a arena."
+        },
+        {
+          "name": "Super Saiyan do Futuro",
+          "race": "Saiyajin",
+          "kiCost": "3 barras",
+          "unlock": "Conteúdo de DLC",
+          "effect": "Regeneração rápida de Ki; excelente para builds que usam supers em sequência."
+        }
+      ]
+    },
+    "parallelQuestsAndExpertMissions": {
+      "title": "Parallel Quests e Expert Missions de Dragon Ball Xenoverse 2",
+      "eyebrow": "Rotas de Missão",
+      "intro": "Parallel Quests e Expert Missions de alto valor para Dragon Balls, habilidades raras, Z Ranks, conclusões de escolta e farm de chefes de fim de jogo. Cada entrada mostra a dificuldade, recompensas principais, requisitos de DLC e a estratégia de conclusão.",
+      "quests": [
+        {
+          "mode": "Parallel Quest",
+          "mission": "PQ 23 - A Explosão de Namekusei",
+          "difficulty": "Inicial",
+          "rewards": "Drops de Dragon Balls, Zeni rápido",
+          "strategy": "Derrote Frieza em menos de três minutos, depois elimine os três Time Patrollers. A rota de Dragon Balls repetível mais rápida do jogo."
+        },
+        {
+          "mode": "Parallel Quest",
+          "mission": "PQ 4 - Prepare-se para o Ataque dos Saiyajins!",
+          "difficulty": "Inicial",
+          "rewards": "Drops de Dragon Balls",
+          "strategy": "Derrote Gohan e Piccolo rapidamente, depois desafie os Time Patrollers. A rota de Dragon Balls mais amigável para iniciantes."
+        },
+        {
+          "mode": "Parallel Quest",
+          "mission": "PQ 79 - Festival do Oozaru",
+          "difficulty": "Intermediário",
+          "rewards": "Poderosa Onda Explosiva, Camisa do Vegeta, Dragon Balls",
+          "strategy": "Quebre a stamina de cada Oozaru antes de descarregar ultimates, e guarde Ki para a onda de Time Patrollers."
+        },
+        {
+          "mode": "Parallel Quest",
+          "mission": "PQ 83 - Dupla Perigosa! Guerreiros Nunca Descansam",
+          "difficulty": "Intermediário",
+          "rewards": "Carga, Cápsula de Mistura Alta, Cápsula de Energia G",
+          "strategy": "Atraia Broly para longe de Gohan antes de coletar as Dragon Balls para que o escoltado sobreviva."
+        },
+        {
+          "mode": "Parallel Quest",
+          "mission": "PQ 100 - A Rivalidade Suprema",
+          "difficulty": "Alto",
+          "rewards": "Kamehameha Big Bang x100, Peruca de Vegeta SSGSS, Traje Símbolo de Whis",
+          "strategy": "Faça uma quebra de Stamina antes de usar ultimates longos e derrote um alvo antes de trocar para que a dupla não possa te interromper."
+        },
+        {
+          "mode": "Parallel Quest",
+          "mission": "PQ 122 - A Batalha Final Antes da Batalha Final?!",
+          "difficulty": "Muito Alto",
+          "rewards": "Meditação, Investida de Poder, cápsulas de Regen. Total e Semente Senzu",
+          "strategy": "Extra Pack 2. Traga cápsulas de cura e um combo de quebra de Stamina, e repita o Ultimate Finish para obter tanto Meditação quanto Investida de Poder."
+        },
+        {
+          "mode": "Parallel Quest",
+          "mission": "PQ 134 - O Próximo Deus da Destruição do Universo 7",
+          "difficulty": "Muito Alto",
+          "rewards": "Carga Explosiva, Carga Suprema, Super Soul de poder",
+          "strategy": "Ultra Pack 1. Farme Goku Instinto Superior para obter Carga Explosiva e Vegeta SSGSS Evoluído para obter Carga Suprema enquanto mantém Whis vivo."
+        },
+        {
+          "mode": "Expert Mission",
+          "mission": "EM 15 - Malícia Extrema!",
+          "difficulty": "Extremo",
+          "rewards": "Furacão Azul, 24.000 Zeni",
+          "strategy": "Mantenha a Super Guarda durante a Tempestade Descarnadora, reviva aliados instantaneamente e evite animações longas quando o chefe se teletransportar."
+        }
+      ],
+      "scoringTip": "Ganhe Z Rank através de conquistas, não apenas pelo tempo de conclusão: faça um combo longo, acerte rajadas de Ki, realize arremessos e Defesas Perfeitas, quebre guardas, derrote vários inimigos e finalize com um Super ou Ultimate Attack."
+    },
+    "skillsAndSuperSouls": {
+      "title": "Habilidades e Super Souls de Dragon Ball Xenoverse 2",
+      "eyebrow": "Ferramentas de Build",
+      "intro": "Compare Super Attacks, Ultimate Attacks, Evasive Skills, habilidades de carga e Super Souls confiáveis para missões, raids e PvP. Cada entrada inclui seu efeito, fonte de desbloqueio e requisito de DLC.",
+      "skills": [
+        {
+          "type": "Habilidade de Carga",
+          "name": "Carga Explosiva",
+          "effect": "Restaura Ki muito rapidamente no início da carga, depois desacelera.",
+          "source": "PQ 134 - O Próximo Deus da Destruição do Universo 7",
+          "dlc": "Ultra Pack 1"
+        },
+        {
+          "type": "Habilidade de Carga",
+          "name": "Carga Suprema",
+          "effect": "Começa devagar, mas acelera, ideal para recargas grandes de Ki.",
+          "source": "PQ 134 - O Próximo Deus da Destruição do Universo 7",
+          "dlc": "Ultra Pack 1"
+        },
+        {
+          "type": "Outro Super",
+          "name": "Meditação",
+          "effect": "Aumenta o Ki máximo para dez barras e ativa a recuperação automática de Ki enquanto ativo.",
+          "source": "PQ 122 - A Batalha Final Antes da Batalha Final?!",
+          "dlc": "Extra Pack 2"
+        },
+        {
+          "type": "Super Explosão de Ki",
+          "name": "Golpe de Fótons",
+          "effect": "Onda rápida com a palma da mão que lida com alvos grandes e rebate explosões de Ki gigantes.",
+          "source": "PQ 139 - Guerra e Pedaços",
+          "dlc": "Ultra Pack 2"
+        },
+        {
+          "type": "Outro Super",
+          "name": "Superguarda",
+          "effect": "Concede proteção enquanto mantido pressionado, consumindo Ki durante a ativação.",
+          "source": "Loja de Habilidades",
+          "dlc": "Nenhum"
+        },
+        {
+          "type": "Supremo de Acerto",
+          "name": "Investida de Poder",
+          "effect": "Um Supremo de Acerto de dez barras com dano extremo em alvos com quebra de Stamina.",
+          "source": "PQ 122 - A Batalha Final Antes da Batalha Final?!",
+          "dlc": "Extra Pack 2"
+        },
+        {
+          "type": "Supremo de Explosão de Ki",
+          "name": "Supergolpe Elétrico",
+          "effect": "Explosão elétrica ampla que atinge inimigos agrupados e chefes grandes.",
+          "source": "Expert Mission 11 - O Demônio Nascido das Esferas do Dragão",
+          "dlc": "Nenhum"
+        },
+        {
+          "type": "Outro Supremo",
+          "name": "Zona de Energia",
+          "effect": "Cria um campo de cura que restaura o usuário e os aliados dentro dele.",
+          "source": "Loja de Habilidades após progressão avançada na história",
+          "dlc": "Nenhum"
+        },
+        {
+          "type": "Habilidade Evasiva",
+          "name": "Ascensão Instantânea",
+          "effect": "Usa Stamina para escapar verticalmente sem uma animação longa.",
+          "source": "Loja de Habilidades",
+          "dlc": "Nenhum"
+        },
+        {
+          "type": "Super Soul",
+          "name": "Hmm Hmm Hmmm! Hm Hmmm! Hmmm!",
+          "effect": "Recuperação automática de vida da equipe enquanto uma Awoken Skill e uma habilidade de reforço estiverem ativas.",
+          "source": "Recompensas da Casa do Majin Buu",
+          "dlc": "Nenhum"
+        },
+        {
+          "type": "Super Soul",
+          "name": "Poder! Muito poder! É ótimo!",
+          "effect": "Aumenta muito o Ki máximo e a Stamina máxima.",
+          "source": "PQ 134 - O Próximo Deus da Destruição do Universo 7",
+          "dlc": "Ultra Pack 1"
+        },
+        {
+          "type": "Super Soul",
+          "name": "Deixei tudo de lado por isso!",
+          "effect": "Um grande aumento em todos os ataques em troca de penalidades de defesa, movimento e recuperação.",
+          "source": "PQ 145 - Desafiante do Outro Mundo",
+          "dlc": "Legendary Pack 1"
+        }
+      ],
+      "comboTip": "Um combo confiável para o fim do jogo é Meditação para aumentar o Ki, uma quebra de Stamina pesada, depois Power Rush, com Burst Charge pronto para recarregar o Ki entre os alvos."
+    },
+    "dragonBallsAndShenronWishes": {
+      "title": "Esferas do Dragão e Desejos de Shenlong de Dragon Ball Xenoverse 2",
+      "eyebrow": "Guia de Shenlong",
+      "intro": "Use rotas rápidas de Time Patroller para coletar todas as sete Esferas do Dragão, depois gaste cada invocação de Shenlong em personagens, habilidades, transformações, cosméticos, níveis ou recursos.",
+      "farmSteps": [
+        {
+          "title": "Prepare um loadout de dano rápido",
+          "details": "Equipe um Super Ataque rápido, um Ataque Supremo forte, uma habilidade de carga e Stamina suficiente para evitar perder tempo com a pressão do inimigo."
+        },
+        {
+          "title": "Jogue a PQ 23 e derrote Freeza em menos de três minutos",
+          "details": "Conclua a curta luta de abertura imediatamente para ativar a rota do Ultimate Finish em A Explosão de Namek."
+        },
+        {
+          "title": "Derrote todos os três Time Patrollers",
+          "details": "Foque em um Patroller de cada vez. Cada Patroller derrotado pode deixar cair um item chave de Dragon Ball, então uma única partida pode render mais de uma esfera."
+        },
+        {
+          "title": "Fique atento à notificação de Item Chave",
+          "details": "Uma Dragon Ball aparece como uma recompensa de Item Chave durante a luta contra o Patroller. Conclua a missão e repita até possuir todas as sete."
+        },
+        {
+          "title": "Use rotas alternativas quando necessário",
+          "details": "A PQ 4 oferece uma luta contra Patroller no início do jogo, enquanto a PQ 79 adiciona uma rota mais longa do Grande Macaco com outra finalização de três Patrollers."
+        },
+        {
+          "title": "Invoque Shenron em Conton City",
+          "details": "Leve todas as sete Dragon Balls para o Pedestal das Dragon Balls, invoque Shenron e selecione um desejo. As sete esferas são consumidas após o desejo."
+        }
+      ],
+      "wishes": [
+        {
+          "wish": "Quero mais personagens jogáveis!",
+          "reward": "Hit, Eis Shenron, Nuova Shenron e Omega Shenron",
+          "bestFor": "Completando a lista de personagens exclusivos do Shenron."
+        },
+        {
+          "wish": "Quero me tornar um Super Saiyan God!",
+          "reward": "Desbloqueia o caminho da Awoken Skill de Super Saiyan God",
+          "bestFor": "Time Patrollers Saiyajins; requer amizade máxima com Goku, Vegeta, Gohan e Videl, Gotenks e Pan."
+        },
+        {
+          "wish": "Quero um novo Ataque Supremo!",
+          "reward": "Primeiro Time Skip/Molotov, depois Ice Cannon e Burning Spin",
+          "bestFor": "Desbloqueando Ataques Supremos exclusivos do Shenron."
+        },
+        {
+          "wish": "Quero um novo Superataque!",
+          "reward": "Primeiro Flash Fist Crush, depois Ice Claw, Ice Field, Burst Attack e Burst Reflection",
+          "bestFor": "Desbloqueando Superataques exclusivos do Shenron."
+        },
+        {
+          "wish": "Quero uma segunda chance na vida!",
+          "reward": "Redefine todos os pontos de atributos distribuídos",
+          "bestFor": "Reconstruindo um personagem de Strike para Ki Blast ou corrigindo escolhas iniciais de atributos."
+        },
+        {
+          "wish": "Quero dinheiro!",
+          "reward": "500.000 Zeni",
+          "bestFor": "Comprar habilidades, roupas e cápsulas; repetível."
+        },
+        {
+          "wish": "Quero ficar mais forte!",
+          "reward": "6 Dispositivos de Eco da Alma e 3 Dispositivos de Mistura de Difusão da Alma",
+          "bestFor": "Materiais de mistura e QQ Bang; repetível."
+        },
+        {
+          "wish": "Quero crescer!",
+          "reward": "Aumenta o nível do personagem atual em um",
+          "bestFor": "Pula um grind difícil de níveis altos; repetível."
+        }
+      ]
+    },
+    "dlcAndUpdates": {
+      "title": "DLCs e Atualizações de Dragon Ball Xenoverse 2",
+      "eyebrow": "Expansões",
+      "intro": "Todos os principais pacotes de DLC, passes, atualizações gratuitas e edições de Dragon Ball Xenoverse 2, com os personagens, missões, habilidades e conteúdo que cada um adiciona. Use as notas de compra para evitar comprar um pacote individual que já esteja dentro de um passe ou conjunto.",
+      "packs": [
+        {
+          "group": "Passe",
+          "name": "Super Pass",
+          "characters": "Cabba, Frost, Champa, Vados, Goku Black (Rosé), Zamasu, Bojack, Vegito SSGSS, Zamasu Fundido",
+          "contents": "Super Packs 1-4 com o torneio do Universo 6 e episódios da era do Trunks do Futuro, novos cenários e conteúdo de mestre.",
+          "note": "Compre o passe em vez dos Super Packs 1-4 separadamente quando quiser a primeira leva completa de DLCs."
+        },
+        {
+          "group": "Passe",
+          "name": "Extra Pass",
+          "characters": "Jiren, Fu, Android 17 (DBS), Goku (Instinto Superior), Super Baby 2, Kefla, Gogeta SSGSS, Broly (Super Saiyajin de Poder Total) e mais",
+          "contents": "Extra Packs 1-4, o cenário de História Infinita e 20 Parallel Quests nos quatro pacotes.",
+          "note": "O passe já contém os Extra Packs 1, 2, 3 e 4."
+        },
+        {
+          "group": "Conjunto de Pacotes",
+          "name": "Ultra Pack Set",
+          "characters": "Ribrianne, Vegeta SSGSS (Evoluído), Vegeta (Super Saiyajin Deus), Android 21, Majuub",
+          "contents": "Ultra Packs 1-2 com 10 Parallel Quests e recompensas importantes como Burst Charge, Ultimate Charge e Photon Swipe.",
+          "note": "O conjunto contém ambos os Ultra Packs, então não o combine com nenhum dos pacotes individuais."
+        },
+        {
+          "group": "Conjunto de Pacotes",
+          "name": "Legendary Pack Set",
+          "characters": "Paikuhan, Toppo (Deus da Destruição), Jiren (Poder Total), Gogeta (DB Super), Caulifla (Super Saiyajin 2), Kale (Super Saiyajin 2)",
+          "contents": "Legendary Packs 1-2 com novo conteúdo de história alterado por Fu, Extra Missions, Parallel Quests e recompensas de alto impacto.",
+          "note": "Escolha o conjunto para ambos os capítulos; pacotes individuais duplicam o conteúdo que já está nele."
+        },
+        {
+          "group": "Conjunto de Pacotes",
+          "name": "Hero of Justice Pack Set",
+          "characters": "Gamma 1, Gamma 2, Gohan (DBS Super Hero), Gohan (Besta), Piccolo Laranja, Piccolo (Despertar de Poder)",
+          "contents": "Hero of Justice Packs 1-2 com Parallel Quests, Extra Missions, 14 técnicas, 10 Super Souls e um novo cenário.",
+          "note": "O conjunto contém ambos os pacotes; evite comprar qualquer um separadamente após o conjunto."
+        },
+        {
+          "group": "Conjunto de Pacotes",
+          "name": "Conjunto de Pacotes Future Saga",
+          "characters": "Vegeta (Super Saiyajin Deus), Goku Black (Rosé), Broly (Contido), Androide 18 (DBS), Jiren (Poder Total) e mais",
+          "contents": "Capítulos 1 a 4 de Future Saga com arcos de Missões Extras, Parallel Quests, 32 técnicas, 15 Super Souls e uma nova Awoken Skill.",
+          "note": "O conjunto contém os Capítulos 1 a 4; cada capítulo também é vendido separadamente, portanto, comprar ambos os formatos duplicará o conteúdo."
+        },
+        {
+          "group": "Pacote Avulso",
+          "name": "Pacote Dragon Ball DAIMA",
+          "characters": "Goku (Super Saiyajin 4, DAIMA), Vegeta (Super Saiyajin 3, DAIMA)",
+          "contents": "Parallel Quests de DAIMA, habilidades de CaC, Super Souls e cosméticos inspirados nos lutadores de DAIMA.",
+          "note": "Uma expansão independente separada de Future Saga e dos passes mais antigos."
+        },
+        {
+          "group": "Atualização Gratuita",
+          "name": "Atualizações do Beast, Instinto Superior e do Festival",
+          "characters": "Nenhum novo personagem jogável",
+          "contents": "Awoken Skills gratuitas para CaCs (Beast em março de 2023, Instinto Superior em outubro de 2023), Festival dos Universos, Cross Versus e conteúdo recorrente do Torneio de Conton City.",
+          "note": "Estes sistemas e Awoken Skills são gratuitos; personagens e missões pagos ainda exigem seus respectivos pacotes de DLC."
+        }
+      ],
+      "duplicateTip": "Antes de finalizar a compra, verifique sua lista de DLCs adquiridos. Os passes contêm seus respectivos pacotes, então nunca combine o Super Pass com os Super Packs 1-4, o Extra Pass com os Extra Packs 1-4, ou qualquer conjunto com seus componentes individuais."
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre Dragon Ball Xenoverse 2",
+    "questions": [
+      {
+        "question": "O que é Dragon Ball Xenoverse 2?",
+        "answer": "Dragon Ball Xenoverse 2 é um jogo de luta de arena 3D de anime e RPG de ação no qual você cria um Time Patroller personalizado, treina sob a tutela de mestres de Dragon Ball, se transforma e batalha pela história, Parallel Quests, Expert Missions, raids e PvP."
+      },
+      {
+        "question": "Em quais plataformas Dragon Ball Xenoverse 2 está disponível?",
+        "answer": "Dragon Ball Xenoverse 2 está disponível para PC (Steam), PlayStation 4, Xbox One e Nintendo Switch, sendo que o PC oferece a maior comunidade de mods."
+      },
+      {
+        "question": "Dragon Ball Xenoverse 2 possui multiplayer?",
+        "answer": "Sim. Dragon Ball Xenoverse 2 suporta PvP online, cooperativo de Parallel Quest para até três jogadores, Expert Missions para seis jogadores, raids, Festival dos Universos e Cross Versus."
+      },
+      {
+        "question": "Qual é a melhor raça para um novo jogador de Dragon Ball Xenoverse 2?",
+        "answer": "Saiyajins e Terráqueos são as raças mais amigáveis para iniciantes em Dragon Ball Xenoverse 2. Os Saiyajins obtêm transformações poderosas de Super Saiyajin, enquanto os Terráqueos carregam o Ki automaticamente e aumentam os ataques básicos."
+      },
+      {
+        "question": "Como desbloqueio transformações em Dragon Ball Xenoverse 2?",
+        "answer": "Awoken Skills específicas de raça são desbloqueadas por meio de lições de mentores e missões de casas, enquanto formas universais como Instinto Superior e Beast vêm de atualizações gratuitas. O Super Saiyajin Deus requer um desejo para Shenlong e amizade máxima com mentores-chave."
+      },
+      {
+        "question": "Como farmar Esferas do Dragão em Dragon Ball Xenoverse 2?",
+        "answer": "Derrote Time Patrollers em Parallel Quests para obter itens-chave Dragon Ball aleatórios. PQ 23 - The Explosion of Namek é a rota mais rápida, com a PQ 4 e a PQ 79 como alternativas sólidas."
+      },
+      {
+        "question": "Preciso de DLC para aproveitar Dragon Ball Xenoverse 2?",
+        "answer": "Não. Dragon Ball Xenoverse 2 tem um jogo base completo, e atualizações gratuitas adicionam Awoken Skills como Beast e Ultra Instinct. Pacotes de DLC adicionam personagens, missões e habilidades para jogadores que querem mais conteúdo."
+      },
+      {
+        "question": "Dragon Ball Xenoverse 2 ainda é atualizado?",
+        "answer": "Sim. Dragon Ball Xenoverse 2 continua a receber novas DLCs e atualizações gratuitas, incluindo a Future Saga em quatro partes e o Dragon Ball DAIMA Pack."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para dominar Dragon Ball Xenoverse 2?",
+    "description": "Junte-se à comunidade de Dragon Ball Xenoverse 2 no Reddit para builds, raids e discussões!",
+    "joinCommunity": "Junte-se ao Reddit",
+    "joinGame": "Jogue na Steam"
+  },
+  "footer": {
+    "title": "Dragon Ball Xenoverse 2 Wiki",
+    "description": "Seu hub de recursos completo para builds, personagens, habilidades, transformações, Parallel Quests, DLCs e guias de raid de Dragon Ball Xenoverse 2.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Avisos Legais",
+    "discord": "Reddit",
+    "twitter": "YouTube",
+    "steamCommunity": "Comunidade Steam",
+    "steamStore": "Loja Steam",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Dragon Ball Xenoverse 2 Wiki. Não afiliado à Bandai Namco Entertainment.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
   }
 }
