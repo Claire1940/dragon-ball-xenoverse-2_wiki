@@ -28,6 +28,14 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Dragon Ball Xenoverse 2 主题图标
+  GraduationCap: LucideIcons.GraduationCap,
+  Trophy: LucideIcons.Trophy,
+  Dumbbell: LucideIcons.Dumbbell,
+  Zap: LucideIcons.Zap,
+  Swords: LucideIcons.Swords,
+  Orbit: LucideIcons.Orbit,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,

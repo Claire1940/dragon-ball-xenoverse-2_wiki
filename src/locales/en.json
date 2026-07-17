@@ -52,698 +52,548 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Dragon Ball Xenoverse 2",
+    "description": "A 3D arena anime fighter and action RPG where you build your own Time Patroller, learn skills from Dragon Ball masters, transform, and battle through the story, Parallel Quests, Expert Missions, and raids across Conton City."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Dragon Ball Xenoverse 2",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to build a Time Patroller, rank characters, farm Dragon Balls, and master every DLC in Dragon Ball Xenoverse 2.",
     "cards": [
       {
-        "icon": "BookOpen",
+        "icon": "GraduationCap",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "Race choice, combat basics, and an early-game route"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Characters Tier List",
+        "description": "Top PvE, raid, and PvP characters ranked"
+      },
+      {
+        "icon": "Dumbbell",
+        "title": "Best Builds and QQ Bangs",
+        "description": "Attribute spreads, Awoken Skills, and QQ Bang crafting"
+      },
+      {
+        "icon": "Zap",
+        "title": "Transformations",
+        "description": "Every Awoken Skill, Ki cost, and unlock route"
+      },
+      {
+        "icon": "Swords",
+        "title": "Parallel Quests",
+        "description": "High-value missions, rewards, and Z-rank routes"
       },
       {
         "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "title": "Skills and Super Souls",
+        "description": "Best supers, ultimates, evasives, and Super Souls"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Orbit",
+        "title": "Dragon Balls and Shenron",
+        "description": "Fast farming routes and the best wishes to pick"
       },
       {
         "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "DLC and Updates",
+        "description": "Every pass, pack, free update, and edition"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "beginnerGuide": {
+      "title": "Dragon Ball Xenoverse 2 Beginner Guide",
+      "eyebrow": "Getting Started",
+      "intro": "Create a Time Patroller, pick a race, learn the combat fundamentals, and follow an efficient early-game route through the story, mentors, and Conton City activities. Dragon Ball Xenoverse 2 rewards a clear build direction from the very first hour.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Create Your Time Patroller and Choose a Race",
+          "description": "Pick from Saiyan, Majin, Frieza Race, Namekian, Earthling, and DLC races. Each race has unique base stats and its own transformation line: Saiyans access Super Saiyan forms, Earthlings auto-charge Ki and boost basic attacks, Majins are naturally tanky, Namekians regenerate health, and the Frieza Race is the fastest mover."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Master Basic Combat and Stamina",
+          "description": "Learn light and heavy strings, Vanishes, Just Guard, and stamina breaks. Stamina fuels Vanishes and evasives, while Ki powers supers and ultimates, so managing both is the core skill that separates new and veteran players."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Train Under Instructors",
+          "description": "Approach masters like Goku, Vegeta, Cell, and Beerus in Conton City and complete their lesson chains. Finishing an instructor's lessons unlocks their skills, Super Souls, and customization options for your Time Patroller."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Progress the Main Story and Open Conton City",
+          "description": "Push the main story to unlock Parallel Quests, Expert Missions, raids, and hub activities. Story progress also opens new mentors, the Dragon Ball Pedestal, and the QQ Bang and mixing shops."
+        },
+        {
+          "title": "Pick Your First Build Direction",
+          "description": "Commit attribute points to one damage type early, Ki Blast Super, Strike Super, or Basic Attack, instead of spreading them evenly. A focused build clears Parallel Quests faster and is easy to fine-tune once you understand the game."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Equip a charge skill as soon as one is unlocked so Ki never bottlenecks your supers.",
+        "Save your attribute points for a focused stat; Shenron can fully respec you later.",
+        "Complete every instructor lesson to permanently unlock their skills and Super Souls.",
+        "Raise friendship with key mentors to unlock race-specific rewards like Super Saiyan God."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "charactersTierList": {
+      "title": "Dragon Ball Xenoverse 2 Characters Tier List",
+      "eyebrow": "Power Rankings",
+      "intro": "Ranking the strongest playable characters for Parallel Quests, Expert Missions, raids, and PvP. Top picks combine long reach, combo potential, forgiving supers, and high ultimate damage, while a well-built custom Time Patroller can outclass any preset at endgame.",
+      "tiers": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "tier": "S",
+          "label": "Top Tier",
+          "characters": ["Ultra Instinct Goku", "SSGSS Gogeta", "Jiren (Full Power)", "Broly (Full Power Super Saiyan)", "SSGSS Vegito"],
+          "description": "The best all-rounders for raids and endgame PvE: huge ultimate damage, safe supers, and strong neutral tools."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "tier": "A",
+          "label": "Strong All-Round",
+          "characters": ["Goku (Beast)", "Gohan (Beast)", "Gogeta (DB Super)", "SSGSS Goku", "SSGSS Vegeta"],
+          "description": "Reliable across every mode with great combo routes and high-damage Awoken Skills."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "tier": "B",
+          "label": "Solid Niche",
+          "characters": ["Piccolo (Power Awakening)", "Kefla", "Hit", "Cabba", "Toppo (God of Destruction)"],
+          "description": "Strong in specific matchups and modes, often chosen for style or specific raid roles."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "tier": "C",
+          "label": "Beginner & Style",
+          "characters": ["Base Goku", "Base Vegeta", "Early DLC characters"],
+          "description": "Fun and accessible early picks that get outclassed by S and A tier characters at endgame."
         }
       ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
+      "note": "A custom Time Patroller with a focused build, a good QQ Bang, and the right Awoken Skill can out-damage every preset character on this list."
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
+    "bestBuildsAndQQBangs": {
+      "title": "Dragon Ball Xenoverse 2 Best Builds and QQ Bangs",
+      "eyebrow": "Loadouts",
+      "intro": "Recommended attribute spreads, Awoken Skills, Super Souls, and QQ Bangs for every race and playstyle. Cover Ki Blast, Strike, hybrid, raid support, and PvP builds, each with a clear focus and known weaknesses.",
+      "builds": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "Ki Blast Saiyan",
+          "role": "PvE & Raids",
+          "focus": "Max Ki Blast Super",
+          "description": "Stack Ki Blast Super, run Super Saiyan Blue or Ultra Instinct, and spam tracking beam ultimates. The strongest general-purpose PvE damage build."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "name": "Strike Martial Artist",
+          "role": "PvP Pressure",
+          "focus": "Max Strike Super & Basic Attack",
+          "description": "Earthling or Majin with Potential Unleashed, high stamina, and relentless melee plus stamina-break combos. Dominates close-range PvP."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "name": "Hybrid Balanced",
+          "role": "Flexible",
+          "focus": "Split Ki Blast & Strike",
+          "description": "A forgiving split build for players still choosing a direction. Works in most Parallel Quests while you learn what you enjoy."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "name": "Raid Support Tank",
+          "role": "Expert Missions",
+          "focus": "Max Health & Stamina",
+          "description": "Majin or Namekian with Super Guard, Energy Zone, and a team-healing Super Soul. Keeps escorts and allies alive through raid hazards."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "name": "PvP Zoner",
+          "role": "PvP Spacing",
+          "focus": "Speed & Ki Blast",
+          "description": "Frieza Race built for movement and ranged supers, using speed to punish approaches and whiff-punish with beam supers."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "name": "Glass Cannon",
+          "role": "Burst PvE",
+          "focus": "Max single damage stat",
+          "description": "All-in offense paired with the Super Soul that trades defense for raw damage. High risk, but deletes stamina-broken bosses."
         }
       ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
+      "qqBangs": [
+        {
+          "name": "What a QQ Bang Does",
+          "description": "A QQ Bang adds stat modifiers on top of your attributes and clothing. A perfect QQ Bang can add up to +5 to a key stat like Ki Blast Super or Strike Super."
+        },
+        {
+          "name": "Aim for One Main Stat",
+          "description": "Craft until your primary damage stat is strongly positive, with no Ki or stamina penalty. Even a mixed QQ Bang is a big upgrade over no QQ Bang at all."
+        },
+        {
+          "name": "Mixing for Better Rolls",
+          "description": "Combine higher-star clothing with matching materials and Super Mix Capsules at the QQ Bang shop to raise the ceiling on your rolls."
+        }
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
+    "transformationsAndAwokenSkills": {
+      "title": "Dragon Ball Xenoverse 2 Transformations and Awoken Skills",
+      "eyebrow": "Power-Ups",
+      "intro": "Every race-specific and universal Awoken Skill, with Ki cost, unlock route, and effect. Choose the transformation that matches your build's damage type and Ki economy.",
+      "transformations": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "name": "Super Saiyan (1 / 2 / 3)",
+          "race": "Saiyan",
+          "kiCost": "3 bars",
+          "unlock": "Mentor lessons & Parallel Quests",
+          "effect": "Boosts melee and strike damage; higher forms add more power but drain Ki faster."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "name": "Super Saiyan God",
+          "race": "Saiyan",
+          "kiCost": "3 bars",
+          "unlock": "Shenron wish + max friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan",
+          "effect": "A balanced transformation with strong all-round stats and manageable Ki drain."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "name": "Super Saiyan Blue (SSGSS)",
+          "race": "Saiyan",
+          "kiCost": "3 to 5 bars",
+          "unlock": "Mentor / DLC content",
+          "effect": "Excellent Ki Blast and defense; one of the strongest Saiyan endgame forms."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "name": "Ultra Instinct",
+          "race": "Universal (CaC)",
+          "kiCost": "3 bars",
+          "unlock": "Free update (October 2023)",
+          "effect": "Auto-dodge window and Ki auto-recovery; a top pick for any race at endgame."
+        },
+        {
+          "name": "Beast",
+          "race": "Universal (CaC)",
+          "kiCost": "3 bars",
+          "unlock": "Free update (March 2023)",
+          "effect": "Massive damage and lifesteal; an aggressive all-round transformation."
+        },
+        {
+          "name": "Potential Unleashed",
+          "race": "Universal (CaC)",
+          "kiCost": "3 bars",
+          "unlock": "Elder Kai mission at level cap",
+          "effect": "A reliable all-round stat boost and the default pick for most PvP builds."
+        },
+        {
+          "name": "Turn Golden",
+          "race": "Frieza Race",
+          "kiCost": "3 bars",
+          "unlock": "Frieza's spaceship",
+          "effect": "Strong Ki Blast and speed boost tailored to the Frieza Race."
+        },
+        {
+          "name": "Purification",
+          "race": "Majin",
+          "kiCost": "3 bars",
+          "unlock": "Majin Buu's house",
+          "effect": "Transforms into a Kid Buu-style form with high damage and fast stamina use."
+        },
+        {
+          "name": "Become Giant",
+          "race": "Namekian",
+          "kiCost": "3 bars",
+          "unlock": "Guru's house",
+          "effect": "Become a Great Namek with huge health and supers that cover the whole arena."
+        },
+        {
+          "name": "Future Super Saiyan",
+          "race": "Saiyan",
+          "kiCost": "3 bars",
+          "unlock": "DLC content",
+          "effect": "Fast Ki regeneration; great for builds that spam supers back to back."
+        }
+      ]
+    },
+    "parallelQuestsAndExpertMissions": {
+      "title": "Dragon Ball Xenoverse 2 Parallel Quests and Expert Missions",
+      "eyebrow": "Mission Routes",
+      "intro": "High-value Parallel Quests and Expert Missions for Dragon Balls, rare skills, Z ranks, escort clears, and late-game boss farming. Each entry shows the difficulty, key rewards, DLC requirement, and the clear strategy.",
+      "quests": [
+        {
+          "mode": "Parallel Quest",
+          "mission": "PQ 23 - The Explosion of Namek",
+          "difficulty": "Early",
+          "rewards": "Dragon Ball drops, fast Zeni",
+          "strategy": "Burst Frieza under three minutes, then clear the three Time Patrollers. The fastest repeatable Dragon Ball route in the game."
+        },
+        {
+          "mode": "Parallel Quest",
+          "mission": "PQ 4 - Prepare for the Attack of Saiyans!",
+          "difficulty": "Early",
+          "rewards": "Dragon Ball drops",
+          "strategy": "Defeat Gohan and Piccolo fast, then challenge the Time Patrollers. The most beginner-friendly Dragon Ball route."
+        },
+        {
+          "mode": "Parallel Quest",
+          "mission": "PQ 79 - Great Ape Festival",
+          "difficulty": "Mid",
+          "rewards": "Mighty Explosive Wave, Vegeta's Shirt, Dragon Balls",
+          "strategy": "Break each Great Ape's stamina before unloading ultimates, and save Ki for the Time Patroller wave."
+        },
+        {
+          "mode": "Parallel Quest",
+          "mission": "PQ 83 - Dangerous Duo! Warriors Never Rest",
+          "difficulty": "Mid",
+          "rewards": "Charge, High Mix Capsule, Energy Capsule L",
+          "strategy": "Pull Broly away from Gohan before collecting the Dragon Balls so the escort survives."
+        },
+        {
+          "mode": "Parallel Quest",
+          "mission": "PQ 100 - The Ultimate Rivalry",
+          "difficulty": "High",
+          "rewards": "x100 Big Bang Kamehameha, SSGSS Vegeta Wig, Whis Symbol Suit",
+          "strategy": "Stamina-break before long ultimates and finish one target before switching so the pair cannot interrupt you."
+        },
+        {
+          "mode": "Parallel Quest",
+          "mission": "PQ 122 - The Final Battle Before the Final Battle?!",
+          "difficulty": "Very High",
+          "rewards": "Meditation, Power Rush, All-Regen & Senzu capsules",
+          "strategy": "Extra Pack 2. Bring healing capsules and a stamina-break combo, and repeat the Ultimate Finish for both Meditation and Power Rush."
+        },
+        {
+          "mode": "Parallel Quest",
+          "mission": "PQ 134 - Universe 7's Next God of Destruction",
+          "difficulty": "Very High",
+          "rewards": "Burst Charge, Ultimate Charge, Power Super Soul",
+          "strategy": "Ultra Pack 1. Farm Ultra Instinct Goku for Burst Charge and SSGSS Evolved Vegeta for Ultimate Charge while keeping Whis alive."
+        },
+        {
+          "mode": "Expert Mission",
+          "mission": "EM 15 - Extreme Malice!",
+          "difficulty": "Extreme",
+          "rewards": "Blue Hurricane, 24,000 Zeni",
+          "strategy": "Hold Super Guard through Peeler Storm, revive allies instantly, and avoid long animations when the boss teleports."
         }
       ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
+      "scoringTip": "Earn Z rank through accolades, not just clear time: build a long combo, land Ki blasts, perform grabs and Just Guards, break guards, defeat several enemies, and finish with a Super or Ultimate Attack."
     },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
+    "skillsAndSuperSouls": {
+      "title": "Dragon Ball Xenoverse 2 Skills and Super Souls",
+      "eyebrow": "Build Tools",
+      "intro": "Compare reliable Super Attacks, Ultimate Attacks, Evasive Skills, charge skills, and Super Souls for quests, raids, and PvP. Every entry includes its effect, unlock source, and DLC requirement.",
+      "skills": [
         {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "type": "Charge Skill",
+          "name": "Burst Charge",
+          "effect": "Restores Ki very quickly at the start of the charge, then slows down.",
+          "source": "PQ 134 - Universe 7's Next God of Destruction",
+          "dlc": "Ultra Pack 1"
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "type": "Charge Skill",
+          "name": "Ultimate Charge",
+          "effect": "Starts slowly but accelerates, ideal for large Ki refills.",
+          "source": "PQ 134 - Universe 7's Next God of Destruction",
+          "dlc": "Ultra Pack 1"
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
+          "type": "Other Super",
+          "name": "Meditation",
+          "effect": "Raises maximum Ki to ten bars and enables Ki auto-recovery while active.",
+          "source": "PQ 122 - The Final Battle Before the Final Battle?!",
+          "dlc": "Extra Pack 2"
         },
         {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
+          "type": "Ki Blast Super",
+          "name": "Photon Swipe",
+          "effect": "Fast palm wave that handles large targets and returns giant Ki blasts.",
+          "source": "PQ 139 - War and Pieces",
+          "dlc": "Ultra Pack 2"
         },
         {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
+          "type": "Other Super",
+          "name": "Super Guard",
+          "effect": "Grants protection while held, consuming Ki for the duration.",
+          "source": "Skill Shop",
+          "dlc": "None"
         },
         {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
+          "type": "Strike Ultimate",
+          "name": "Power Rush",
+          "effect": "A ten-bar Strike Ultimate with extreme damage on stamina-broken targets.",
+          "source": "PQ 122 - The Final Battle Before the Final Battle?!",
+          "dlc": "Extra Pack 2"
         },
         {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
+          "type": "Ki Blast Ultimate",
+          "name": "Super Electric Strike",
+          "effect": "Wide electrical blast that hits grouped enemies and large bosses.",
+          "source": "Expert Mission 11 - The Devil Born from Dragon Balls",
+          "dlc": "None"
         },
         {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
+          "type": "Other Ultimate",
+          "name": "Energy Zone",
+          "effect": "Creates a healing field that restores the user and allies inside it.",
+          "source": "Skill Shop after late-story progression",
+          "dlc": "None"
         },
         {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
+          "type": "Evasive Skill",
+          "name": "Instant Rise",
+          "effect": "Uses stamina to escape vertically without a long animation.",
+          "source": "Skill Shop",
+          "dlc": "None"
         },
         {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "type": "Super Soul",
+          "name": "Hmm Hmm Hmmm! Hm Hmmm! Hmmm!",
+          "effect": "Team health auto-recovery while an Awoken Skill and a reinforcement skill are both active.",
+          "source": "Majin Buu's House rewards",
+          "dlc": "None"
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "type": "Super Soul",
+          "name": "Power! A lotta power! It's great!",
+          "effect": "Greatly raises maximum Ki and maximum stamina.",
+          "source": "PQ 134 - Universe 7's Next God of Destruction",
+          "dlc": "Ultra Pack 1"
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
+          "type": "Super Soul",
+          "name": "I've cast aside everything for this!",
+          "effect": "A major all-attack boost in exchange for defense, movement, and recovery penalties.",
+          "source": "PQ 145 - Other World Challenger",
+          "dlc": "Legendary Pack 1"
         }
       ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
+      "comboTip": "A reliable endgame combo is Meditation to raise Ki, a heavy stamina break, then Power Rush, with Burst Charge ready to refill Ki between targets."
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
+    "dragonBallsAndShenronWishes": {
+      "title": "Dragon Ball Xenoverse 2 Dragon Balls and Shenron Wishes",
+      "eyebrow": "Shenron Guide",
+      "intro": "Use fast Time Patroller routes to collect all seven Dragon Balls, then spend each Shenron summon on characters, skills, transformations, cosmetics, levels, or resources.",
+      "farmSteps": [
         {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "title": "Prepare a fast damage loadout",
+          "details": "Equip one quick Super Attack, one strong Ultimate Attack, a charge skill, and enough stamina to avoid losing time to enemy pressure."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "title": "Run PQ 23 and defeat Frieza under three minutes",
+          "details": "Clear the short opening fight immediately to trigger the Ultimate Finish route on The Explosion of Namek."
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
+          "title": "Defeat all three Time Patrollers",
+          "details": "Focus one Patroller at a time. Each defeated Patroller can drop a Dragon Ball key item, so a single run can yield more than one ball."
         },
         {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
+          "title": "Watch for the Key Item notification",
+          "details": "A Dragon Ball appears as a Key Item reward during the Patroller fight. Complete the mission and repeat until you hold all seven."
+        },
+        {
+          "title": "Use alternative routes when needed",
+          "details": "PQ 4 offers an early-game Patroller fight, while PQ 79 adds a longer Great Ape route with another three-Patroller finish."
+        },
+        {
+          "title": "Summon Shenron in Conton City",
+          "details": "Take all seven Dragon Balls to the Dragon Ball Pedestal, summon Shenron, and select one wish. The seven balls are consumed after the wish."
         }
       ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
+      "wishes": [
         {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
+          "wish": "I Want More Usable Characters!",
+          "reward": "Hit, Eis Shenron, Nuova Shenron, and Omega Shenron",
+          "bestFor": "Completing the Shenron-exclusive character roster."
         },
         {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
+          "wish": "I Want To Become A Super Saiyan God!",
+          "reward": "Unlocks the Super Saiyan God Awoken Skill path",
+          "bestFor": "Saiyan Time Patrollers; requires max friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan."
         },
         {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
+          "wish": "I Want A New Ultimate Attack!",
+          "reward": "Time Skip/Molotov first, then Ice Cannon and Burning Spin",
+          "bestFor": "Unlocking Shenron-exclusive Ultimate Attacks."
         },
         {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
+          "wish": "I Want A New Super Attack!",
+          "reward": "Flash Fist Crush first, then Ice Claw, Ice Field, Burst Attack, and Burst Reflection",
+          "bestFor": "Unlocking Shenron-exclusive Super Attacks."
         },
         {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
+          "wish": "I Want A Second Chance At Life!",
+          "reward": "Resets all allocated attribute points",
+          "bestFor": "Rebuilding a character from Strike to Ki Blast or fixing early stat choices."
         },
         {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "wish": "I Want Money!",
+          "reward": "500,000 Zeni",
+          "bestFor": "Buying skills, clothing, and capsules; repeatable."
+        },
+        {
+          "wish": "I Want To Get Stronger!",
+          "reward": "6 Soul Echo Devices and 3 Soul Diffusion Mix Devices",
+          "bestFor": "Mixing and QQ Bang materials; repeatable."
+        },
+        {
+          "wish": "I Want To Grow!",
+          "reward": "Raises the current character by one level",
+          "bestFor": "Skipping a difficult late-level grind; repeatable."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
+    "dlcAndUpdates": {
+      "title": "Dragon Ball Xenoverse 2 DLC and Updates",
+      "eyebrow": "Expansions",
+      "intro": "Every major DLC pack, pass, free update, and edition for Dragon Ball Xenoverse 2, with the characters, quests, skills, and content each one adds. Use the purchase notes to avoid buying an individual pack that is already inside a pass or set.",
+      "packs": [
         {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
+          "group": "Pass",
+          "name": "Super Pass",
+          "characters": "Cabba, Frost, Champa, Vados, Goku Black (Rosé), Zamasu, Bojack, SSGSS Vegito, Fused Zamasu",
+          "contents": "Super Packs 1-4 with Universe 6 tournament and Future Trunks-era episodes, new stages, and master content.",
+          "note": "Buy the pass instead of Super Packs 1-4 separately when you want the full first DLC wave."
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
+          "group": "Pass",
+          "name": "Extra Pass",
+          "characters": "Jiren, Fu, Android 17 (DBS), Goku (Ultra Instinct), Super Baby 2, Kefla, SSGSS Gogeta, Broly (Full Power Super Saiyan) and more",
+          "contents": "Extra Packs 1-4, the Infinite History scenario, and 20 Parallel Quests across the four packs.",
+          "note": "The pass already contains Extra Packs 1, 2, 3, and 4."
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
+          "group": "Pack Set",
+          "name": "Ultra Pack Set",
+          "characters": "Ribrianne, SSGSS Vegeta (Evolved), Vegeta (Super Saiyan God), Android 21, Majuub",
+          "contents": "Ultra Packs 1-2 with 10 Parallel Quests and key rewards like Burst Charge, Ultimate Charge, and Photon Swipe.",
+          "note": "The set contains both Ultra Packs, so do not combine it with either individual pack."
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
+          "group": "Pack Set",
+          "name": "Legendary Pack Set",
+          "characters": "Pikkon, Toppo (God of Destruction), Jiren (Full Power), Gogeta (DB Super), Caulifla (Super Saiyan 2), Kale (Super Saiyan 2)",
+          "contents": "Legendary Packs 1-2 with new Fu-altered story content, Extra Missions, Parallel Quests, and high-impact rewards.",
+          "note": "Choose the set for both chapters; individual packs duplicate content already inside it."
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
+          "group": "Pack Set",
+          "name": "Hero of Justice Pack Set",
+          "characters": "Gamma 1, Gamma 2, Gohan (DBS Super Hero), Gohan (Beast), Orange Piccolo, Piccolo (Power Awakening)",
+          "contents": "Hero of Justice Packs 1-2 with Parallel Quests, Extra Missions, 14 moves, 10 Super Souls, and a new stage.",
+          "note": "The set contains both packs; avoid buying either separately after the set."
+        },
+        {
+          "group": "Pack Set",
+          "name": "Future Saga Pack Set",
+          "characters": "Vegeta (Super Saiyan God), Goku Black (Rosé), Broly (Restrained), Android 18 (DBS), Jiren (Full Power), and more",
+          "contents": "Future Saga Chapters 1-4 with Extra Mission arcs, Parallel Quests, 32 moves, 15 Super Souls, and a new Awoken Skill.",
+          "note": "The set contains Chapters 1-4; every chapter is also sold separately, so buying both formats duplicates content."
+        },
+        {
+          "group": "Standalone Pack",
+          "name": "Dragon Ball DAIMA Pack",
+          "characters": "Goku (Super Saiyan 4, DAIMA), Vegeta (Super Saiyan 3, DAIMA)",
+          "contents": "DAIMA Parallel Quests, CaC skills, Super Souls, and cosmetics inspired by the DAIMA fighters.",
+          "note": "A standalone expansion separate from Future Saga and the older passes."
+        },
+        {
+          "group": "Free Update",
+          "name": "Beast, Ultra Instinct & Festival Updates",
+          "characters": "No new playable characters",
+          "contents": "Free Awoken Skills for CaCs (Beast in March 2023, Ultra Instinct in October 2023), Festival of Universes, Cross Versus, and recurring Conton City Tournament content.",
+          "note": "These systems and Awoken Skills are free; paid characters and quests still require their DLC packs."
         }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
-        }
-      ]
+      ],
+      "duplicateTip": "Before checkout, check your owned-DLC list. Passes contain their packs, so never combine Super Pass with Super Packs 1-4, Extra Pass with Extra Packs 1-4, or any set with its individual components."
     }
   },
   "faq": {
@@ -752,28 +602,36 @@
     "subtitle": "Everything you need to know about Dragon Ball Xenoverse 2",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Dragon Ball Xenoverse 2?",
+        "answer": "Dragon Ball Xenoverse 2 is a 3D arena anime fighter and action RPG where you create a custom Time Patroller, train under Dragon Ball masters, transform, and battle through the story, Parallel Quests, Expert Missions, raids, and PvP."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What platforms is Dragon Ball Xenoverse 2 on?",
+        "answer": "Dragon Ball Xenoverse 2 is available on PC (Steam), PlayStation 4, Xbox One, and Nintendo Switch, with PC offering the largest modding community."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Does Dragon Ball Xenoverse 2 have multiplayer?",
+        "answer": "Yes. Dragon Ball Xenoverse 2 supports online PvP, Parallel Quest co-op for up to three players, six-player Expert Missions, raids, Festival of Universes, and Cross Versus."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What is the best race for a new Dragon Ball Xenoverse 2 player?",
+        "answer": "Saiyans and Earthlings are the most beginner-friendly races in Dragon Ball Xenoverse 2. Saiyans get powerful Super Saiyan transformations, while Earthlings auto-charge Ki and boost basic attacks."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How do I unlock transformations in Dragon Ball Xenoverse 2?",
+        "answer": "Race-specific Awoken Skills unlock through mentor lessons and house quests, while universal forms like Ultra Instinct and Beast come from free updates. Super Saiyan God requires a Shenron wish and max friendship with key mentors."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "How do I farm Dragon Balls in Dragon Ball Xenoverse 2?",
+        "answer": "Defeat Time Patrollers in Parallel Quests for random Dragon Ball key-item drops. PQ 23 - The Explosion of Namek is the fastest route, with PQ 4 and PQ 79 as solid alternatives."
+      },
+      {
+        "question": "Do I need DLC to enjoy Dragon Ball Xenoverse 2?",
+        "answer": "No. Dragon Ball Xenoverse 2 has a complete base game, and free updates add Awoken Skills like Beast and Ultra Instinct. DLC packs add characters, quests, and skills for players who want more content."
+      },
+      {
+        "question": "Is Dragon Ball Xenoverse 2 still updated?",
+        "answer": "Yes. Dragon Ball Xenoverse 2 continues to receive new DLC and free updates, including the four-part Future Saga and the Dragon Ball DAIMA Pack."
       }
     ]
   },
@@ -799,127 +657,5 @@
     "copyrightNotice": "Copyright",
     "copyright": "© 2026 Dragon Ball Xenoverse 2 Wiki. Not affiliated with Bandai Namco Entertainment.",
     "disclaimer": "Unofficial fan-made resource website."
-  },
-  "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
-    }
   }
 }
