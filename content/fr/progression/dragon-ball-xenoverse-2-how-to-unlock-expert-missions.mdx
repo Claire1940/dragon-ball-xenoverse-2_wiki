@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dragon Ball Xenoverse 2 : Comment débloquer les missions expertes - Guide complet",
+  description: "Découvrez comment débloquer les 17 missions expertes de Dragon Ball Xenoverse 2. Maîtrisez les règles du salon, les conditions de progression et les stratégies de farm de médailles PT.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Expert+Missions+Unlock+Guide",
+  date: "2026-07-17",
+  author: "Équipe du Wiki Dragon Ball Xenoverse 2",
+  keywords: "missions expertes, débloquer, dragon ball xenoverse 2, médailles pt, progression"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Comment débloquer les missions expertes** : Vous devez terminer les missions dans votre propre salon ou en mode hors ligne pour progresser.
+- **Identification** : Les missions actives apparaissent sous forme d'orbes violets ; celles non terminées présentent des effets d'éclairs noirs.
+- **Nombre total de missions** : Il existe 17 missions expertes standard dans le jeu de base, débloquées de manière séquentielle.
+- **Condition critique** : Rejoindre le salon d'un ami ne comptera pas pour votre progression personnelle.
+- **Meilleure stratégie** : Utilisez l'entraînement du Vieux Kaïo pour maîtriser les « Gardes Parfaites » et les « Brise-Endurance » avant de tenter les missions de haut niveau.
+</Callout>
+
+<Section icon={Target} title="Comprendre la mécanique des Missions Expertes">
+
+Les missions expertes représentent l'un des contenus coopératifs les plus difficiles de Dragon Ball Xenoverse 2. Ces missions mettent en scène des boss massifs dotés de mécaniques uniques, telles que le lavage de cerveau, les Kikohas géants et les failles dimensionnelles. Pour commencer votre aventure, vous devez d'abord atteindre le point de l'histoire principale où la Kaïo Shin du Temps introduit le concept de « Failles » à Conton City.
+
+**Points forts de la vidéo :**
+- **Indices visuels** : Distinguer les orbes terminés (violet brillant) des orbes incomplets (éclairs noirs).
+- **Logique de progression** : Pourquoi terminer des missions dans les salons d'autres joueurs ne débloque pas l'étape suivante.
+- **Nombre total** : Une présentation montrant l'emplacement des 17 missions sur la carte de Conton City.
+- **Gestion du salon** : Instructions étape par étape sur la création d'un salon privé par rapport au jeu hors ligne.
+
+<YouTubeEmbed videoId="R59o1yJ9POw" title="Comment débloquer plus de missions expertes dans Dragon Ball Xenoverse 2" />
+
+Les premières missions servent de tutoriels, fournis directement par la Kaïo Shin du Temps. Une fois ces missions « cadeaux » terminées, les autres doivent être trouvées éparpillées sur la carte. Le facteur le plus important pour débloquer la mission suivante est le statut de complétion sur votre fichier de sauvegarde spécifique.
+
+| Caractéristique | Description | Indicateur Visuel |
+| :--- | :--- | :--- |
+| **Incomplète** | La mission n'a pas été terminée par le joueur en tant qu'hôte | Orbes d'éclairs noirs |
+| **Terminée** | Mission terminée en tant qu'hôte ou en mode hors ligne | Orbes violets brillants |
+| **Verrouillée** | La mission précédente de la séquence est incomplète | Non visible sur la carte |
+
+<Callout type="tip" title="Conseil Visuel">
+Cherchez toujours les éclairs noirs. Si un orbe sur votre carte crépite d'énergie sombre, cela signifie que vous ne l'avez pas encore « officiellement » terminé, même si vous avez aidé un ami à le finir auparavant.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="La règle d'or de la progression">
+
+La raison la plus courante pour laquelle les joueurs sont bloqués est la « Règle du Salon ». Dragon Ball Xenoverse 2 gère la progression de manière stricte : vous ne débloquez la mission suivante que si vous êtes l'« Hôte » de la session. Si vous utilisez simplement la fonction « Match rapide » ou si vous rejoignez l'invitation d'un ami, vous recevrez des récompenses comme des médailles PT et des objets, mais le jeu ne marquera pas la mission comme terminée pour votre parcours de progression.
+
+Pour vous assurer de débloquer la mission suivante, vous disposez de deux méthodes principales :
+
+<CardGrid cols={2}>
+  <Card title="Jeu solo hors ligne">
+    - **Progression garantie** : Chaque victoire compte pour débloquer l'orbe suivant.
+    - **Coéquipiers IA** : Vous êtes accompagné de 5 bots IA qui se concentrent sur votre réanimation.
+    - **Pas de latence** : Idéal pour les missions nécessitant un timing précis comme les « Gardes Parfaites ».
+  </Card>
+  <Card title="Mode Hôte en ligne">
+    - **Créer un salon** : Vous devez être l'hôte (Joueur 1) pour que la progression compte.
+    - **Joueurs humains** : Meilleure coordination pour repousser les Kikohas géants.
+    - **Temps d'attente** : Le remplissage d'un salon peut prendre 10 à 15 minutes pendant les heures creuses.
+  </Card>
+</CardGrid>
+
+| Mode | Vitesse de progression | Difficulté | Recommandé pour |
+| :--- | :--- | :--- | :--- |
+| **Hors ligne** | Rapide (Pas d'attente) | Élevée (IA limitée) | Missions 1 à 10 |
+| **En ligne (Hôte)** | Lente (Attente de joueurs) | Moyenne (Travail d'équipe) | Missions 11 à 17 |
+| **En ligne (Rejoindre)** | **Aucune** | Faible | Farmer les médailles PT |
+
+<Callout type="warning" title="Avertissement de progression">
+Ne comptez pas sur les invitations aléatoires si votre objectif est d'atteindre la mission 17. Vous devez voir la notification « Nouvelle mission experte débloquée » sur votre écran après la page des résultats pour savoir que vous avez progressé.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Processus de déblocage étape par étape">
+
+Le déblocage de toutes les missions nécessite une approche linéaire. Vous ne pouvez pas sauter la mission 5 pour faire la mission 10. Chaque réussite révèle l'emplacement de l'orbe suivant sur votre carte. Si vous perdez de vue l'emplacement du prochain orbe, cherchez l'icône rose/violette « Faille » sur la carte.
+
+<Steps>
+  <Step num="1" title="Terminer les tutoriels">
+    Terminez les deux premières missions fournies par la Kaïo Shin du Temps près de l'Académie des Patrouilleurs. Elles vous apprennent à gérer le « Contrôle mental » et les « Kikohas géants ».
+  </Step>
+  <Step num="2" title="Chasser les Gorilles Géants">
+    Les premières missions expertes (comme la mission 3 : Assaut des Gorilles Géants) se trouvent près du Quartier des Champignons. Les terminer est obligatoire pour passer aux missions de milieu de jeu.
+  </Step>
+  <Step num="3" title="Maintenir le statut d'hôte">
+    Après chaque victoire, vérifiez votre carte. Un nouvel orbe apparaîtra dans un secteur différent de Conton City (ex: Forêt de bambous, Quartier d'Ajisa ou dans le ciel).
+  </Step>
+  <Step num="4" title="Vaincre les boss finaux">
+    Les missions 16 et 17 mettent en scène Vegeta et Goku sous leurs formes Blue. Ce sont les dernières missions standard et elles offrent les plus hautes récompenses en médailles PT.
+  </Step>
+</Steps>
+
+| Numéro de mission | Boss principal | Catégorie de lieu | Récompense notable |
+| :--- | :--- | :--- | :--- |
+| 01-02 | Boss du tutoriel | Zone du Nid du Temps | Techniques de base |
+| 03-05 | Nappa/Vegeta Gorille | Quartier des Champignons | Tempête Géante |
+| 06-10 | Vilains intermédiaires | Divers quartiers | Techniques de transformation |
+| 11-15 | Vilains de haut niveau | Ciel/Montagnes | Saisie de données (Rare) |
+| 16-17 | Goku/Vegeta SSGSS | Près du Lycée | Médailles PT massives |
+
+<Callout type="success" title="Stratégie Pro">
+Pour les missions 16 et 17, utilisez « Balle d'innocence » pour empoisonner le boss. Leurs barres de santé sont massives, et les dégâts continus aident à garantir que vous finissiez dans les limites de temps strictes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Équipements optimaux pour les missions expertes">
+
+Étant donné que les missions expertes diffèrent des quêtes parallèles standard, votre build doit s'adapter. Les boss possèdent une « Super Armure », ce qui signifie qu'ils ne tressaillent pas face aux attaques de base. Vous avez besoin de techniques qui infligent des dégâts explosifs élevés ou qui apportent une utilité à toute l'équipe.
+
+**Tableau des techniques recommandées :**
+
+| Type de technique | Nom | Raison de l'utilisation |
+| :--- | :--- | :--- |
+| **Ultime** | **Explosion élégante** | Force le boss à annuler son ciblage sur vous, augmentant la survie. |
+| **Ultime** | **Super explosion de Ki** | Excellent pour éliminer les clones ou frapper les boss massifs. |
+| **Spéciale** | **Balayage photonique** | Repousse instantanément les Kikohas géants en un seul coup. |
+| **Spéciale** | **Charge maximum** | Essentiel pour maintenir le Ki pour les ultimes. |
+| **Évasion** | **Garde évanescente** | Offre plusieurs secondes d'invincibilité contre les attaques de zone. |
+
+<CardGrid cols={3}>
+  <Card title="Le Spammeur">
+    Concentrez-vous sur les stats de **Super Kikohas**. Utilisez Super Vegeta 2 et spammez le Rayon mortel de l'Empereur.
+  </Card>
+  <Card title="Le Soutien">
+    Équipez la **Zone d'énergie** pour vous soigner ainsi que vos coéquipiers pendant les failles dimensionnelles.
+  </Card>
+  <Card title="Le Défenseur">
+    Utilisez le **Châtiment spirituel** pour renvoyer instantanément les boules d'énergie géantes du boss.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Conseil d'expert">
+La technique « Balayage photonique » (mouvement de C-21) est actuellement la méta pour les missions expertes. Elle peut repousser le « Kikoha géant » du boss plus rapidement que presque n'importe quel autre mouvement du jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle et objectifs de complétion">
+
+Pour « terminer » complètement le système de missions expertes dans Dragon Ball Xenoverse 2, vous devriez viser plus que de simples déblocages. Obtenir des Rangs Z sur les 17 missions fournit des titres uniques et maximise votre gain de ressources.
+
+<Checklist
+  id="expert-mission-goals"
+  title="Liste de contrôle de complétion des missions expertes :"
+  items={[
+    "Débloquer les 17 missions expertes du jeu de base",
+    "Terminer la mission 16 (Royaume des Dieux : Vegeta) pour le farm de médailles PT",
+    "Terminer la mission 17 (Royaume des Dieux : Goku) pour le farm de médailles PT",
+    "Obtenir la technique 'Saisie de données' de la mission 15",
+    "Atteindre le Rang Z sur toutes les missions pour le titre 'Expert'",
+    "Réussir à repousser 10 Kikohas géants"
+  ]}
+/>
+
+| Type de récompense | Gamme de missions | Efficacité |
+| :--- | :--- | :--- |
+| **Médailles PT** | 16-17 | Excellente (16+ par run) |
+| **Expérience (XP)** | 11-15 | Bonne |
+| **Techniques rares** | 15, 18+ (DLC) | Faible taux de drop |
+
+<Callout type="tip" title="Conseil de farm">
+Pendant les événements de médailles PT x2, les missions 16 et 17 deviennent le moyen le plus rapide de faire monter votre personnage au niveau 120+ en utilisant les médailles auprès de Tosok le Namek.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ sur les Missions Expertes">
+
+<FAQ items={[
+  {
+    question: "Pourquoi ne puis-je pas voir la mission experte suivante sur ma carte ?",
+    answer: "Cela arrive généralement parce que vous avez terminé la mission précédente dans le salon de quelqu'un d'autre. Vous devez héberger la mission vous-même ou y jouer hors ligne pour déclencher le déblocage suivant."
+  },
+  {
+    question: "Combien y a-t-il de missions expertes au total ?",
+    answer: "Il y a 17 missions standard dans le jeu de base. Des missions supplémentaires (18-20+) sont ajoutées via les packs DLC, mais elles ne sont pas requises pour débloquer les 17 de base."
+  },
+  {
+    question: "Quelle est la meilleure mission pour farmer les médailles PT ?",
+    answer: "La mission 16 (SSGSS Vegeta) est largement considérée comme la meilleure car Vegeta est moins agressif que Goku dans la mission 17, ce qui permet des temps de complétion plus rapides."
+  },
+  {
+    question: "Dois-je avoir un certain niveau pour débloquer les missions expertes ?",
+    answer: "Bien qu'il n'y ait pas de limite de niveau stricte, il est fortement recommandé d'être au moins niveau 80 avant de tenter la mission 11 et au-delà en raison des dégâts élevés infligés par les boss."
+  }
+]} />
+
+</Section>

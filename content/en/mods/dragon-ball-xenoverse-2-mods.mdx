@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dragon Ball Xenoverse 2 Mods: 2026 Downgrade & Setup Guide",
+  description: "Learn how to safely downgrade your game version and install Dragon Ball Xenoverse 2 mods using Steam Console and Eternity tools in 2026.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Xenoverse+2+Modding+Guide",
+  date: "2026-07-17",
+  author: "dragon ball xenoverse 2 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Dragon Ball Xenoverse 2 mods** frequently break when official game updates are released by developers.
+- **Downgrading your game** version via the Steam Console is the most reliable recovery method.
+- **Eternity Tools** remain the industry standard for loading custom character files and system scripts.
+- **XV2INS** provides a straightforward interface for managing and installing individual mod packages.
+- **Backing up saves** is highly recommended before performing any file modification or downgrade.
+</Callout>
+
+<Section icon={Sparkles} title="Dragon Ball Xenoverse 2 Mods Compatibility and Updates">
+
+Installing **dragon ball xenoverse 2 mods** has long been the primary method for players to expand their rosters, customize movesets, and enhance visual fidelity. However, official patches, such as the Future Saga Chapter 4 update, regularly render existing modding tools incompatible. When the game files update, the custom hooks used by script loaders fail, resulting in crashes on startup or infinite loading screens. 
+
+To bypass this issue, the modding community relies on reverting the game executable to a compatible version. This ensures that utility tools like the Eternity Creator and Installer function correctly while developers work on updated patches. The following video details the exact workflow required to restore mod functionality after a major game update.
+
+**Video Highlights:**
+- Accessing the hidden Steam Console interface to download historical game depots.
+- Locating specific manifest IDs on SteamDB to match preferred game versions.
+- Replacing updated game files with downgraded depot files.
+- Reinstalling Eternity tools and XV2INS to reactivate custom content.
+
+<YouTubeEmbed videoId="Q5uk6qgtW0A" title="HOW TO MOD DRAGON BALL: XENOVERSE 2 IN 2026 | Future Saga Chapter 4" />
+
+<Callout type="warning" title="Version Mismatch Risk">
+Running outdated mod tools on an updated game version can corrupt your save file. Always ensure your executable version matches the supported version of your installed tools.
+</Callout>
+
+Below is a quick reference table showing the relationship between game updates and mod tool compatibility.
+
+| Game Version | Release Window | Mod Tool Status | Action Required |
+|-|-|-|-|
+| 1.25.02 | Late 2025 | Fully Supported | None (Stable version) |
+| Future Saga Ch. 4 | Mid 2026 | Broken / Pending | Downgrade to 1.25.02 |
+| Future Saga Ch. 5 | Late 2026 | Unreleased | Await tool updates |
+
+</Section>
+
+<Section icon={Shield} title="Downgrading Your Game Version via Steam Console">
+
+When a new update drops, Steam automatically updates your local files. To restore compatibility for your **dragon ball xenoverse 2 mods**, you must manually download an older depot. This process uses Steam's built-in command-line console to request older manifests directly from the official servers.
+
+| Component | Identifier | Purpose |
+|-|-|-|
+| App ID | 454650 | Identifies the main game on the Steam platform |
+| Depot ID | 454651 | Identifies the specific content package to download |
+| Manifest ID | Variable | Identifies the specific historical version patch |
+
+<Steps>
+  <Step num="1" title="Open the Steam Console">
+    Press the Windows Key + R on your keyboard to open the Run dialog box. Type `steam://open/console` and press Enter. This action opens a dedicated console tab within your active Steam client.
+  </Step>
+  <Step num="2" title="Locate the Manifest ID">
+    Navigate to SteamDB in your web browser. Search for App ID 454650, select the Depots tab, and choose the main content depot. Browse the history tab to find the manifest ID associated with your target version, such as version 1.25.02.
+  </Step>
+  <Step num="3" title="Execute the Download Command">
+    In the Steam Console, enter the download command using the following syntax: `download_depot 454650 454651 [Manifest_ID]`. Press Enter to begin the background download.
+  </Step>
+  <Step num="4" title="Replace the Game Files">
+    Once the console displays a message confirming the download is complete, navigate to the designated folder path. Copy the downloaded files and overwrite the files in your main directory.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Steam Download Location">
+Steam downloads console depots to your default installation directory under `Steam\steamapps\content\app_454650\depot_454651`. Ensure you copy the contents of this folder, not the folder itself, into your main directory.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Essential Modding Tools Installation">
+
+Once your game version is aligned with compatible software, you must set up the core framework that allows custom files to run. The modding ecosystem relies on two primary components: the Eternity Patcher, which bypasses file checks, and the Mod Installer, which handles file integration.
+
+<CardGrid cols={3}>
+  <Card title="Eternity Patcher">
+    - **Bypasses game file checks**
+    - Hooks directly into the executable
+    - Essential for all script mods
+  </Card>
+  <Card title="XV2INS (Installer)">
+    - **Installs custom characters**
+    - Manages skill and slot assignments
+    - Provides a visual user interface
+  </Card>
+  <Card title="Save Editor">
+    - **Edits character attributes**
+    - Unlocks items and quest paths
+    - Optional but highly useful
+  </Card>
+</CardGrid>
+
+To ensure these utilities function correctly, review the specific operational differences and requirements of the two primary modding tools:
+
+| Utility Tool | Primary File Format | Key Dependency | Installation Directory |
+|-|-|-|-|
+| Eternity Patcher | .ini / .dll | XV2Patcher directory | Root game folder |
+| XV2INS | .x2m | xv2ins.exe | Anywhere (Link to bin/xinput1_3.dll) |
+
+To install these tools, extract the Eternity Patcher archive directly into your root directory. The root folder is where your game executable resides. Next, launch the XV2INS application and point it to your game executable when prompted. This establishes the connection required to write new files to your game directory.
+
+<Callout type="tip" title="Backup Save Files First">
+Before running the installer for the first time, make a copy of your save file located in the Steam Userdata directory. Mod configuration changes can occasionally corrupt save data.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Managing and Launching Custom Content">
+
+With the framework installed, you can begin adding custom content. Mods for the game typically arrive in the `.x2m` format, which contains all necessary models, textures, animations, and statistical data. Managing these files properly prevents conflicts that lead to game instability.
+
+| Mod Category | Impact on Stability | Recommended Load Order | Key File Conflict |
+|-|-|-|-|
+| Custom Characters | Low | Any order | Slot ID collisions |
+| Overhaul Mods | High | Install first | System file overwrites |
+| Visual Effects | Medium | Install last | Shader compatibility |
+
+To maintain a clean installation, use the following checklist before launching your newly modified game client:
+
+<Checklist
+  id="mod-launch-checklist"
+  title="Pre-Launch Checklist:"
+  items={[
+    "Verify the Steam client is set to offline mode to prevent auto-updates",
+    "Confirm that xv2patcher.ini is configured to load custom directories",
+    "Check that no duplicate character IDs exist in the XV2INS list",
+    "Ensure the bin folder contains the correct version of xinput1_3.dll"
+  ]}
+/>
+
+<Callout type="success" title="Verification Success">
+A successful installation is indicated by the appearance of custom characters at the very end of the character selection screen in local battles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Troubleshooting and Common Errors">
+
+Modding can occasionally lead to errors due to file path issues or version discrepancies. Most issues can be resolved by carefully checking file locations and configuration settings.
+
+| Error Description | Likely Cause | Solution |
+|-|-|-|
+| Crash on startup | Incompatible patcher version | Downgrade game or update patcher |
+| Infinite loading screen | Duplicate character ID or bad skill | Remove the last installed mod |
+| Missing text strings | Language setting mismatch | Change tool language to match game |
+
+<FAQ items={[
+  {
+    question: "Why do my dragon ball xenoverse 2 mods disappear after a steam update?",
+    answer: "Steam updates overwrite modified game files and executables with original files. You must downgrade your game version again using the Steam Console to restore your mods."
+  },
+  {
+    question: "Can I play multiplayer online with mods installed?",
+    answer: "Modded game clients generally cannot connect to official multiplayer servers due to anti-cheat measures. Online play is typically restricted to local connections or private lobbies using specific bypasses."
+  },
+  {
+    question: "What is an .x2m file and how do I open it?",
+    answer: "An .x2m file is a packaged format designed specifically for the game's mod installer. You do not need to extract it; simply open it using the XV2INS program to install it."
+  },
+  {
+    question: "Is it possible to recover a corrupted save file?",
+    answer: "If you did not create a manual backup, recovery is difficult. You can try using a Save Editor to repair broken slot values or reset corrupted quest flags."
+  }
+]} />
+
+<Callout type="warning" title="Disable Automatic Updates">
+To prevent Steam from automatically replacing your downgraded files, change your game update settings in Steam to 'Only update this game when I launch it'. Always launch the game via the mod loader executable rather than Steam.
+</Callout>
+
+</Section>

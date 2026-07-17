@@ -1,1 +1,714 @@
-{}
+{
+  "en": {
+    "builds": [
+      {
+        "slug": "dragon-ball-xenoverse-2-best-qq-bang",
+        "file": "dragon-ball-xenoverse-2-best-qq-bang"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-race",
+        "file": "dragon-ball-xenoverse-2-best-race"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-builds",
+        "file": "dragon-ball-xenoverse-2-builds"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-frieza-race-build",
+        "file": "dragon-ball-xenoverse-2-frieza-race-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-qq-bang-recipes",
+        "file": "dragon-ball-xenoverse-2-qq-bang-recipes"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-qq-bang",
+        "file": "dragon-ball-xenoverse-2-qq-bang"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-saiyan-build",
+        "file": "dragon-ball-xenoverse-2-saiyan-build"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "dragon-ball-xenoverse-2-all-characters",
+        "file": "dragon-ball-xenoverse-2-all-characters"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-characters",
+        "file": "dragon-ball-xenoverse-2-best-characters"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-unlock-all-characters",
+        "file": "dragon-ball-xenoverse-2-unlock-all-characters"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "dragon-ball-xenoverse-2-all-dlc",
+        "file": "dragon-ball-xenoverse-2-all-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-dlc",
+        "file": "dragon-ball-xenoverse-2-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-final-dlc",
+        "file": "dragon-ball-xenoverse-2-final-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-future-saga-chapter-4-release-date",
+        "file": "dragon-ball-xenoverse-2-future-saga-chapter-4-release-date"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-future-saga-chapter-4",
+        "file": "dragon-ball-xenoverse-2-future-saga-chapter-4"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-future-saga",
+        "file": "dragon-ball-xenoverse-2-future-saga"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dragon-ball-xenoverse-2-beginner-guide",
+        "file": "dragon-ball-xenoverse-2-beginner-guide"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-instructors",
+        "file": "dragon-ball-xenoverse-2-instructors"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-is-it-worth-it-2026",
+        "file": "dragon-ball-xenoverse-2-is-it-worth-it-2026"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-walkthrough",
+        "file": "dragon-ball-xenoverse-2-walkthrough"
+      }
+    ],
+    "mods": [
+      {
+        "slug": "dragon-ball-xenoverse-2-graphics-mod",
+        "file": "dragon-ball-xenoverse-2-graphics-mod"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-mods",
+        "file": "dragon-ball-xenoverse-2-mods"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "dragon-ball-xenoverse-2-crossplay",
+        "file": "dragon-ball-xenoverse-2-crossplay"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-nintendo-switch",
+        "file": "dragon-ball-xenoverse-2-nintendo-switch"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-pc",
+        "file": "dragon-ball-xenoverse-2-pc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-steam",
+        "file": "dragon-ball-xenoverse-2-steam"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-xbox",
+        "file": "dragon-ball-xenoverse-2-xbox"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "dragon-ball-xenoverse-2-festival-of-universes",
+        "file": "dragon-ball-xenoverse-2-festival-of-universes"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-glory-points",
+        "file": "dragon-ball-xenoverse-2-glory-points"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions",
+        "file": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-level-cap",
+        "file": "dragon-ball-xenoverse-2-level-cap"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-level-up-fast",
+        "file": "dragon-ball-xenoverse-2-level-up-fast"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-parallel-quest-list",
+        "file": "dragon-ball-xenoverse-2-parallel-quest-list"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-shenron-wishes",
+        "file": "dragon-ball-xenoverse-2-shenron-wishes"
+      }
+    ],
+    "transformations": [
+      {
+        "slug": "dragon-ball-xenoverse-2-all-transformations",
+        "file": "dragon-ball-xenoverse-2-all-transformations"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-beast-form",
+        "file": "dragon-ball-xenoverse-2-beast-form"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan-blue",
+        "file": "dragon-ball-xenoverse-2-super-saiyan-blue"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan-god",
+        "file": "dragon-ball-xenoverse-2-super-saiyan-god"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan",
+        "file": "dragon-ball-xenoverse-2-super-saiyan"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-ultra-instinct",
+        "file": "dragon-ball-xenoverse-2-ultra-instinct"
+      }
+    ]
+  },
+  "es": {
+    "builds": [
+      {
+        "slug": "dragon-ball-xenoverse-2-best-qq-bang",
+        "file": "dragon-ball-xenoverse-2-best-qq-bang"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-race",
+        "file": "dragon-ball-xenoverse-2-best-race"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-builds",
+        "file": "dragon-ball-xenoverse-2-builds"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-frieza-race-build",
+        "file": "dragon-ball-xenoverse-2-frieza-race-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-qq-bang-recipes",
+        "file": "dragon-ball-xenoverse-2-qq-bang-recipes"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-qq-bang",
+        "file": "dragon-ball-xenoverse-2-qq-bang"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-saiyan-build",
+        "file": "dragon-ball-xenoverse-2-saiyan-build"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "dragon-ball-xenoverse-2-all-characters",
+        "file": "dragon-ball-xenoverse-2-all-characters"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-characters",
+        "file": "dragon-ball-xenoverse-2-best-characters"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-unlock-all-characters",
+        "file": "dragon-ball-xenoverse-2-unlock-all-characters"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "dragon-ball-xenoverse-2-all-dlc",
+        "file": "dragon-ball-xenoverse-2-all-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-dlc",
+        "file": "dragon-ball-xenoverse-2-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-final-dlc",
+        "file": "dragon-ball-xenoverse-2-final-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-future-saga-chapter-4-release-date",
+        "file": "dragon-ball-xenoverse-2-future-saga-chapter-4-release-date"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-future-saga-chapter-4",
+        "file": "dragon-ball-xenoverse-2-future-saga-chapter-4"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-future-saga",
+        "file": "dragon-ball-xenoverse-2-future-saga"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dragon-ball-xenoverse-2-beginner-guide",
+        "file": "dragon-ball-xenoverse-2-beginner-guide"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-instructors",
+        "file": "dragon-ball-xenoverse-2-instructors"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-is-it-worth-it-2026",
+        "file": "dragon-ball-xenoverse-2-is-it-worth-it-2026"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-walkthrough",
+        "file": "dragon-ball-xenoverse-2-walkthrough"
+      }
+    ],
+    "mods": [
+      {
+        "slug": "dragon-ball-xenoverse-2-graphics-mod",
+        "file": "dragon-ball-xenoverse-2-graphics-mod"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-mods",
+        "file": "dragon-ball-xenoverse-2-mods"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "dragon-ball-xenoverse-2-crossplay",
+        "file": "dragon-ball-xenoverse-2-crossplay"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-nintendo-switch",
+        "file": "dragon-ball-xenoverse-2-nintendo-switch"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-pc",
+        "file": "dragon-ball-xenoverse-2-pc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-steam",
+        "file": "dragon-ball-xenoverse-2-steam"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-xbox",
+        "file": "dragon-ball-xenoverse-2-xbox"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "dragon-ball-xenoverse-2-festival-of-universes",
+        "file": "dragon-ball-xenoverse-2-festival-of-universes"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-glory-points",
+        "file": "dragon-ball-xenoverse-2-glory-points"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions",
+        "file": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-level-cap",
+        "file": "dragon-ball-xenoverse-2-level-cap"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-level-up-fast",
+        "file": "dragon-ball-xenoverse-2-level-up-fast"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-parallel-quest-list",
+        "file": "dragon-ball-xenoverse-2-parallel-quest-list"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-shenron-wishes",
+        "file": "dragon-ball-xenoverse-2-shenron-wishes"
+      }
+    ],
+    "transformations": [
+      {
+        "slug": "dragon-ball-xenoverse-2-all-transformations",
+        "file": "dragon-ball-xenoverse-2-all-transformations"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-beast-form",
+        "file": "dragon-ball-xenoverse-2-beast-form"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan-blue",
+        "file": "dragon-ball-xenoverse-2-super-saiyan-blue"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan-god",
+        "file": "dragon-ball-xenoverse-2-super-saiyan-god"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan",
+        "file": "dragon-ball-xenoverse-2-super-saiyan"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-ultra-instinct",
+        "file": "dragon-ball-xenoverse-2-ultra-instinct"
+      }
+    ]
+  },
+  "fr": {
+    "builds": [
+      {
+        "slug": "dragon-ball-xenoverse-2-best-qq-bang",
+        "file": "dragon-ball-xenoverse-2-best-qq-bang"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-race",
+        "file": "dragon-ball-xenoverse-2-best-race"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-builds",
+        "file": "dragon-ball-xenoverse-2-builds"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-frieza-race-build",
+        "file": "dragon-ball-xenoverse-2-frieza-race-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-qq-bang-recipes",
+        "file": "dragon-ball-xenoverse-2-qq-bang-recipes"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-qq-bang",
+        "file": "dragon-ball-xenoverse-2-qq-bang"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-saiyan-build",
+        "file": "dragon-ball-xenoverse-2-saiyan-build"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "dragon-ball-xenoverse-2-all-characters",
+        "file": "dragon-ball-xenoverse-2-all-characters"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-characters",
+        "file": "dragon-ball-xenoverse-2-best-characters"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-unlock-all-characters",
+        "file": "dragon-ball-xenoverse-2-unlock-all-characters"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "dragon-ball-xenoverse-2-all-dlc",
+        "file": "dragon-ball-xenoverse-2-all-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-dlc",
+        "file": "dragon-ball-xenoverse-2-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-final-dlc",
+        "file": "dragon-ball-xenoverse-2-final-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-future-saga-chapter-4-release-date",
+        "file": "dragon-ball-xenoverse-2-future-saga-chapter-4-release-date"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-future-saga-chapter-4",
+        "file": "dragon-ball-xenoverse-2-future-saga-chapter-4"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-future-saga",
+        "file": "dragon-ball-xenoverse-2-future-saga"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dragon-ball-xenoverse-2-beginner-guide",
+        "file": "dragon-ball-xenoverse-2-beginner-guide"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-instructors",
+        "file": "dragon-ball-xenoverse-2-instructors"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-is-it-worth-it-2026",
+        "file": "dragon-ball-xenoverse-2-is-it-worth-it-2026"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-walkthrough",
+        "file": "dragon-ball-xenoverse-2-walkthrough"
+      }
+    ],
+    "mods": [
+      {
+        "slug": "dragon-ball-xenoverse-2-graphics-mod",
+        "file": "dragon-ball-xenoverse-2-graphics-mod"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-mods",
+        "file": "dragon-ball-xenoverse-2-mods"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "dragon-ball-xenoverse-2-crossplay",
+        "file": "dragon-ball-xenoverse-2-crossplay"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-nintendo-switch",
+        "file": "dragon-ball-xenoverse-2-nintendo-switch"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-pc",
+        "file": "dragon-ball-xenoverse-2-pc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-steam",
+        "file": "dragon-ball-xenoverse-2-steam"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-xbox",
+        "file": "dragon-ball-xenoverse-2-xbox"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "dragon-ball-xenoverse-2-festival-of-universes",
+        "file": "dragon-ball-xenoverse-2-festival-of-universes"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-glory-points",
+        "file": "dragon-ball-xenoverse-2-glory-points"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions",
+        "file": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-level-cap",
+        "file": "dragon-ball-xenoverse-2-level-cap"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-level-up-fast",
+        "file": "dragon-ball-xenoverse-2-level-up-fast"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-parallel-quest-list",
+        "file": "dragon-ball-xenoverse-2-parallel-quest-list"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-shenron-wishes",
+        "file": "dragon-ball-xenoverse-2-shenron-wishes"
+      }
+    ],
+    "transformations": [
+      {
+        "slug": "dragon-ball-xenoverse-2-all-transformations",
+        "file": "dragon-ball-xenoverse-2-all-transformations"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-beast-form",
+        "file": "dragon-ball-xenoverse-2-beast-form"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan-blue",
+        "file": "dragon-ball-xenoverse-2-super-saiyan-blue"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan-god",
+        "file": "dragon-ball-xenoverse-2-super-saiyan-god"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan",
+        "file": "dragon-ball-xenoverse-2-super-saiyan"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-ultra-instinct",
+        "file": "dragon-ball-xenoverse-2-ultra-instinct"
+      }
+    ]
+  },
+  "pt": {
+    "builds": [
+      {
+        "slug": "dragon-ball-xenoverse-2-best-qq-bang",
+        "file": "dragon-ball-xenoverse-2-best-qq-bang"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-race",
+        "file": "dragon-ball-xenoverse-2-best-race"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-builds",
+        "file": "dragon-ball-xenoverse-2-builds"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-frieza-race-build",
+        "file": "dragon-ball-xenoverse-2-frieza-race-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-qq-bang-recipes",
+        "file": "dragon-ball-xenoverse-2-qq-bang-recipes"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-qq-bang",
+        "file": "dragon-ball-xenoverse-2-qq-bang"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-saiyan-build",
+        "file": "dragon-ball-xenoverse-2-saiyan-build"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "dragon-ball-xenoverse-2-all-characters",
+        "file": "dragon-ball-xenoverse-2-all-characters"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-characters",
+        "file": "dragon-ball-xenoverse-2-best-characters"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-unlock-all-characters",
+        "file": "dragon-ball-xenoverse-2-unlock-all-characters"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "dragon-ball-xenoverse-2-all-dlc",
+        "file": "dragon-ball-xenoverse-2-all-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-dlc",
+        "file": "dragon-ball-xenoverse-2-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-final-dlc",
+        "file": "dragon-ball-xenoverse-2-final-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-future-saga-chapter-4-release-date",
+        "file": "dragon-ball-xenoverse-2-future-saga-chapter-4-release-date"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-future-saga-chapter-4",
+        "file": "dragon-ball-xenoverse-2-future-saga-chapter-4"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-future-saga",
+        "file": "dragon-ball-xenoverse-2-future-saga"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dragon-ball-xenoverse-2-beginner-guide",
+        "file": "dragon-ball-xenoverse-2-beginner-guide"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-instructors",
+        "file": "dragon-ball-xenoverse-2-instructors"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-is-it-worth-it-2026",
+        "file": "dragon-ball-xenoverse-2-is-it-worth-it-2026"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-walkthrough",
+        "file": "dragon-ball-xenoverse-2-walkthrough"
+      }
+    ],
+    "mods": [
+      {
+        "slug": "dragon-ball-xenoverse-2-graphics-mod",
+        "file": "dragon-ball-xenoverse-2-graphics-mod"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-mods",
+        "file": "dragon-ball-xenoverse-2-mods"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "dragon-ball-xenoverse-2-crossplay",
+        "file": "dragon-ball-xenoverse-2-crossplay"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-nintendo-switch",
+        "file": "dragon-ball-xenoverse-2-nintendo-switch"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-pc",
+        "file": "dragon-ball-xenoverse-2-pc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-steam",
+        "file": "dragon-ball-xenoverse-2-steam"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-xbox",
+        "file": "dragon-ball-xenoverse-2-xbox"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "dragon-ball-xenoverse-2-festival-of-universes",
+        "file": "dragon-ball-xenoverse-2-festival-of-universes"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-glory-points",
+        "file": "dragon-ball-xenoverse-2-glory-points"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions",
+        "file": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-level-cap",
+        "file": "dragon-ball-xenoverse-2-level-cap"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-level-up-fast",
+        "file": "dragon-ball-xenoverse-2-level-up-fast"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-parallel-quest-list",
+        "file": "dragon-ball-xenoverse-2-parallel-quest-list"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-shenron-wishes",
+        "file": "dragon-ball-xenoverse-2-shenron-wishes"
+      }
+    ],
+    "transformations": [
+      {
+        "slug": "dragon-ball-xenoverse-2-all-transformations",
+        "file": "dragon-ball-xenoverse-2-all-transformations"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-beast-form",
+        "file": "dragon-ball-xenoverse-2-beast-form"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan-blue",
+        "file": "dragon-ball-xenoverse-2-super-saiyan-blue"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan-god",
+        "file": "dragon-ball-xenoverse-2-super-saiyan-god"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan",
+        "file": "dragon-ball-xenoverse-2-super-saiyan"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-ultra-instinct",
+        "file": "dragon-ball-xenoverse-2-ultra-instinct"
+      }
+    ]
+  }
+}

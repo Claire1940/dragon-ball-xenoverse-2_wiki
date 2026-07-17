@@ -66,3 +66,8 @@ site.json
 # 临时文件
 tmp/
 
+
+# 静态导出 / Workers 构建产物
+out/
+.open-next/
+.wrangler/

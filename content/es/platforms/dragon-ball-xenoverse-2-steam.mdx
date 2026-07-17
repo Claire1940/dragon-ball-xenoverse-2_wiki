@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dragon Ball Xenoverse 2 Steam: Guía de Modding y Downgrade",
+  description: "Aprende a gestionar tu versión de Steam de Dragon Ball Xenoverse 2, manejar las actualizaciones de versión y mantener tu entorno de juego con mods en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Xenoverse+2+Steam+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Dragon Ball Xenoverse 2",
+  keywords: "Dragon Ball Xenoverse 2, Steam, mods, downgrade, Eternity Tools, tutorial"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las actualizaciones de **Dragon Ball Xenoverse 2 Steam** a menudo pueden romper las instalaciones de mods personalizados.
+- El **downgrade de versión** (volver a una versión anterior) es un método fiable para mantener la compatibilidad con mods antiguos.
+- Las **Eternity Tools** siguen siendo el estándar de la industria para gestionar modificaciones del juego.
+- Realiza siempre una copia de seguridad de tus **archivos del juego** antes de intentar modificar el directorio de instalación.
+</Callout>
+
+<Section icon={Settings} title="Gestión de las Actualizaciones de Steam">
+
+Mantener un entorno de modding estable para **Dragon Ball Xenoverse 2** en Steam requiere un manejo cuidadoso de las actualizaciones del juego. Cuando los desarrolladores lanzan parches finales, los marcos de trabajo de mods existentes a menudo se vuelven incompatibles, lo que provoca cierres inesperados o fallos al iniciar el juego.
+
+**Puntos clave del vídeo:**
+- Cómo acceder a la consola de Steam para la descarga manual de depósitos (depots).
+- Proceso paso a paso para descargar manifiestos de versiones específicas.
+- Mejores prácticas para mantener intactos tus archivos de juego con mods.
+
+<YouTubeEmbed videoId="Q5uk6qgtW0A" title="CÓMO PONER MODS EN DRAGON BALL: XENOVERSE 2 EN 2026" />
+
+Si descubres que tus mods dejan de funcionar tras una actualización automática de Steam, puedes volver a una versión anterior utilizando la consola de Steam. Esto garantiza que tus packs de personajes favoritos y ajustes de jugabilidad sigan funcionando mientras esperas los parches de las herramientas actualizadas.
+
+</Section>
+
+<Section icon={Target} title="Pasos para Volver a una Versión Anterior (Downgrade)">
+
+Sigue estos pasos para revertir la versión de tu juego a un estado estable. Este proceso requiere el uso del comando 'Ejecutar' de Windows para interactuar directamente con la consola de Steam.
+
+<Steps>
+  <Step num="1" title="Abrir la Consola de Steam">
+    Presiona Win+R en tu teclado, escribe `steam://open/console` y pulsa Enter para abrir la pestaña oculta de la consola de Steam.
+  </Step>
+  <Step num="2" title="Identificar el Manifiesto">
+    Visita el sitio web de SteamDB para encontrar el número de parche específico o el ID de manifiesto que corresponda a tu versión preferida del juego.
+  </Step>
+  <Step num="3" title="Ejecutar Descarga">
+    En la consola, introduce `download_depot 454650 454651 [IDdelManifiesto]` para comenzar a descargar los archivos específicos del juego.
+  </Step>
+  <Step num="4" title="Reemplazar Archivos">
+    Navega hasta tu carpeta SteamApps/content para localizar los archivos descargados y sobrescribir tu instalación actual del juego.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Copia de Seguridad Requerida">
+Crea siempre una copia de seguridad de tus carpetas actuales `bin` y `data` antes de sobrescribir archivos para evitar perder el progreso o datos personalizados.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparativa de Herramientas de Modding">
+
+Elegir las herramientas adecuadas es esencial para una experiencia fluida. A continuación se presenta una comparativa de las utilidades comunes utilizadas por la comunidad para gestionar los recursos y modificaciones del juego.
+
+| Nombre de la Herramienta | Función Principal | Dificultad | Compatibilidad |
+| :--- | :--- | :--- | :--- |
+| Eternity Tools | Inyección de recursos, parcheo de archivos | Moderada | Alta |
+| XV2INS | Instalación de personajes/habilidades | Fácil | Alta |
+| Steam Console | Gestión de versiones | Avanzada | Nativa |
+| Save Editor | Modificación de datos | Fácil | Moderada |
+
+<CardGrid cols={3}>
+  <Card title="Eternity Tools">
+    - Marco de trabajo principal para todos los mods.
+    - Esencial para las actualizaciones de parches.
+    - Rendimiento altamente estable.
+  </Card>
+  <Card title="XV2INS">
+    - Instalador fácil de usar.
+    - Gestiona conjuntos de habilidades personalizados.
+    - Interfaz de arrastrar y soltar.
+  </Card>
+  <Card title="Steam Console">
+    - Utilidad oficial de Valve.
+    - Sin descargas externas.
+    - Perfecta para el control de versiones.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Mejores Prácticas de Modding">
+
+Para mantener saludable tu instancia de **Dragon Ball Xenoverse 2**, sigue estos estándares de mantenimiento. Una higiene constante de los archivos evita la corrupción a largo plazo de los datos guardados.
+
+| Tarea | Frecuencia | Acción |
+| :--- | :--- | :--- |
+| Respaldo de archivos | Semanal | Copiar carpeta de guardado a la nube |
+| Auditoría de mods | Mensual | Revisar archivos desactualizados |
+| Limpieza de caché | Tras actualización | Eliminar archivos temporales de shaders |
+| Actualización de herramientas | Según sea necesario | Consultar el sitio oficial de Eternity |
+
+<Callout type="success" title="Consejo Profesional">
+Usar una carpeta dedicada para organizar mods fuera del directorio de instalación de Steam puede ayudar a prevenir la eliminación accidental de archivos durante las actualizaciones del juego.
+</Callout>
+
+<Checklist
+  id="modding-checklist"
+  title="Lista de Verificación de Mantenimiento de Mods:"
+  items={[
+    "Verificar la integridad de los archivos del juego a través de Steam",
+    "Actualizar las Eternity Tools a la versión más reciente",
+    "Eliminar archivos X2M obsoletos",
+    "Probar la estabilidad del juego en modo desconectado"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es seguro usar mods en Dragon Ball Xenoverse 2 en Steam?",
+    answer: "Sí, siempre que juegues en modo desconectado. El modding es generalmente seguro, pero evita usar mods en salas online para prevenir restricciones en la cuenta."
+  },
+  {
+    question: "¿Qué debo hacer si el juego se cierra inesperadamente tras una actualización?",
+    answer: "La mayoría de los cierres son causados por archivos de mods desactualizados. Intenta desactivar tus mods o volver a una versión anterior del juego usando la consola de Steam."
+  },
+  {
+    question: "¿Dónde puedo encontrar herramientas de modding fiables?",
+    answer: "La comunidad utiliza principalmente las Eternity Tools. Descárgalas siempre de fuentes oficiales o centros comunitarios de confianza para garantizar la seguridad de los archivos."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mods de Dragon Ball Xenoverse 2: Guía de Downgrade y Configuración 2026",
+  description: "Aprende cómo revertir la versión de tu juego de forma segura e instalar mods de Dragon Ball Xenoverse 2 usando la consola de Steam y las herramientas de Eternity en 2026.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Xenoverse+2+Modding+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Dragon Ball Xenoverse 2",
+  keywords: "dragon ball xenoverse 2, mods, downgrade, eternity tools, xv2ins, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **mods de Dragon Ball Xenoverse 2** suelen dejar de funcionar cuando los desarrolladores lanzan actualizaciones oficiales del juego.
+- **Revertir la versión de tu juego (downgrading)** a través de la consola de Steam es el método de recuperación más fiable.
+- Las **Eternity Tools** siguen siendo el estándar de la industria para cargar archivos de personajes personalizados y scripts del sistema.
+- **XV2INS** proporciona una interfaz sencilla para gestionar e instalar paquetes de mods individuales.
+- Se recomienda encarecidamente **hacer una copia de seguridad de tus partidas guardadas** antes de realizar cualquier modificación de archivos o downgrade.
+</Callout>
+
+<Section icon={Sparkles} title="Compatibilidad y Actualizaciones de Mods de Dragon Ball Xenoverse 2">
+
+Instalar **mods de dragon ball xenoverse 2** ha sido durante mucho tiempo el método principal para que los jugadores expandan sus plantillas, personalicen sets de movimientos y mejoren la calidad visual. Sin embargo, los parches oficiales, como la actualización Future Saga Chapter 4, regularmente dejan incompatibles las herramientas de modding existentes. Cuando los archivos del juego se actualizan, los ganchos (hooks) personalizados utilizados por los cargadores de scripts fallan, lo que provoca cierres inesperados al iniciar o pantallas de carga infinitas.
+
+Para evitar este problema, la comunidad de modding recurre a revertir el ejecutable del juego a una versión compatible. Esto asegura que las herramientas de utilidad como Eternity Creator e Installer funcionen correctamente mientras los desarrolladores trabajan en parches actualizados. El siguiente video detalla el flujo de trabajo exacto requerido para restaurar la funcionalidad de los mods después de una actualización importante del juego.
+
+**Puntos Destacados del Video:**
+- Acceder a la interfaz oculta de la consola de Steam para descargar depósitos (depots) históricos del juego.
+- Localizar IDs de manifiesto específicos en SteamDB para que coincidan con las versiones preferidas del juego.
+- Reemplazar los archivos actualizados del juego con los archivos del depósito de la versión anterior.
+- Reinstalar las herramientas de Eternity y XV2INS para reactivar el contenido personalizado.
+
+<YouTubeEmbed videoId="Q5uk6qgtW0A" title="CÓMO INSTALAR MODS EN DRAGON BALL: XENOVERSE 2 EN 2026 | Future Saga Chapter 4" />
+
+<Callout type="warning" title="Riesgo de Desajuste de Versión">
+Ejecutar herramientas de mods desactualizadas en una versión actualizada del juego puede corromper tu archivo de guardado. Asegúrate siempre de que la versión de tu ejecutable coincida con la versión compatible de tus herramientas instaladas.
+</Callout>
+
+A continuación se muestra una tabla de referencia rápida que muestra la relación entre las actualizaciones del juego y la compatibilidad de las herramientas de mods.
+
+| Versión del Juego | Ventana de Lanzamiento | Estado de Herramientas de Mods | Acción Requerida |
+| - | - | - | - |
+| 1.25.02 | Finales de 2025 | Totalmente compatible | Ninguna (Versión estable) |
+| Future Saga Ch. 4 | Mediados de 2026 | Roto / Pendiente | Downgrade a 1.25.02 |
+| Future Saga Ch. 5 | Finales de 2026 | No lanzado | Esperar actualizaciones de herramientas |
+
+</Section>
+
+<Section icon={Shield} title="Revertir la Versión del Juego mediante la Consola de Steam">
+
+Cuando se lanza una nueva actualización, Steam actualiza automáticamente tus archivos locales. Para restaurar la compatibilidad de tus **mods de dragon ball xenoverse 2**, debes descargar manualmente un depósito anterior. Este proceso utiliza la consola de línea de comandos integrada de Steam para solicitar manifiestos antiguos directamente desde los servidores oficiales.
+
+| Componente | Identificador | Propósito |
+| - | - | - |
+| App ID | 454650 | Identifica el juego principal en la plataforma Steam |
+| Depot ID | 454651 | Identifica el paquete de contenido específico para descargar |
+| Manifest ID | Variable | Identifica el parche de versión histórica específico |
+
+<Steps>
+  <Step num="1" title="Abrir la Consola de Steam">
+    Presiona la tecla Windows + R en tu teclado para abrir el cuadro de diálogo Ejecutar. Escribe `steam://open/console` y presiona Enter. Esta acción abrirá una pestaña de consola dedicada dentro de tu cliente de Steam activo.
+  </Step>
+  <Step num="2" title="Localizar el ID del Manifiesto">
+    Navega a SteamDB en tu navegador web. Busca el App ID 454650, selecciona la pestaña Depots y elige el depósito de contenido principal. Revisa la pestaña de historial para encontrar el ID del manifiesto asociado con tu versión objetivo, como la versión 1.25.02.
+  </Step>
+  <Step num="3" title="Ejecutar el Comando de Descarga">
+    En la consola de Steam, ingresa el comando de descarga usando la siguiente sintaxis: `download_depot 454650 454651 [ID_del_Manifiesto]`. Presiona Enter para comenzar la descarga en segundo plano.
+  </Step>
+  <Step num="4" title="Reemplazar los Archivos del Juego">
+    Una vez que la consola muestre un mensaje confirmando que la descarga se ha completado, navega a la ruta de la carpeta designada. Copia los archivos descargados y sobrescribe los archivos en tu directorio principal.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Ubicación de Descarga de Steam">
+Steam descarga los depósitos de la consola en tu directorio de instalación predeterminado bajo `Steam\steamapps\content\app_454650\depot_454651`. Asegúrate de copiar el contenido de esta carpeta, no la carpeta en sí, en tu directorio principal.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Instalación de Herramientas Esenciales de Modding">
+
+Una vez que la versión de tu juego esté alineada con el software compatible, debes configurar el marco central que permite que se ejecuten los archivos personalizados. El ecosistema de modding se basa en dos componentes principales: el Eternity Patcher, que omite las comprobaciones de archivos, y el Mod Installer, que gestiona la integración de archivos.
+
+<CardGrid cols={3}>
+  <Card title="Eternity Patcher">
+    - **Omite las comprobaciones de archivos del juego**
+    - Se engancha directamente en el ejecutable
+    - Esencial para todos los mods de script
+  </Card>
+  <Card title="XV2INS (Instalador)">
+    - **Instala personajes personalizados**
+    - Gestiona la asignación de habilidades y slots
+    - Proporciona una interfaz de usuario visual
+  </Card>
+  <Card title="Editor de Guardado">
+    - **Edita atributos de personajes**
+    - Desbloquea objetos y rutas de misiones
+    - Opcional pero muy útil
+  </Card>
+</CardGrid>
+
+Para asegurar que estas utilidades funcionen correctamente, revisa las diferencias operativas específicas y los requisitos de las dos herramientas principales de modding:
+
+| Herramienta de Utilidad | Formato de Archivo Principal | Dependencia Clave | Directorio de Instalación |
+| - | - | - | - |
+| Eternity Patcher | .ini / .dll | Directorio XV2Patcher | Carpeta raíz del juego |
+| XV2INS | .x2m | xv2ins.exe | Cualquier lugar (Enlace a bin/xinput1_3.dll) |
+
+Para instalar estas herramientas, extrae el archivo del Eternity Patcher directamente en tu directorio raíz. La carpeta raíz es donde reside el ejecutable de tu juego. A continuación, inicia la aplicación XV2INS y apúntala hacia el ejecutable de tu juego cuando se te solicite. Esto establece la conexión necesaria para escribir nuevos archivos en el directorio de tu juego.
+
+<Callout type="tip" title="Copia de Seguridad de Partidas Guardadas Primero">
+Antes de ejecutar el instalador por primera vez, haz una copia de tu archivo de guardado ubicado en el directorio Steam Userdata. Los cambios en la configuración de los mods ocasionalmente pueden corromper los datos de guardado.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Gestión y Lanzamiento de Contenido Personalizado">
+
+Con el marco instalado, puedes comenzar a agregar contenido personalizado. Los mods para el juego suelen llegar en formato `.x2m`, que contiene todos los modelos, texturas, animaciones y datos estadísticos necesarios. Gestionar estos archivos correctamente evita conflictos que conducen a la inestabilidad del juego.
+
+| Categoría de Mod | Impacto en Estabilidad | Orden de Carga Recomendado | Conflicto de Archivo Clave |
+| - | - | - | - |
+| Personajes Personalizados | Bajo | Cualquier orden | Colisiones de ID de Slot |
+| Mods de Revisión (Overhaul) | Alto | Instalar primero | Sobrescritura de archivos del sistema |
+| Efectos Visuales | Medio | Instalar al último | Compatibilidad de shaders |
+
+Para mantener una instalación limpia, utiliza la siguiente lista de verificación antes de lanzar tu cliente de juego recién modificado:
+
+<Checklist
+  id="mod-launch-checklist"
+  title="Lista de Verificación Previa al Lanzamiento:"
+  items={[
+    "Verifica que el cliente de Steam esté en modo offline para evitar actualizaciones automáticas",
+    "Confirma que xv2patcher.ini esté configurado para cargar directorios personalizados",
+    "Comprueba que no existan IDs de personajes duplicados en la lista de XV2INS",
+    "Asegúrate de que la carpeta bin contenga la versión correcta de xinput1_3.dll"
+  ]}
+/>
+
+<Callout type="success" title="Éxito en la Verificación">
+Una instalación exitosa se indica por la aparición de personajes personalizados al final de la pantalla de selección de personajes en batallas locales.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Solución de Problemas y Errores Comunes">
+
+El modding puede ocasionalmente causar errores debido a problemas con las rutas de los archivos o discrepancias de versión. La mayoría de los problemas se pueden resolver verificando cuidadosamente las ubicaciones de los archivos y los ajustes de configuración.
+
+| Descripción del Error | Causa Probable | Solución |
+| - | - | - |
+| Cierre inesperado al iniciar | Versión del patcher incompatible | Downgrade del juego o actualizar patcher |
+| Pantalla de carga infinita | ID de personaje duplicado o habilidad defectuosa | Eliminar el último mod instalado |
+| Cadenas de texto faltantes | Desajuste en la configuración de idioma | Cambiar el idioma de la herramienta para que coincida con el juego |
+
+<FAQ items={[
+  {
+    question: "¿Por qué desaparecen mis mods de dragon ball xenoverse 2 después de una actualización de Steam?",
+    answer: "Las actualizaciones de Steam sobrescriben los archivos modificados del juego y los ejecutables con los archivos originales. Debes volver a revertir la versión de tu juego usando la consola de Steam para restaurar tus mods."
+  },
+  {
+    question: "¿Puedo jugar multijugador en línea con mods instalados?",
+    answer: "Los clientes de juego modificados generalmente no pueden conectarse a los servidores multijugador oficiales debido a las medidas antitrampas. El juego en línea suele estar restringido a conexiones locales o salas privadas usando bypasses específicos."
+  },
+  {
+    question: "¿Qué es un archivo .x2m y cómo lo abro?",
+    answer: "Un archivo .x2m es un formato empaquetado diseñado específicamente para el instalador de mods del juego. No necesitas extraerlo; simplemente ábrelo usando el programa XV2INS para instalarlo."
+  },
+  {
+    question: "¿Es posible recuperar un archivo de guardado corrupto?",
+    answer: "Si no creaste una copia de seguridad manual, la recuperación es difícil. Puedes intentar usar un Editor de Guardado para reparar valores de slots rotos o restablecer indicadores de misiones corruptos."
+  }
+]} />
+
+<Callout type="warning" title="Desactivar Actualizaciones Automáticas">
+Para evitar que Steam reemplace automáticamente tus archivos revertidos, cambia los ajustes de actualización de tu juego en Steam a 'Solo actualizar este juego al iniciarlo'. Inicia siempre el juego a través del ejecutable del cargador de mods en lugar de Steam.
+</Callout>
+
+</Section>

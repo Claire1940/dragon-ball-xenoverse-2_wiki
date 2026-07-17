@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mod Gráfico de Dragon Ball Xenoverse 2: Guía de Configuración e Instalación 2026",
+  description: "Aprende a instalar y configurar el mejor mod gráfico para Dragon Ball Xenoverse 2. Mejora tus gráficos con cel-shading, reshades y configuraciones estables para 2026.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Graphics+Mod+Setup+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Dragon Ball Xenoverse 2"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Renovación Visual**: Un **mod gráfico de dragon ball xenoverse 2** mejora significativamente la iluminación y el renderizado al estilo anime.
+- **Exclusivo de PC**: El uso de mods está estrictamente limitado a la versión de PC (Steam) del juego.
+- **Herramientas Esenciales**: Instala siempre la última versión de XV2PATCHER antes de aplicar cualquier archivo gráfico personalizado.
+- **Copia de Seguridad Primero**: Haz una copia de seguridad de todo el directorio del juego para evitar la pérdida de datos durante las actualizaciones.
+</Callout>
+
+<Section icon={Sparkles} title="Mejoras Visuales: Elegir un Mod Gráfico para Dragon Ball Xenoverse 2">
+
+Mejorar tu experiencia visual con un **mod gráfico de dragon ball xenoverse 2** personalizado es la forma más efectiva de modernizar el motor gráfico de 2016 del juego. Aunque el juego base captura la energía vibrante del anime, muchos jugadores buscan una estética más cinematográfica, de alto contraste o con estilo cel-shaded. Al utilizar inyectores de postprocesamiento, paquetes de texturas en alta resolución y perfiles de sombreado personalizados, puedes transformar Conton City y tus batallas en un espectáculo visual impresionante. Sin embargo, lograr una configuración estable requiere comprender las diferentes categorías de mods y cómo interactúan con los recursos de tu hardware.
+
+Los mods gráficos generalmente se dividen en tres categorías distintas, cada una ofreciendo un enfoque único para alterar la presentación del juego. Los presets de Reshade actúan como superposiciones de postprocesamiento, inyectando sombreadores directamente en el flujo de renderizado del juego para ajustar los colores, el contraste y la profundidad. Los rediseños de texturas reemplazan las texturas originales del entorno y de los personajes con recursos de alta definición, haciendo que las superficies se vean nítidas incluso de cerca. Las modificaciones de cel-shading alteran los parámetros de renderizado interno, enfatizando los contornos negros y los gradientes de color planos para imitar las películas de anime modernas como *Dragon Ball Super: Super Hero*.
+
+| Categoría del Mod | Impacto Visual | Coste de Rendimiento | Enfoque Principal |
+| :--- | :--- | :--- | :--- |
+| **Presets de Reshade** | Alta intensidad de color y profundidad | Bajo a Moderado | Iluminación, postprocesamiento y corrección de color |
+| **Rediseño de Texturas** | Modelos de personajes y entornos más nítidos | Moderado a Alto | Texturas de terreno y atuendos en alta resolución |
+| **Mods de Cel-Shading** | Aspecto visual auténtico estilo anime | Bajo | Contornos, gradientes de sombreado y modelos de personajes |
+
+La elección de qué mod instalar depende en gran medida de tus gustos personales y de las capacidades de tu sistema. Algunos jugadores prefieren un aspecto más crudo y realista con sombras profundas y ráfagas de energía brillantes, mientras que otros quieren replicar el aspecto limpio y dibujado a mano de la serie de anime. Combinar estos mods es posible, pero requiere una configuración cuidadosa para evitar errores visuales como la doble sombra o el parpadeo de los contornos.
+
+<Callout type="tip" title="Optimización del Rendimiento">
+Si tienes una tarjeta gráfica de gama media, prioriza el cel-shading y los presets ligeros de Reshade. Evita la oclusión ambiental pesada (MXAO) o los reflejos en el espacio de la pantalla, ya que estos sombreadores pueden reducir significativamente la tasa de fotogramas durante las caóticas batallas 3v3.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Configuración del Mod: Requisitos Esenciales y Compatibilidad">
+
+Antes de comenzar a descargar cualquier mejora visual, debes preparar tu sistema y el directorio del juego. El uso de mods es exclusivo de la versión para PC en Steam; las versiones de consola no admiten la inyección de archivos externos. Debido a que el juego recibe actualizaciones oficiales periódicas de Bandai Namco (como las recientes expansiones de Future Saga y DAIMA), las herramientas de modding deben actualizarse a la par. Ejecutar parches o instaladores desactualizados en una versión más nueva del juego provocará cierres inesperados inmediatos.
+
+La columna vertebral de cualquier configuración con mods consta de dos herramientas principales: el XV2PATCHER y el XV2 Mod Installer (XV2INS). El parcheador elude el sistema de verificación de archivos del juego, lo que le permite cargar recursos personalizados desde una carpeta designada como "data" en lugar de los archivos cerrados del juego. El instalador gestiona personajes, habilidades y atuendos personalizados. Para los mods gráficos que modifican sombreadores o postprocesamiento, también se requiere el motor Reshade, que inyecta un archivo `dxgi.dll` o `d3d11.dll` personalizado en el directorio raíz del juego.
+
+| Nombre de la Herramienta | Función Principal | Versión Requerida | Riesgo Principal |
+| :--- | :--- | :--- | :--- |
+| **XV2PATCHER** | Permite la carga de archivos de mods externos | Debe coincidir con la versión actual del juego | El juego se cierra si las versiones no coinciden |
+| **XV2INS** | Instala personajes y habilidades personalizados | Última versión lanzada | Fallo en la instalación durante actualizaciones importantes |
+| **Motor Reshade** | Inyector para iluminación y sombreadores personalizados | Versión 5.0 o superior | Problemas menores de compatibilidad con superposiciones |
+
+Comprender cómo interactúan estas herramientas es vital para la resolución de problemas. Cuando se inicia el juego, el parcheador lee el archivo de configuración `xv2patcher.ini` para determinar qué directorios cargar. Si instalas un mod gráfico que reemplaza los modelos de personajes o las texturas de los escenarios, esos archivos deben ir en la carpeta `data` creada por el parcheador. Si el parcheador no se está ejecutando o está desactualizado, el juego simplemente ignorará estos archivos y cargará los recursos originales por defecto.
+
+<Callout type="warning" title="Aviso de Actualización">
+Cada vez que Bandai Namco lance un parche oficial para el juego, es muy probable que tus mods dejen de funcionar. No inicies el juego a través de Steam hasta que los creadores de XV2PATCHER publiquen una actualización compatible. Puedes desactivar las actualizaciones automáticas en Steam para preservar tu configuración modificada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Instalar un Mod Gráfico para Dragon Ball Xenoverse 2">
+
+Instalar un **mod gráfico de dragon ball xenoverse 2** requiere precisión y atención a los detalles. Colocar los archivos en el directorio incorrecto es la causa más común de fallos en la instalación. Sigue estos pasos estructurados para instalar y configurar de forma segura tus mods visuales elegidos, garantizando una transición fluida de los gráficos base a una experiencia cinematográfica mejorada.
+
+<Steps>
+  <Step num="1" title="Crea una Copia de Seguridad Limpia del Directorio">
+    Localiza el directorio de tu juego haciendo clic derecho sobre el juego en Steam, seleccionando Administrar y haciendo clic en Ver archivos locales. Copia la carpeta completa a una ubicación segura en tu disco. Esta copia de seguridad te garantiza poder restaurar el juego sin tener que volver a descargar gigabytes de datos si un mod corrompe tu instalación.
+  </Step>
+  <Step num="2" title="Instala el Último XV2PATCHER">
+    Descarga la última versión de XV2PATCHER que coincida con la versión actual de tu juego. Extrae el contenido del archivo directamente en la carpeta raíz del juego (donde se encuentra `bin`). El parcheador creará una carpeta llamada `data`, que es donde deben colocarse los mods de texturas y cel-shading.
+  </Step>
+  <Step num="3" title="Despliega los Archivos Gráficos y de Cel-Shading">
+    Descarga los recursos del mod gráfico de tu elección. Si el mod es un rediseño de texturas o un mod de cel-shading, copia los archivos personalizados y pégalos en los subdirectorios correspondientes dentro de la carpeta `data` recién creada (por ejemplo, `data/chara` para las texturas de los personajes). No sobrescribas los archivos originales del juego.
+  </Step>
+  <Step num="4" title="Configura el Motor de Sombreadores Reshade">
+    Descarga el instalador de Reshade y ejecútalo. Selecciona el ejecutable del juego (`bin/DBXV2.exe`) y elige Direct3D 10/11/12 como la API de renderizado. Selecciona los paquetes de sombreadores recomendados por el creador de tu mod gráfico, luego coloca el archivo de preset personalizado `.ini` en la carpeta `bin`.
+  </Step>
+</Steps>
+
+Una vez completados estos pasos, inicia el juego. Si instalaste Reshade, deberías ver una pequeña barra de superposición en la parte superior de tu pantalla indicando que los sombreadores se están cargando. Presiona la tecla de acceso rápido designada (generalmente la tecla Inicio/Home) para abrir el menú de configuración y seleccionar tu preset gráfico. Para los mods de texturas y cel-shading, los cambios deberían ser visibles inmediatamente al entrar a Conton City o al comenzar una batalla local.
+
+<Callout type="success" title="Verificación de la Copia de Seguridad">
+Asegúrate siempre de que tu carpeta de copia de seguridad esté completamente separada del directorio activo de Steam. Las utilidades de modding a veces pueden escanear tu disco y modificar accidentalmente archivos en la copia de seguridad si esta se encuentra dentro de la ruta de la biblioteca de Steam.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ajustes de Precisión: Configuración Óptima y Solución de Errores Comunes">
+
+Una vez que tus archivos estén en su lugar, ajustar la configuración interna del juego es crucial para lograr el equilibrio óptimo entre fidelidad visual y rendimiento. Algunos mods gráficos requieren configuraciones específicas dentro del juego para mostrarse correctamente. Por ejemplo, muchos mods de cel-shading requieren que desactives el antialiasing predeterminado del juego para evitar que los contornos negros personalizados se vean borrosos o pixelados.
+
+Si encuentras problemas durante el inicio, como una pantalla negra o una secuencia de carga infinita, generalmente se debe a un conflicto entre Reshade y otras superposiciones activas. Las superposiciones de Discord, GeForce Experience y Steam pueden interferir con el proceso de inyección de DirectX. Desactivar estas superposiciones o cambiar el nombre del archivo de Reshade de `dxgi.dll` a `d3d11.dll` a menudo resuelve los conflictos de inicio.
+
+<CardGrid cols={3}>
+  <Card title="Cierre Inesperado al Iniciar">
+    - **Causa**: XV2PATCHER desactualizado o conflicto con superposiciones.
+    - **Solución**: Actualiza el parcheador para que coincida con la versión de tu juego y desactiva temporalmente las superposiciones de Steam o Discord.
+  </Card>
+  <Card title="Pantalla de Carga Infinita">
+    - **Causa**: Archivos de texturas corruptos o IDs de personajes desparejados.
+    - **Solución**: Limpia la carpeta `data` y vuelve a instalar los recursos del mod gráfico uno por uno para aislar el archivo dañado.
+  </Card>
+  <Card title="Caídas Graves de FPS">
+    - **Causa**: Sombreadores de postprocesamiento exigentes como MXAO o profundidad de campo.
+    - **Solución**: Abre el menú de Reshade (tecla Inicio) y desactiva los efectos pesados durante las misiones multijugador.
+  </Card>
+</CardGrid>
+
+Para obtener la mejor calidad visual absoluta sin sacrificar la fluidez del juego, ajusta el menú de gráficos dentro del juego para alinearlo con tus mods activos. Utiliza la siguiente tabla para configurar tus ajustes para un preset gráfico típico de alta calidad.
+
+| Nombre del Ajuste | Opción Recomendada | Impacto en el Rendimiento | Por Qué Importa |
+| :--- | :--- | :--- | :--- |
+| **Antialiasing** | FXAA o Desactivado (usar SMAA de Reshade) | Bajo | Evita el doble desenfoque al usar sombreadores externos |
+| **Calidad de Texturas** | Alta | Moderado | Proporciona un lienzo limpio para mods de texturas de alta resolución |
+| **Calidad de Sombras** | Media | Alto | Libera recursos de la GPU para presets de iluminación exigentes |
+| **V-Sync** | Activado o Rápido | Bajo | Evita el desgarro de pantalla durante combates de alta velocidad |
+
+Además, puedes editar el archivo `xv2patcher.ini` en tu directorio `bin` para ajustar la configuración avanzada del parcheador. Algunos parcheadores personalizados te permiten forzar resoluciones de renderizado más altas o desbloquear la tasa de fotogramas más allá de los límites predeterminados del motor, lo que combina perfectamente con las mejoras gráficas de gama alta.
+
+<Callout type="info" title="Conflictos de Superposición">
+Si cambiar el nombre del archivo DLL no evita los cierres inesperados, intenta iniciar el juego directamente desde el archivo `bin/DBXV2.exe` en lugar de hacerlo a través del cliente de Steam. Esto elude varias llamadas de API específicas de Steam que pueden interrumpir la inyección de sombreadores.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Mods: Mantener la Estabilidad del Juego">
+
+Para mantener tu juego modificado funcionando sin problemas durante largas sesiones de juego, debes establecer una rutina para administrar los archivos y las actualizaciones. El modding es un proceso iterativo, y realizar un seguimiento de tus modificaciones activas te ahorrará horas de solución de problemas cuando se lance nuevo contenido oficial. Utiliza esta lista de verificación para asegurarte de que tu configuración permanezca estable y optimizada.
+
+<Checklist
+  id="graphics-mod-stability"
+  title="Hitos de Estabilidad:"
+  items={[
+    "Verifica que la versión de tu juego coincida con la versión activa de XV2PATCHER",
+    "Desactiva las actualizaciones automáticas del juego en la configuración de Steam",
+    "Mantén una copia de seguridad limpia y sin mods de las carpetas bin y data activas",
+    "Prueba los nuevos presets gráficos en batallas locales sin conexión antes de realizar misiones",
+    "Monitorea las temperaturas de tu GPU al ejecutar sombreadores pesados de oclusión ambiental"
+  ]}
+/>
+
+Al cumplir con estos hitos, minimizas el riesgo de corrupción de tus archivos de guardado y te aseguras de poder revertir rápidamente el juego a un estado funcional si un recurso recién instalado causa inestabilidad. Recuerda que la organización es la clave para una experiencia de modding exitosa.
+
+<Callout type="tip" title="Consejo sobre el Orden de los Mods">
+Instala siempre primero los rediseños de texturas grandes, seguidos de los mods visuales específicos de personajes. Esto evita que los mods más pequeños y detallados sean sobrescritos por paquetes de entorno más amplios.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes: Soporte para el Mod Gráfico de Dragon Ball Xenoverse 2">
+
+Navegar por el mundo de las modificaciones visuales puede plantear varias preguntas, especialmente en lo que respecta a la seguridad del juego en línea y la optimización del rendimiento. A continuación se presentan las preguntas más comunes respondidas por modders experimentados de la comunidad para ayudarte a mantener un juego seguro y visualmente impresionante.
+
+<FAQ items={[
+  {
+    question: "¿Puedo jugar en línea mientras uso un mod gráfico de dragon ball xenoverse 2?",
+    answer: "No, no debes jugar en servidores públicos oficiales con mods activos. El sistema Easy Anti-Cheat (EAC) del juego detectará los archivos modificados y evitará que te conectes, o peor aún, podría banear tu cuenta. Juega siempre sin conexión o utiliza un cliente multijugador independiente compatible con mods que tenga el EAC desactivado."
+  },
+  {
+    question: "¿Instalar mods gráficos borrará mis datos de guardado?",
+    answer: "No, los mods gráficos solo alteran los recursos visuales y no tocan tus archivos de guardado. Sin embargo, siempre se recomienda hacer una copia de seguridad de tu directorio de guardado ubicado en la carpeta userdata de Steam antes de instalar cualquier herramienta que modifique la memoria ejecutable del juego."
+  },
+  {
+    question: "¿Cómo desinstalo completamente un preset de Reshade?",
+    answer: "Para eliminar Reshade, dirígete a la carpeta 'bin' de tu juego y elimina la carpeta 'reshade-shaders', el archivo 'ReShade.ini' y el archivo DLL inyectado (normalmente 'dxgi.dll' o 'd3d11.dll'). Una ver eliminados estos archivos, el juego volverá a su motor de renderizado predeterminado."
+  },
+  {
+    question: "¿Qué debo hacer si mi juego se actualiza automáticamente y rompe mis mods?",
+    answer: "Si tu juego se actualiza, tus mods quedarán desactivados o causarán cierres inesperados. Debes esperar a que los creadores de XV2PATCHER lancen una actualización compatible con la nueva versión del juego, o revertir manualmente tu juego a una versión anterior utilizando comandos de la consola de Steam."
+  }
+]} />
+
+Si planeas alternar entre el juego modificado sin conexión y el juego limpio en línea, considera configurar una instalación dual. Al copiar el directorio limpio de tu juego en una carpeta separada de tu disco y aplicar mods solo en esa copia, puedes iniciar la versión modificada sin conexión mientras mantienes tu instalación principal de Steam completamente limpia para eventos oficiales multijugador, incursiones y batallas de clasificación.
+
+<Callout type="warning" title="Advertencia sobre el Juego en Línea">
+Intentar eludir el sistema Easy Anti-Cheat para usar mods visuales en partidas de clasificación es altamente arriesgado. Incluso los mods puramente cosméticos pueden desencadenar oleadas de baneos automatizados, así que mantén tu juego modificado estrictamente limitado al modo de un jugador sin conexión o a salas privadas con el EAC desactivado.
+</Callout>
+
+</Section>
