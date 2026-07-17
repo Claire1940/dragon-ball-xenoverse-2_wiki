@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "builds": "Builds",
+    "characters": "Personagens",
+    "abilities": "Habilidades",
+    "quests": "Missões",
+    "equipment": "Equipamento",
+    "dlc": "DLC",
+    "updates": "Atualizações",
+    "mods": "Mods"
+  }
+}

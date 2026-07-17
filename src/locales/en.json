@@ -10,7 +10,178 @@
       "twitterDescription": "Dragon Ball Xenoverse 2 Wiki with builds, race guides, skills, transformations, Parallel Quests, DLC characters, QQ Bangs, raids, and update guides."
     }
   },
-  "nav": {},
+  "nav": {
+    "builds": "Builds",
+    "characters": "Characters",
+    "abilities": "Abilities",
+    "quests": "Quests",
+    "equipment": "Equipment",
+    "dlc": "DLC",
+    "updates": "Updates",
+    "mods": "Mods"
+  },
+  "pages": {
+    "builds": {
+      "title": "Dragon Ball Xenoverse 2 Builds",
+      "description": "Optimized attribute builds for every race, PvE and PvP, with skill, Super Soul, and QQ Bang loadouts.",
+      "metaTitle": "Dragon Ball Xenoverse 2 Builds - Best PvE & PvP Loadouts",
+      "metaDescription": "Master Dragon Ball Xenoverse 2 builds: race attribute spreads, Strike vs Ki Blast, Super Souls, skills, and QQ Bang recipes for PvE and PvP.",
+      "categoryLabel": "PLAYER BUILDS",
+      "whatIs": "What are Builds?",
+      "whatIsDescription": "Builds are complete loadouts for your custom Time Patroller — attribute points across Health, Ki, Stamina, Basic Attacks, Strike Supers, and Ki Blast Supers, paired with skills, Super Souls, and QQ Bang gear. The right build turns a fresh CAC into a raid-ready fighter.",
+      "why": "Why use these builds?",
+      "whySteps": {
+        "step1Title": "Race and playstyle synergy",
+        "step1Description": "Each race has unique passives and transformations; builds are tuned to amplify those strengths for Strike, Ki Blast, or hybrid play.",
+        "step2Title": "Balanced attribute spreads",
+        "step2Description": "Avoid wasted points with tested distributions that keep Health, Stamina, and Ki sustainable through long Parallel Quests and raids.",
+        "step3Title": "Complete loadout packages",
+        "step3Description": "Every build bundles the matching skills, Super Soul, and QQ Bang recipe so you can replicate the setup end to end."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Builds"
+    },
+    "characters": {
+      "title": "Dragon Ball Xenoverse 2 Characters",
+      "description": "Every playable character and preset with unlock conditions, skill sets, and tier rankings for each mode.",
+      "metaTitle": "Dragon Ball Xenoverse 2 Characters - Unlock Guide & Tier List",
+      "metaDescription": "Unlock and master every Dragon Ball Xenoverse 2 character: presets, transformations, skill sets, and tier rankings for PvP and PvE.",
+      "categoryLabel": "ROSTER",
+      "whatIs": "What are Characters?",
+      "whatIsDescription": "Characters covers the official playable roster — Goku, Vegeta, DLC additions, and every preset form — with how to unlock them, their skill sets, transformations, and where each shines in Parallel Quests, Expert Missions, and online battles.",
+      "why": "Why use this roster?",
+      "whySteps": {
+        "step1Title": "Clear unlock conditions",
+        "step1Description": "Find exactly which Parallel Quest, story chapter, or DLC pack unlocks each character and preset form.",
+        "step2Title": "Tier rankings by mode",
+        "step2Description": "See which characters perform best in PvP, raids, and Expert Missions so you pick the right fighter for the job.",
+        "step3Title": "Full skill and transformation data",
+        "step3Description": "Each entry lists equipped skills, Super Souls, and available transformations for informed switching."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Characters"
+    },
+    "abilities": {
+      "title": "Dragon Ball Xenoverse 2 Abilities",
+      "description": "Every Super, Ultimate, Evasive, and Awoken skill with unlock location, cost, and best use cases.",
+      "metaTitle": "Dragon Ball Xenoverse 2 Abilities - Skills & Transformations",
+      "metaDescription": "Complete Dragon Ball Xenoverse 2 ability database: Super, Ultimate, Evasive, and Awoken skills with unlock locations, Ki cost, and combos.",
+      "categoryLabel": "SKILLS",
+      "whatIs": "What are Abilities?",
+      "whatIsDescription": "Abilities covers the skills and transformations themselves — Super Attacks, Ultimate Attacks, Evasive Skills, and Awoken (transformation) skills — with how to unlock each one, Ki or Stamina cost, damage type, and the best combos and situations to use them.",
+      "why": "Why use this skill list?",
+      "whySteps": {
+        "step1Title": "Exact unlock locations",
+        "step1Description": "Know which Parallel Quest drops a skill, which mentor teaches it, or which TP Medal shop stocks it.",
+        "step2Title": "Ki and Stamina costs",
+        "step2Description": "Plan combos around resource costs so transformations and ultimates are ready when you need them.",
+        "step3Title": "Best-use guidance",
+        "step3Description": "Each skill notes ideal combos, synergy with builds, and which enemies it counters."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Abilities"
+    },
+    "quests": {
+      "title": "Dragon Ball Xenoverse 2 Quests",
+      "description": "Parallel Quests and Expert Missions with objectives, hidden conditions, Z Rank, and Ultimate Finish rewards.",
+      "metaTitle": "Dragon Ball Xenoverse 2 Quests - Parallel Quests & Expert Missions",
+      "metaDescription": "Clear every Dragon Ball Xenoverse 2 Parallel Quest and Expert Mission: objectives, hidden conditions, Ultimate Finish, Z Rank, and drops.",
+      "categoryLabel": "QUESTS",
+      "whatIs": "What are Quests?",
+      "whatIsDescription": "Quests covers the permanent PvE challenges — Parallel Quests and Expert Missions — with full objective lists, hidden win conditions for Ultimate Finish, Z Rank requirements, and the skills, gear, and characters each one drops.",
+      "why": "Why use these guides?",
+      "whySteps": {
+        "step1Title": "Ultimate Finish conditions",
+        "step1Description": "Hit the hidden triggers that spawn Ultimate Finish for the best drop rates on rare skills and gear.",
+        "step2Title": "Z Rank strategies",
+        "step2Description": "Earn Z Rank consistently with damage, combo, and time targets that maximize your score.",
+        "step3Title": "Complete drop tables",
+        "step3Description": "See exactly which skills, clothes, and Super Souls each quest can reward before you grind."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Quests"
+    },
+    "equipment": {
+      "title": "Dragon Ball Xenoverse 2 Equipment",
+      "description": "QQ Bang recipes, clothing stats, Super Souls, and mixing materials for the best passive bonuses.",
+      "metaTitle": "Dragon Ball Xenoverse 2 Equipment - QQ Bangs & Super Souls",
+      "metaDescription": "Optimize Dragon Ball Xenoverse 2 gear: QQ Bang recipes, clothing stats, Super Soul effects, and mixing materials for every build.",
+      "categoryLabel": "GEAR",
+      "whatIs": "What is Equipment?",
+      "whatIsDescription": "Equipment covers QQ Bangs, clothing sets, Super Souls, and mixing materials — the passive stat bonuses and effects that shape a build. Find QQ Bang recipes, compare clothing attributes, and match Super Souls to your playstyle.",
+      "why": "Why use this gear data?",
+      "whySteps": {
+        "step1Title": "QQ Bang recipes",
+        "step1Description": "Combine the right clothing and mixing items to craft QQ Bangs with strong, balanced stat bonuses.",
+        "step2Title": "Super Soul effects",
+        "step2Description": "Browse Super Souls by their activation conditions and buffs to pick the one that fuels your build.",
+        "step3Title": "Clothing stat comparison",
+        "step3Description": "Compare outfits across all six attributes to build the optimal passive stat profile."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Equipment"
+    },
+    "dlc": {
+      "title": "Dragon Ball Xenoverse 2 DLC",
+      "description": "Every DLC pack with included characters, quests, skills, and a buying priority guide.",
+      "metaTitle": "Dragon Ball Xenoverse 2 DLC - Pack List & Buying Guide",
+      "metaDescription": "Complete Dragon Ball Xenoverse 2 DLC guide: every pack’s characters, quests, and skills, plus which DLC to buy first.",
+      "categoryLabel": "DLC",
+      "whatIs": "What is DLC?",
+      "whatIsDescription": "DLC covers the paid content packs — from Legendary Pack to Future Saga — listing the characters, Parallel Quests, skills, and story chapters each adds, plus version differences and a recommended buying order so you spend wisely.",
+      "why": "Why use this DLC guide?",
+      "whySteps": {
+        "step1Title": "Full pack contents",
+        "step1Description": "See exactly which characters, quests, and skills each DLC pack adds before you buy.",
+        "step2Title": "Buying priority",
+        "step2Description": "Follow a ranked buying order based on character value, content volume, and meta impact.",
+        "step3Title": "Version clarity",
+        "step3Description": "Understand pack, season pass, and bundle differences so you do not double-purchase."
+      },
+      "featured": "Featured & Essential",
+      "all": "All DLC"
+    },
+    "updates": {
+      "title": "Dragon Ball Xenoverse 2 Updates",
+      "description": "Patch notes, raid schedules, festivals, and server maintenance with start and end dates.",
+      "metaTitle": "Dragon Ball Xenoverse 2 Updates - Patch Notes & Raid Schedule",
+      "metaDescription": "Track Dragon Ball Xenoverse 2 updates: patch notes, raid schedules, festival events, and maintenance windows with dates.",
+      "categoryLabel": "UPDATES",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Updates covers time-limited patches, server maintenance, raid schedules, and festival events — with balance changes, raid reward tables, and clear start and end dates so you never miss a limited-time activity.",
+      "why": "Why follow updates?",
+      "whySteps": {
+        "step1Title": "Raid schedules",
+        "step1Description": "Know when each raid opens and closes and which rewards are available during the window.",
+        "step2Title": "Patch and balance notes",
+        "step2Description": "Stay current on skill and character balance changes that shift the PvP and PvE meta.",
+        "step3Title": "Festival events",
+        "step3Description": "Catch limited-time festivals and their exclusive rewards before the event ends."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Updates"
+    },
+    "mods": {
+      "title": "Dragon Ball Xenoverse 2 Mods",
+      "description": "PC mod installation, compatibility, and troubleshooting for installers, costumes, and skills.",
+      "metaTitle": "Dragon Ball Xenoverse 2 Mods - Install & Troubleshooting Guide",
+      "metaDescription": "Master Dragon Ball Xenoverse 2 mods on PC: installer setup, costume and skill mods, compatibility, and common error fixes.",
+      "categoryLabel": "MODS",
+      "whatIs": "What are Mods?",
+      "whatIsDescription": "Mods covers the PC modding scene — installers like XV2 Mods, costume and skill replacements, and gameplay overhauls — with safe installation steps, version compatibility notes, and fixes for the errors that appear after game patches.",
+      "why": "Why use this mod guide?",
+      "whySteps": {
+        "step1Title": "Safe installation steps",
+        "step1Description": "Install mod installers and load mods correctly without breaking your base game files.",
+        "step2Title": "Patch compatibility",
+        "step2Description": "Track which mods break after each update and how to patch or replace them.",
+        "step3Title": "Error troubleshooting",
+        "step3Description": "Resolve common crashes, missing textures, and loader errors with tested fixes."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Mods"
+    }
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -144,25 +315,47 @@
         {
           "tier": "S",
           "label": "Top Tier",
-          "characters": ["Ultra Instinct Goku", "SSGSS Gogeta", "Jiren (Full Power)", "Broly (Full Power Super Saiyan)", "SSGSS Vegito"],
+          "characters": [
+            "Ultra Instinct Goku",
+            "SSGSS Gogeta",
+            "Jiren (Full Power)",
+            "Broly (Full Power Super Saiyan)",
+            "SSGSS Vegito"
+          ],
           "description": "The best all-rounders for raids and endgame PvE: huge ultimate damage, safe supers, and strong neutral tools."
         },
         {
           "tier": "A",
           "label": "Strong All-Round",
-          "characters": ["Goku (Beast)", "Gohan (Beast)", "Gogeta (DB Super)", "SSGSS Goku", "SSGSS Vegeta"],
+          "characters": [
+            "Goku (Beast)",
+            "Gohan (Beast)",
+            "Gogeta (DB Super)",
+            "SSGSS Goku",
+            "SSGSS Vegeta"
+          ],
           "description": "Reliable across every mode with great combo routes and high-damage Awoken Skills."
         },
         {
           "tier": "B",
           "label": "Solid Niche",
-          "characters": ["Piccolo (Power Awakening)", "Kefla", "Hit", "Cabba", "Toppo (God of Destruction)"],
+          "characters": [
+            "Piccolo (Power Awakening)",
+            "Kefla",
+            "Hit",
+            "Cabba",
+            "Toppo (God of Destruction)"
+          ],
           "description": "Strong in specific matchups and modes, often chosen for style or specific raid roles."
         },
         {
           "tier": "C",
           "label": "Beginner & Style",
-          "characters": ["Base Goku", "Base Vegeta", "Early DLC characters"],
+          "characters": [
+            "Base Goku",
+            "Base Vegeta",
+            "Early DLC characters"
+          ],
           "description": "Fun and accessible early picks that get outclassed by S and A tier characters at endgame."
         }
       ],
