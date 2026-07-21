@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Dragon Ball Xenoverse 2 Extra Pack 2 : Guide de déblocage du DLC",
+  description: "Débloquez tout le potentiel de l'Extra Pack 2 de Dragon Ball Xenoverse 2. Obtenez des analyses de personnages, des guides de scénarios, des quêtes parallèles et des conseils de build.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Extra+Pack+2+Guide",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki Dragon Ball Xenoverse 2",
+  keywords: "dragon ball xenoverse 2, extra pack 2, dlc, goku ultra instinct, jiren, fu, histoire infinie"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Dragon Ball Xenoverse 2 Extra Pack 2** introduit quatre personnages puissants, dont Goku Ultra Instinct et Jiren.
+- Le **Scénario de l'Histoire Infinie** propose des chemins narratifs ramifiés avec des interactions personnalisées avec les mentors et des fins uniques.
+- Débloquez **huit nouvelles techniques** et huit Super Âmes pour optimiser vos builds de Policiers du Temps personnalisés.
+- Terminez **cinq nouvelles quêtes parallèles** pour obtenir des équipements exclusifs, des techniques et des tenues personnalisées pour vos compagnons.
+</Callout>
+
+<Section icon={Sparkles} title="Nouveaux personnages et analyse du style de jeu">
+
+Les ajouts au roster de cette extension mettent entre vos mains certains des combattants les plus emblématiques du Tournoi du Pouvoir. Chaque personnage possède des mécaniques de combat uniques, des enchaînements de combos distincts et des attaques spéciales hautement spécialisées qui peuvent changer le cours de n'importe quel combat.
+
+Comprendre le fonctionnement de ces personnages est essentiel pour le contenu PvE comme pour les matchs PvP compétitifs. Goku dans sa forme Ultra Instinct s'appuie fortement sur les esquives automatiques défensives, tandis que Jiren agit comme un tank imparable axé sur la frappe. Fu introduit des configurations très techniques basées sur l'épée, et C-17 (Ranger) offre une excellente utilité défensive et un contrôle de zone.
+
+| Personnage | Style de jeu | Technique fétiche | Note de combat |
+| --- | --- | --- | --- |
+| Goku (Ultra Instinct) | Canon de verre évasif | Signe divin | 5/5 |
+| Jiren | Colosse de frappe | Afflux de puissance | 4,5/5 |
+| Fu | Combattant technique et piégeur | Frappe sournoise | 4/5 |
+| C-17 (Ranger) | Zoner défensif | Puissance de Ranger | 4/5 |
+
+### Goku (Ultra Instinct)
+Goku sous sa forme Ultra Instinct est le joyau de ce pack. Sa capacité passive unique lui permet d'esquiver automatiquement les attaques physiques de base et les rayons de ki de base au prix d'endurance (Stamina). Cela le rend incroyablement difficile à toucher, mais les joueurs doivent gérer leur endurance avec soin, car une brise-garde le laisse extrêmement vulnérable. Son attaque ultime, Signe divin, déclenche une rafale rapide de coups suivis d'une énorme sphère d'énergie téléguidée qui inflige des dégâts dévastateurs.
+
+### Jiren
+Jiren est une force brute physique pure, conçue pour écraser ses adversaires par sa force brute. Son coup signature, Afflux de puissance, est l'une des ultimes de frappe les plus dévastatrices du jeu, bien qu'elle nécessite 10 barres de Ki complètes pour être exécutée. Pour soutenir cette exigence massive, Jiren peut utiliser Méditation, une technique de boost qui augmente temporairement le Ki max et accélère sa régénération.
+
+### Fu
+Fu est un combattant hautement technique qui excelle à dérouter ses adversaires. Utilisant son sabre de ninja et ses gadgets scientifiques, Fu peut se téléporter sur le champ de bataille et poser des pièges énergétiques. Sa Frappe sournoise lui permet de disparaître au milieu d'un combo pour frapper sous un angle inattendu, ce qui en fait un favori pour les joueurs compétitifs qui préfèrent un style de jeu trompeur.
+
+### C-17 (Ranger)
+Cette version de C-17, portant sa tenue de garde forestier de Dragon Ball Super, se concentre sur la défense par barrière et les contre-attaques rapides. Il peut générer des boucliers d'énergie qui absorbent les dégâts entrants et les convertissent en ki, lui permettant de maintenir de longs combos et de mettre continuellement la pression sur ses adversaires.
+
+<Callout type="info" title="Avertissement sur la gestion de l'endurance">
+Bien que Goku Ultra Instinct esquive automatiquement les attaques de base, chaque esquive consomme une partie de votre barre d'endurance. Évitez le jeu passif, car les adversaires expérimentés provoqueront vos esquives pour forcer un brise-garde.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Scénario de l'Histoire Infinie et embranchements">
+
+Le scénario de l'Histoire Infinie introduit un changement narratif majeur dans l'intrigue de la Patrouille du Temps. Au lieu de corriger l'histoire selon un chemin linéaire unique, les joueurs interagissent avec le mystérieux scientifique Fu, qui expérimente des failles temporelles. Vous avez le choix d'aider Fu dans ses expériences chaotiques ou de vous ranger du côté du Vieux Kaïo Shin pour préserver la chronologie correcte.
+
+Cette structure ramifiée signifie que vos choix impactent directement les combats de boss que vous rencontrez, les alliés qui vous rejoignent et la conclusion de l'histoire. Pour atteindre 100 % de complétion dans le Tokipédia, vous devez rejouer ces missions plusieurs fois en utilisant différents mentors comme partenaires.
+
+<CardGrid cols={3}>
+  <Card title="Route de Fu">
+    - **Aider les expériences de Fu**
+    - Altérer les événements historiques
+    - Débloquer des scénarios de combat chaotiques
+  </Card>
+  <Card title="Route du Vieux Kaïo Shin">
+    - **Défendre la chronologie correcte**
+    - Supprimer les failles temporelles de Fu
+    - Combats traditionnels de la Patrouille du Temps
+  </Card>
+  <Card title="Branches des Mentors">
+    - **Amener différents mentors**
+    - Déclencher des dialogues uniques
+    - Débloquer des techniques de partenaire personnalisées
+  </Card>
+</CardGrid>
+
+Pour maximiser vos récompenses et vivre pleinement le récit, vous devez terminer les cinq quêtes parallèles incluses dans ce pack. Ces quêtes sont la méthode principale pour obtenir les nouvelles techniques, tenues et Super Âmes.
+
+| N° Quête | Titre | Butins clés | Difficulté |
+| --- | --- | --- | --- |
+| PQ 118 | Un combat désespéré | Double Masenko, Tenue de Ranger | Moyenne |
+| PQ 119 | La puissance d'un dieu | Méditation, Afflux de puissance | Élevée |
+| PQ 120 | Les manigances de Fu | Frappe sournoise, Vêtements de Fu | Élevée |
+| PQ 121 | Une puissance hors norme | Signe divin, Perruque de Goku UI | Très élevée |
+| PQ 122 | Le combat final | Charge explosive, Vêtements de Jiren | Expert |
+
+<Callout type="tip" title="Conseil pour le Tokipédia">
+Augmentez l'amitié avec votre mentor au maximum avant de commencer les missions de l'Histoire Infinie. Cela débloque des branches de dialogue exclusives et garantit l'obtention du pourcentage de complétion le plus élevé.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Configuration de builds : Techniques ultimes et Super Âmes">
+
+L'extension introduit huit nouvelles techniques et huit Super Âmes qui peuvent redéfinir complètement vos builds de Policiers du Temps personnalisés. Que vous jouiez un Terrien axé sur la Frappe, un Saiyan spécialisé dans les Kikohas ou un Namek défensif, ces ajouts offrent des options hautement compétitives pour le contenu de fin de jeu.
+
+La synergie la plus notable provient de la combinaison des techniques de Jiren. Méditation permet à n'importe quel personnage d'atteindre 10 barres de Ki, ce qui est l'exigence exacte nécessaire pour lancer l'ultime dévastatrice Afflux de puissance.
+
+<Steps>
+  <Step num="1" title="Acquérir les techniques de base">
+    Farmez la Quête Parallèle 119 pour débloquer Méditation et Afflux de puissance. Elles sont essentielles pour les builds de Frappe à gros dégâts.
+  </Step>
+  <Step num="2" title="Ajuster les points d'attributs">
+    Allouez au moins 125 points d'attributs en Super Frappes et en Endurance Max pour vous assurer de maintenir votre pression offensive.
+  </Step>
+  <Step num="3" title="Équiper la bonne Super Âme">
+    Équipez la Super Âme de Jiren pour booster vos dégâts physiques globaux et accélérer votre récupération de Ki pendant les longs combos.
+  </Step>
+  <Step num="4" title="Optimiser la boucle de combat">
+    Commencez le match en activant Méditation, puis utilisez des combos de base pour accumuler du Ki avant de déclencher Afflux de puissance pour un KO potentiel en un coup.
+  </Step>
+</Steps>
+
+| Nom de la technique | Type | Effet clé | Recommandation de build |
+| --- | --- | --- | --- |
+| Méditation | Amélioration | Étend les barres de Ki à 10 et booste la régén | Utilitaire universel |
+| Afflux de puissance | Ultime de frappe | Inflige d'énormes dégâts physiques | Builds axés sur la frappe |
+| Frappe sournoise | Super frappe | Frappe physique évasive | Builds PvP techniques |
+| Signe divin | Ultime Kikoha | Frappe et rayon à ciblage automatique | Builds hybrides |
+
+<Callout type="warning" title="Équilibrage de la technique Méditation">
+Des mises à jour d'équilibrage récentes ont réduit la durée active de Méditation. Assurez-vous de rafraîchir le boost pendant les projections en combat pour conserver vos barres de Ki étendues.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Dragon Ball Xenoverse 2 Extra Pack 2 : Spécifications et Valeur">
+
+Avant d'acheter cette extension, les joueurs doivent s'assurer que leur matériel répond aux exigences de performance nécessaires. Développé par QLOC et Dimps Corporation, et édité par Bandai Namco Entertainment, le jeu est hautement optimisé mais nécessite le jeu de base pour fonctionner.
+
+Actuellement, les joueurs peuvent trouver d'excellentes offres promotionnelles sur les boutiques numériques. Par exemple, sur Steam, le pack bénéficie fréquemment de promotions spéciales, offrant une réduction de 50 % qui fait passer le prix standard de 9,99 $ à 4,99 $. Cela en fait un ajout de très grande valeur à votre bibliothèque de jeux.
+
+| Configuration | Spécification minimale | Spécification recommandée |
+| --- | --- | --- |
+| Système d'exploitation | Windows 10 (64-bit) | Windows 10 / Windows 11 (64-bit) |
+| Processeur | Intel Core i5-3570 / AMD Ryzen 5 1600 | AMD Ryzen 3 3100 / Intel Core i5-6400 |
+| Mémoire vive | 4 Go de RAM | 8 Go de RAM |
+| Graphismes | Nvidia GTX 1030 / AMD HD 7770 | Nvidia GTX 750 Ti / AMD HD 7850 |
+| DirectX | Version 11 | Version 11 |
+
+Pour personnaliser davantage votre build, vous devriez également examiner les nouvelles Super Âmes ajoutées dans ce pack. Ces âmes fournissent des bonus de combat passifs qui peuvent entrer en synergie avec votre style de jeu choisi.
+
+| Nom de la Super Âme | Personnage associé | Effet passif clé | Rôle en combat |
+| --- | --- | --- | --- |
+| C'est un boost, pas une transformation | Jiren | Booste tous les dégâts lors de l'utilisation de boosts | Buff offensif |
+| J'ai atteint ma limite | Goku (Ultra Instinct) | Récupère l'endurance automatiquement après un brise-garde | Survie défensive |
+| Il est temps de tester mes expériences | Fu | Booste la vitesse de récup de Ki quand la santé est max | Zoner technique |
+
+<Callout type="success" title="Verdict de la communauté Steam">
+Avec plus de 250 avis d'utilisateurs résultant en une évaluation "Très positive" sur Steam, ce pack est largement considéré par la communauté comme l'un des DLC offrant le meilleur rapport qualité-prix pour le jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle de complétion du DLC">
+
+Pour maîtriser pleinement le contenu fourni dans cette extension, vous devriez viser à relever tous les nouveaux défis. Cela inclut de terminer les chemins narratifs ramifiés, de maîtriser les nouveaux personnages et de débloquer tous les équipements personnalisés. Utilisez la liste ci-dessous pour suivre votre progression.
+
+<Checklist
+  id="extra-pack-2-completion"
+  title="Étapes clés de l'Extra Pack 2 :"
+  items={[
+    "Débloquer les 4 nouveaux personnages : Goku (UI), Jiren, Fu et C-17",
+    "Atteindre 100 % de complétion sur la chronologie ramifiée du Tokipédia",
+    "Obtenir les 8 nouvelles techniques des Quêtes Parallèles 118 à 122",
+    "Collecter les 8 nouvelles Super Âmes pour vos builds de Policier du Temps",
+    "Débloquer les deux tenues de personnages personnalisées pour Fu et C-17 Ranger"
+  ]}
+/>
+
+<Callout type="tip" title="Avantage du farming en coop">
+Si vous avez du mal à obtenir des Finitions Ultimes sur les Quêtes Parallèles 121 ou 122, créez un salon en ligne. Jouer avec de vrais joueurs facilite grandement l'obtention des techniques par rapport aux compagnons IA.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Ai-je besoin du jeu de base pour jouer à Dragon Ball Xenoverse 2 Extra Pack 2 ?",
+    answer: "Oui, il s'agit d'un contenu téléchargeable (DLC) qui nécessite que le jeu de base Dragon Ball Xenoverse 2 soit installé sur votre système pour pouvoir y jouer."
+  },
+  {
+    question: "Comment débloquer les techniques de Goku Ultra Instinct pour mon personnage personnalisé ?",
+    answer: "Vous devez terminer la Quête Parallèle 121 avec une Finition Ultime. Cela vous donne une chance aléatoire de débloquer Signe divin et Poing foudroyant pour votre Policier du Temps."
+  },
+  {
+    question: "Qu'est-ce que le Tokipédia et comment y accéder ?",
+    answer: "Le Tokipédia est une carte de suivi de l'histoire débloquée pendant le scénario de l'Histoire Infinie. Vous pouvez y accéder dans le Nid du Temps pour rejouer les missions ramifiées avec différents mentors."
+  },
+  {
+    question: "La technique Afflux de puissance de Jiren est-elle utilisable par toutes les races ?",
+    answer: "Oui, n'importe quelle race de Policier du Temps personnalisé peut équiper et utiliser Afflux de puissance, à condition d'avoir les 10 barres de Ki requises pour activer l'attaque."
+  }
+]} />
+
+<Callout type="info" title="Note finale">
+N'oubliez pas de consulter régulièrement la page de la boutique Steam ou le magasin numérique de votre console, car les soldes saisonnières regroupent souvent ce pack avec d'autres Extra Packs pour une réduction encore plus importante.
+</Callout>
+
+</Section>

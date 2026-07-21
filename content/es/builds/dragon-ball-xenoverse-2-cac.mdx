@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "CaC de Dragon Ball Xenoverse 2: Comparación de Builds y Estadísticas",
+  description: "Descubre la guía definitiva de CaC para Dragon Ball Xenoverse 2. Compara razas, géneros, alturas, pesos y estilos iniciales para crear al guerrero personalizado perfecto.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=CaC+Build+and+Stats",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Dragon Ball Xenoverse 2",
+  keywords: "dragon ball xenoverse 2, cac, build, estadísticas, razas, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Elección Principal**: Tu raza y género dictan tus multiplicadores base y habilidades pasivas de combate.
+- **Escalamiento Físico**: La altura altera directamente tu salud y velocidad, mientras que el peso corporal altera tu daño de golpes (strike) y ráfagas de Ki.
+- **Estilo Inicial**: Seleccionar un estilo inicial solo afecta las habilidades al principio del juego y no bloquea tu build final.
+- **Prioridad de QQ Bang**: Usa siempre QQ Bangs de alto nivel para anular las estadísticas de la ropa y maximizar el potencial de tu personaje personalizado.
+- **Límites de Atributos**: Aumenta tus estadísticas principales para que coincidan con las fortalezas de tu raza en lugar de intentar equilibrarlo todo.
+</Callout>
+
+<Section icon={Swords} title="Elección de Raza y Género en Dragon Ball Xenoverse 2">
+
+Crear a tu personaje personalizado, o **CaC de Dragon Ball Xenoverse 2**, es la decisión más crítica que tomarás en el juego. Tu elección de raza y género determina tus atributos base, cadenas de combos y habilidades pasivas. A diferencia de las habilidades o el equipo, tu raza y género no se pueden cambiar más adelante sin crear un personaje completamente nuevo.
+
+Cada raza tiene mecánicas pasivas integradas que se activan durante el combate. Por ejemplo, los Saiyans obtienen aumentos masivos de poder cuando su salud baja, mientras que los Terrícolas regeneran Ki automáticamente con el tiempo. Comprender estas diferencias es esencial para planificar tu build final.
+
+| Raza y Género | Calificación de Salud | Daño de Golpes | Daño de Ráfagas de Ki | Habilidad Pasiva Única |
+| :--- | :--- | :--- | :--- | :--- |
+| Humano Masculino | Media | Alto | Medio | El Ki se rellena automáticamente; el ataque sube al máximo de Ki |
+| Humana Femenina | Media | Medio | Alto | El Ki se rellena automáticamente; el ataque sube al máximo de Ki |
+| Saiyan Masculino | Baja | Alto (Cuerpo a cuerpo) | Medio | El ataque sube con HP bajo; las estadísticas aumentan tras revivir |
+| Saiyan Femenina | Baja | Medio | Alto | Mejor recuperación de Ki/Resistencia; Asistencias Z más fuertes |
+| Majin Masculino | Alta | Medio | Medio | Daño reducido con resistencia alta; recuperación lenta de resistencia |
+| Majin Femenina | Media | Medio | Medio | Menor duración de la rotura de resistencia; recuperación lenta |
+| Namekiano | Alta | Bajo | Bajo | Relleno rápido de resistencia; la salud se regenera cuando está baja |
+| Raza de Freezer | Baja | Medio | Alto | Alta velocidad de movimiento; la resistencia se recupera al atacar |
+
+<Callout type="tip" title="Consejo Pro: Selección de Raza">
+Si quieres enfocarte totalmente en Súper Ráfagas de Ki, elige una Terrícola femenina o una Saiyan femenina. Para configuraciones de golpes físicos, los Terrícolas masculinos y los Saiyans masculinos ofrecen los modificadores base más altos.
+</Callout>
+
+Cada raza también presenta opciones cosméticas y animaciones de combate únicas. La Raza de Freezer se basa en ataques básicos rápidos y alta movilidad, lo que los hace excelentes para mantener la presión sobre los oponentes. Los Namekianos, por otro lado, actúan como los supervivientes definitivos debido a sus enormes reservas de salud y regeneración pasiva de salud.
+
+</Section>
+
+<Section icon={Map} title="Impacto de la Personalización de Altura y Peso">
+
+Las dimensiones físicas en el creador de personajes no son puramente cosméticas. La altura y el peso de tu personaje personalizado introducen modificadores de porcentaje directos a tus estadísticas base. Ajustar estos controles deslizantes te permite perfeccionar a tu guerrero para que coincida con tu estilo de juego preferido.
+
+La altura altera el equilibrio entre tu reserva de salud máxima y tu velocidad de movimiento. Los personajes más altos pueden sobrevivir a más castigo y tienen un mayor alcance físico en el combate cuerpo a cuerpo, pero se mueven más lento por el campo de batalla. Los personajes más pequeños son muy ágiles pero frágiles.
+
+| Nivel de Altura | Modificador de Salud | Modificador de Velocidad | Estilo de Juego Recomendado |
+| :--- | :--- | :--- | :--- |
+| 1 (Más bajo) | 95% | 110% | Hostigadores rápidos, builds evasivas |
+| 2 (Bajo el promedio) | 100% | 105% | Configuraciones ofensivas equilibradas |
+| 3 (Sobre el promedio) | 105% | 100% | Configuraciones de tanque ligero, builds de melé estándar |
+| 4 (Más alto) | 110% | 95% | Builds de tanque, atacantes de golpes con gran alcance |
+
+<Callout type="info" title="Nota sobre el Alcance Físico">
+La altura también afecta sutilmente el alcance de tus ataques básicos. Los personajes altos pueden asestar combos físicos desde un poco más lejos, lo cual es muy beneficioso para las builds enfocadas en golpes.
+</Callout>
+
+El tipo de cuerpo, o peso, escala directamente tu potencia ofensiva. Este ajuste crea un intercambio entre Súper Golpes y Súper Ráfagas de Ki. Los personajes más delgados destacan en ataques de energía a larga distancia, mientras que los personajes más robustos infligen significativamente más daño con golpes físicos y ataques básicos.
+
+| Tipo de Cuerpo | Daño de Golpes y Básico | Daño de Ráfaga de Ki | Clase Recomendada |
+| :--- | :--- | :--- | :--- |
+| Delgado | 0.0% Bono | 7.0% Bono | Spammers de Ki, Terrícolas Femeninas |
+| Promedio | 3.5% Bono | 3.5% Bono | Configuraciones híbridas, luchadores versátiles |
+| Robusto | 7.0% Bono | 0.0% Bono | Especialistas en Golpes, Saiyans Masculinos |
+
+</Section>
+
+<Section icon={Target} title="Cómo buildear tu CaC de Dragon Ball Xenoverse 2">
+
+Para maximizar la eficiencia de tu personaje personalizado, debes alinear tus atributos, equipo y habilidades. Distribuir tus puntos de atributo de manera demasiado dispersa entre todas las estadísticas resultará en un personaje débil. En su lugar, especialízate en un arquetipo de combate específico.
+
+Al asignar tus puntos de atributo, concéntrate en tu fuente principal de daño. Si elegiste un Saiyan masculino robusto, invierte puntos en Ataques Básicos y Súper Golpes. Si elegiste una Terrícola femenina delgada, maximiza las Súper Ráfagas de Ki y el Ki Máximo.
+
+<CardGrid cols={3}>
+  <Card title="Especialista en Golpes">
+    - **Elección de Raza**: Terrícola Masculino o Saiyan Masculino
+    - **Peso**: Robusto (7% bono de Golpes)
+    - **Enfoque**: Ataques Básicos, Súper Golpes, Resistencia Máxima
+  </Card>
+  <Card title="Aniquilador de Ráfagas de Ki">
+    - **Elección de Raza**: Terrícola Femenina, Saiyan Femenina o Raza de Freezer
+    - **Peso**: Delgado (7% bono de Ráfagas de Ki)
+    - **Enfoque**: Súper Ráfagas de Ki, Ki Máximo, Salud Máxima
+  </Card>
+  <Card title="Híbrido Equilibrado">
+    - **Elección de Raza**: Saiyan Masculino o Terrícola Masculino
+    - **Peso**: Promedio (Bonos equilibrados)
+    - **Enfoque**: División equitativa entre Golpes y Ráfagas de Ki
+  </Card>
+</CardGrid>
+
+Tu elección de estilo de lucha al comienzo del juego determina tu conjunto de habilidades iniciales. Aunque eventualmente puedes desbloquear todas las habilidades, elegir el estilo correcto hace que la progresión al principio del juego sea mucho más fluida.
+
+| Estilo de Lucha | Habilidad Inicial 1 | Habilidad Inicial 2 | Habilidad Definitiva | Enfoque del Estilo de Juego |
+| :--- | :--- | :--- | :--- | :--- |
+| Estilo de Golpes | Golpe de Meteoro | Choque de Meteoros | Ráfaga de energía a plena potencia | Combate a corta distancia |
+| Estilo de Ráfaga de Ki | Ráfagas de energía consecutivas | Disparo de energía | Ráfaga de energía a plena potencia | Zonificación a larga distancia |
+| Estilo Mixto | Imagen Reflejada | Choque de Meteoros | Ráfaga de energía a plena potencia | Combate híbrido equilibrado |
+
+<Callout type="warning" title="Advertencia sobre QQ Bang">
+No elijas tu ropa basándote en sus modificadores de estadísticas. En la etapa media o avanzada del juego, debes equipar un QQ Bang. Los QQ Bangs anulan por completo todas las estadísticas de la ropa, permitiéndote usar cualquier atuendo por estética sin arruinar tu build.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Creación y Optimización de Personaje Paso a Paso">
+
+Sigue esta progresión estructurada para crear, optimizar y buildear tu personaje personalizado desde cero. Esto asegura que no desperdicies valiosos puntos de atributo o recursos durante tu viaje.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Raza y Género">
+    Elige una combinación de raza y género que coincida con tu estilo de juego deseado. Consulta los modificadores de estadísticas para asegurar que tu elección se alinee con el combate físico de golpes o las ráfagas de Ki a larga distancia.
+  </Step>
+  <Step num="2" title="Ajusta los Controles de Altura y Peso">
+    Establece tu altura para ajustar el equilibrio entre salud y velocidad. Establece tu peso en delgado para builds de ráfagas de Ki, robusto para builds de golpes, o promedio para configuraciones híbridas.
+  </Step>
+  <Step num="3" title="Elige tu Estilo de Lucha Inicial">
+    Selecciona Golpes, Ráfaga de Ki o Mixto. Esto te otorgará tu primer conjunto de habilidades activas. El estilo Mixto es muy recomendable para principiantes, ya que proporciona la versátil habilidad Imagen Reflejada.
+  </Step>
+  <Step num="4" title="Asigna Puntos de Atributo Sabiamente">
+    A medida que subas de nivel, invierte puntos en estadísticas que tengan sinergia con tu raza. Evita poner puntos en estadísticas que no utilices. Por ejemplo, no aumentes los Súper Golpes en una build de pura Ráfaga de Ki.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Opción de Reinicio de Estadísticas">
+Si cometes un error con tus puntos de atributo, no te preocupes. Puedes reunir las siete Bolas de Dragón y pedirle un deseo a Shenron para tener una "segunda oportunidad en la vida", lo que reinicia completamente tus puntos de atributo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos y Lista de Verificación de Fin de Juego">
+
+Una vez creado tu personaje, tu enfoque debe cambiar hacia desbloquear todo su potencial. Esto implica completar hitos específicos para desbloquear transformaciones avanzadas, límites de nivel más altos y equipo de primer nivel.
+
+Para alcanzar el pico absoluto de poder, debes progresar en la historia, completar lecciones de entrenamiento con varios mentores y desbloquear poderosas Habilidades Despertadas como Bestia o Potencial Desatado. Usa esta lista para seguir tu progreso.
+
+<Checklist
+  id="cac-progression"
+  title="Hitos Esenciales:"
+  items={[
+    "Completa el modo historia principal para desbloquear todas las misiones secundarias",
+    "Visita la Casa del Gurú para desbloquear el límite de atributos y el límite de nivel más allá del 80",
+    "Desbloquea la Habilidad Despertada específica de tu raza y transformaciones universales como Bestia",
+    "Crea un QQ Bang de 6 estrellas en la Falla Temporal de la Corporación Cápsula",
+    "Maximiza la amistad con mentores clave para desbloquear ataques definitivos avanzados"
+  ]}
+/>
+
+<Callout type="info" title="Progresión del Límite de Nivel">
+Por defecto, tus atributos están limitados a 100 puntos y tu nivel a 80. Debes defender la Casa del Gurú varias veces en la Falla Temporal Namekiana para que el Gurú extraiga tu potencial, elevando el límite de atributos a 125 y permitiéndote subir al nivel 99 y más allá.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<Callout type="tip" title="¿Necesitas respuestas rápidas?">
+Revisa las preguntas frecuentes a continuación para resolver problemas comunes sobre la personalización del personaje, el reinicio de estadísticas y la optimización de la build.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Puedo cambiar la apariencia o el nombre de mi CaC de Dragon Ball Xenoverse 2 más tarde?",
+    answer: "Puedes cambiar la apariencia física, la voz y los colores de tu personaje reuniendo las siete Bolas de Dragón y pidiendo un deseo a Shenron. Sin embargo, no puedes cambiar el nombre o la raza de tu personaje sin comenzar en una ranura de personaje completamente nueva."
+  },
+  {
+    question: "¿Cuál es la mejor raza para un jugador principiante?",
+    answer: "Los Terrícolas (Humanos) son la mejor opción para principiantes. Tienen combos de ataque básico muy intuitivos, estadísticas ofensivas equilibradas y regeneración pasiva de Ki, lo que facilita mucho la gestión de recursos durante las misiones iniciales."
+  },
+  {
+    question: "¿Cómo funcionan los QQ Bangs y por qué son importantes?",
+    answer: "Los QQ Bangs son objetos equipables que anulan por completo los modificadores de estadísticas de tu ropa. Esto te permite usar cualquier atuendo cosmético que desees sin preocuparte por penalizaciones de estadísticas negativas. Se fabrican en la Falla Temporal de la Corporación Cápsula."
+  },
+  {
+    question: "¿Cómo desbloqueo la transformación de Bestia para mi personaje personalizado?",
+    answer: "Para desbloquear la forma de Bestia, debes maximizar tus niveles de amistad con los mentores Gohan y Videl, y Piccolo. Una vez completado, habla con Piccolo en la Academia de Patrulleros del Tiempo y completa la batalla de entrenamiento especial."
+  }
+]} />
+
+</Section>

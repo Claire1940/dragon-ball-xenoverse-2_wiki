@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Torneio Mundial de Dragon Ball Xenoverse 2: Guia PvP 2026",
+  description: "Domine o torneio mundial de Dragon Ball Xenoverse 2 com nosso guia de 2026 sobre limites de QP, recompensas exclusivas, estratégias de personagens e dicas de ranking.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=World+Tournament+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de Dragon Ball Xenoverse 2",
+  keywords: "dragon ball xenoverse 2, torneio mundial, pvp, guia, recompensas, qp"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Evento Principal**: O **torneio mundial de dragon ball xenoverse 2** é um evento PvP online periódico, com duração de dois dias.
+- **Quest Points**: Os jogadores ganham QPs para subir no ranking, com as regras de pontuação mudando drasticamente no **limite de 1600 QP**.
+- **Recompensas Exclusivas**: Os melhores ranks recebem **Nomes de Rua** exclusivos, títulos, Medalhas TP e Medalhas STP.
+- **Builds Estratégicas**: Jogadores de alto nível costumam utilizar personagens como **Jiren (Poder Total)** ou Goku Blue para dominar.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Torneio Mundial de Dragon Ball Xenoverse 2">
+
+O **torneio mundial de dragon ball xenoverse 2** é um modo PvP online altamente competitivo onde os jogadores testam suas habilidades em batalhas temáticas, com elenco restrito ou com avatares personalizados. Realizado periodicamente por períodos consecutivos de dois dias, este evento transforma a Arena do Torneio Mundial de Artes Marciais em Conton City. Os jogadores podem identificar facilmente um torneio ativo pelos fogos de artifício festivos e confetes flutuando sobre a arena, além de um ponto de exclamação arco-íris sobre os NPCs de Recepção do Torneio. Participar dessas partidas é o principal método para desbloquear alguns dos títulos, nomes de rua e trajes cosméticos mais raros do jogo.
+
+**Destaques em Vídeo:**
+- Aprenda como subir para o top 10 do ranking em menos de 30 minutos de jogo eficiente.
+- Descubra por que personagens com atributos base massivos, como Jiren (Poder Total), se destacam nos torneios.
+- Entenda como lidar com comportamentos comuns no PvP, como o spam de defesa (block mashing) e cancelamento de golpes (key canceling).
+- Veja o impacto da latência de conexão nos combos e como adaptar sua estratégia.
+
+<YouTubeEmbed videoId="Dk9aTgFgu0w" title="Venci os Melhores Jogadores com 0 Derrotas no NOVO Torneio Budokai Tenkaichi de Dragon Ball Xenoverse 2" />
+
+Para obter acesso aos campos do torneio, os jogadores devem atender aos requisitos básicos de progressão. Você não pode simplesmente entrar na arena com um personagem novo; uma base de conclusão da história é obrigatória para garantir que todos os participantes entendam as mecânicas principais de voo, gerenciamento de vigor (stamina) e combate básico.
+
+<Callout type="warning" title="Requisitos de Acesso">
+Para participar de qualquer torneio ativo, você deve concluir tanto **A Ameaça Saiyajin** quanto **Confusão no Planeta Namek** no modo história principal. Além disso, é necessária uma conexão online estável e uma assinatura ativa para multijogador.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Quest Points e Mecânicas de Ranking">
+
+O objetivo principal durante qualquer torneio é acumular Quest Points (QPs). Seu total de QP determina sua colocação na tabela de classificação global, que é exibida e atualizada em tempo real no Mural de Notícias verde na área da Máquina do Tempo em Conton City. O sistema de matchmaking, aliado ao sistema de alocação de pontos, cria um ambiente de alto risco onde uma única derrota pode atrasar horas de progresso, especialmente após ultrapassar limites específicos de pontos.
+
+Entender como os pontos escalam é crucial para otimizar sua subida. O sistema utiliza um limite suave em 1600 QPs, alterando completamente a relação risco-recompensa de cada partida que você aceita.
+
+| Limite de QP | Pontos por Vitória | Pontos por Derrota | Estratégia de Progressão |
+| :--- | :--- | :--- | :--- |
+| Abaixo de 1600 QP | Mínimo de 40 QP | 1 a 3 QP | Matchmaking agressivo, lutas rápidas |
+| Acima de 1600 QP | Mínimo de 10 QP | 5 a 10 QP | Partidas de alto risco, foque nos ranks mais altos |
+
+Quando você está abaixo de 1600 QPs, o sistema é muito tolerante. Derrotar um oponente com uma contagem de pontos semelhante ou inferior garante pelo menos 40 QPs, enquanto perder retira apenas insignificantes 1 a 3 pontos. Isso permite que os jogadores subam rapidamente através do volume de jogo. No entanto, uma vez que você cruza a marca de 1600 QP, a base muda. Vitórias contra jogadores de rank inferior rendem apenas 10 QPs, enquanto uma derrota contra eles pode tirar 10 QPs. Para progredir eficientemente após este ponto, você deve focar em jogadores com totais de QP mais altos para maximizar seus ganhos e minimizar suas perdas.
+
+<Callout type="tip" title="Integração de Pontos de Glória">
+Durante os eventos especiais do **Festival dos Universos**, participar de partidas de torneio também concede Pontos de Glória, permitindo que você contribua para a classificação geral da equipe escolhida enquanto ganha recompensas individuais.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Formatos de Torneio e Seleção de Personagens">
+
+Nem todos os torneios são iguais. Os desenvolvedores alternam entre vários formatos distintos para manter o meta atualizado e evitar que os jogadores dependam de um único personagem dominante ou build de avatar. Preparar-se para um torneio exige entender qual formato está ativo e quais personagens podem ser selecionados.
+
+<CardGrid cols={3}>
+  <Card title="Torneios Temáticos">
+    - **Restrições de elenco** baseadas em grupos específicos (ex: Saiyajins, Terráqueos ou Espadachins).
+    - Força os jogadores a se adaptarem a personagens que normalmente não usariam.
+    - Oferece Nomes de Rua e Títulos temáticos exclusivos.
+  </Card>
+  <Card title="Torneios de Avatar">
+    - Restrito a builds de **Personagens Criados (CaC)**.
+    - Altamente imprevisível devido aos conjuntos de habilidades e atributos personalizados.
+    - Frequentemente recompensa conjuntos de armadura exclusivos, como as Roupas do Paragus.
+  </Card>
+  <Card title="Torneios de Personagem/Parceiro">
+    - Partidas espelhadas ou restritas a personagens mentores.
+    - Destaca a habilidade mecânica pura sobre a otimização da build.
+    - Excelente para aprender os dados de frame de personagens específicos.
+  </Card>
+</CardGrid>
+
+Em muitos desses formatos competitivos, mecânicas que alteram o jogo são desativadas. Por exemplo, Explosões de Limite (Limit Bursts) e Super Almas são frequentemente desligadas. Isso muda o foco inteiramente para as habilidades fundamentais de combate: conservação de vigor, defesa perfeita (perfect block) e execução de combos limpos sem depender de regeneração passiva de vida ou bônus de ataque.
+
+| Formato | Personagens Utilizáveis | Recompensas Exclusivas | Estilo de Matchmaking |
+| :--- | :--- | :--- | :--- |
+| Temático | Elenco específico (ex: Saiyajins, Terráqueos) | Nomes de Rua, Títulos, Medalhas STP | Salas com elenco bloqueado |
+| Avatar | Apenas Avatares Personalizados (CaC) | Roupas do Paragus, Trajes de Torneio | Batalhas apenas de CaC |
+| Personagem | Um único personagem do elenco designado | Títulos específicos do personagem, Medalhas TP | Partidas espelhadas |
+| Parceiro | Apenas personagens mentores | Títulos com tema de mentoria | Combate focado em mentores |
+
+<Callout type="info" title="Sem Explosões de Limite">
+Muitos conjuntos de regras de torneio desativam completamente as Explosões de Limite e Super Almas. Sem a recuperação automática de KI ou explosões defensivas, os jogadores devem confiar puramente no gerenciamento manual de vigor e combos básicos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guia Passo a Passo para Alcançar um Rank Alto">
+
+Subir nas tabelas de classificação de forma eficiente requer mais do que apenas apertar botões. Jogadores de alto nível utilizam estratégias estruturadas para garantir vitórias rápidas e minimizar o tempo de inatividade entre as partidas. Siga esta abordagem passo a passo para otimizar sua jornada no torneio.
+
+<Steps>
+  <Step num="1" title="Construa sua Base (Abaixo de 1600 QP)">
+    Nas fases iniciais, priorize a velocidade. Use personagens altamente agressivos com iniciadores de combo rápidos, como Goku Blue ou Hit, para despachar rapidamente oponentes de rank inferior. Não se preocupe em perder, pois a penalidade de pontos é mínima. Foque em garantir o máximo possível de vitórias de 40 QP.
+  </Step>
+  <Step num="2" title="Analise o Lobby de Matchmaking">
+    Ao criar ou procurar salas, preste muita atenção às barras de conexão do seu oponente. Partidas com alta latência podem arruinar quebras de vigor precisas e levar a combos perdidos. Se encontrar um oponente com muito lag, jogue defensivamente, confie em ferramentas neutras seguras e use frames ativos de alta prioridade.
+  </Step>
+  <Step num="3" title="Domine a Gestão de Vigor (Stamina)">
+    Nunca esgote seu vigor, a menos que isso garanta um nocaute. Se um oponente tentar induzir sua evasiva, use-a apenas quando for absolutamente necessário. Personagens como Jiren (Poder Total) se destacam aqui devido à alta defesa natural, permitindo que recebam golpes sem queimar recursos imediatamente.
+  </Step>
+  <Step num="4" title="Foque em Oponentes de Alto Valor (Acima de 1600 QP)">
+    Depois de passar da marca de 1600 QP, pare de lutar contra jogadores de poucos pontos. Procure por oponentes nos ranks mais altos. Vencer um jogador com significativamente mais pontos que você pode render ganhos massivos de QP, pulando o lento acúmulo de 10 pontos e mitigando o risco de pesadas penalidades por derrota.
+  </Step>
+</Steps>
+
+Escolher o arquétipo certo é essencial para executar essa progressão passo a passo. A tabela abaixo descreve os estilos de jogo mais eficazes para as condições do torneio.
+
+| Arquétipo | Principais Forças | Personagens Recomendados | Dificuldade do Estilo de Jogo |
+| :--- | :--- | :--- | :--- |
+| Potência | Grande quantidade de vida, golpes pesados | Jiren (Poder Total), Broly | Moderada |
+| Especialista em Velocidade | Animações rápidas, cancelamentos instantâneos | Goku Blue, Hit | Alta |
+| Lutador Equilibrado | Recuperação de vigor confiável, combos versáteis | Gohan (Adulto), Vegeta | Baixa |
+
+<Callout type="success" title="Vantagem de Sequência de Vitórias">
+Manter um histórico impecável logo no início cria ímpeto. Se você conseguir derrotar os jogadores de rank mais alto no seu lobby no início do ciclo do torneio, poderá garantir uma posição no top 10 em menos de uma hora de jogo ativo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas Exclusivas e Nomes de Rua">
+
+O objetivo final para a maioria dos participantes do torneio é adquirir cosméticos, títulos e nomes de rua exclusivos que não podem ser obtidos em nenhum outro lugar do jogo. Essas recompensas servem como símbolos de status em Conton City, exibindo sua proeza no PvP para outros jogadores.
+
+<Checklist
+  id="tournament-rewards"
+  title="Recompensas de Torneio de Alta Prioridade:"
+  items={[
+    "Ganhe o Nome de Rua exclusivo 'Rogue' ao ficar em 1º lugar em qualquer torneio temático.",
+    "Desbloqueie cartões de título únicos como 'Dragon Ball Super' ou 'Red Ribbon Army'.",
+    "Colete conjuntos cosméticos completos como o Biquíni Fashion, Biquíni Camuflado ou as Roupas do Paragus.",
+    "Acumule Medalhas TP e Medalhas STP através da participação e colocações em chaves altas."
+  ]}
+/>
+
+Embora algumas recompensas como o Biquíni Fashion possam ocasionalmente ser obtidas por métodos alternativos, como presentear mentores ou Missões de Incursão específicas, a maioria dos Nomes de Rua exclusivos está estritamente bloqueada atrás da colocação em torneios.
+
+| Nome de Rua | Fonte do Torneio | Rank Necessário | Disponibilidade Geral |
+| :--- | :--- | :--- | :--- |
+| Rogue | Qualquer Torneio Temático | 1º Lugar | Extremamente raro |
+| Naughty | Torneios de Saiyajin ou Gohan | 1º ao 5º Lugar | Rotação periódica |
+| Supreme Being | Torneios de Divindades ou Trunks do Futuro | 1º ao 5º Lugar | Rotação periódica |
+| Protector | Torneios da Força Freeza | 1º ao 5º Lugar | Rotação periódica |
+
+Itens cosméticos e acessórios são frequentemente vinculados a marcos cumulativos de QP em vez de classificações rígidas na tabela, tornando-os acessíveis a jogadores casuais que estão dispostos a dedicar tempo.
+
+| Equipamento | Fonte do Torneio | Método de Desbloqueio | Fonte Alternativa |
+| :--- | :--- | :--- | :--- |
+| Biquíni Fashion | Torneio de Verão Parte 1 | Atingir marcos de QP específicos | Presentes de mentoria da Videl |
+| Bermuda de Natação Fashion | Torneio de Verão Parte 2 | Atingir marcos de QP específicos | Recompensas de Missão de Incursão |
+| Roupas do Paragus | Torneio de Avatar | Atingir marcos de QP específicos | Não disponível em outro lugar |
+
+<Callout type="warning" title="Resgatando Suas Recompensas">
+As recompensas do torneio não são distribuídas instantaneamente. Após o término do evento, os rankings são finalizados. Você deve esperar um curto período antes de resgatar seus itens na estação de Entrega de Espaço-Tempo. Nomes de Rua e Títulos exclusivos são adicionados diretamente ao seu menu de Dados de Jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Com que frequência o torneio mundial de dragon ball xenoverse 2 é realizado?",
+    answer: "O torneio é um evento periódico, geralmente ocorrendo durante dois dias consecutivos após cada duas ou três Missões de Incursão Online. Verifique o Mural de Notícias verde em Conton City para os horários mais recentes."
+  },
+  {
+    question: "Posso usar meu personagem personalizado (CaC) em todos os torneios?",
+    answer: "Não. Personagens personalizados são restritos a Torneios Mundiais de Avatar específicos. Torneios Temáticos e de Personagem exigem que você use personagens específicos do elenco ou mentores."
+  },
+  {
+    question: "O que acontece se uma partida terminar após o período do torneio expirar?",
+    answer: "Se uma partida estiver em andamento quando o evento do torneio terminar oficialmente, a partida é considerada nula. Nenhum QP será concedido ou deduzido, independentemente de quem vencer."
+  },
+  {
+    question: "Onde eu coleto minhas recompensas de ranking após o fim do torneio?",
+    answer: "Moedas, itens e equipamentos são enviados para sua caixa de Entrega de Espaço-Tempo. Nomes de Rua e Títulos são desbloqueados automaticamente e podem ser equipados através do menu Dados de Jogo."
+  }
+]} />
+
+<Callout type="info" title="Preparação Final">
+Antes de entrar no lobby de matchmaking, certifique-se de que as predefinições do seu personagem estejam totalmente otimizadas e pratique suas configurações de quebra de vigor no modo de treinamento. A consistência na execução é a chave para conquistar as tabelas de classificação.
+</Callout>
+
+</Section>

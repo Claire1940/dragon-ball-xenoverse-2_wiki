@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dragon Ball Xenoverse 2 Nintendo Switch: Guía de Rendimiento y Configuración 2026",
+  description: "Domina Dragon Ball Xenoverse 2 en Nintendo Switch con nuestra guía de 2026. Optimiza el rendimiento, elige la mejor raza y desbloquea habilidades de élite hoy mismo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dragon+Ball+Xenoverse+2+Switch+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Dragon Ball Xenoverse 2",
+  keywords: "Dragon Ball Xenoverse 2, Nintendo Switch, rendimiento, guía, razas, habilidades"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Dragon Ball Xenoverse 2 Nintendo Switch** ofrece una experiencia híbrida única entre un brawler de arena y un RPG estilo MMO-lite.
+- **Los Ajustes de Brillo** deben configurarse al máximo de inmediato para corregir el filtro visual "lavado" que viene por defecto.
+- **La Creación de Personajes** es profunda, con cinco razas distintas que cuentan con modificadores de estadísticas y estilos de combate únicos.
+- **La Portabilidad** conlleva pequeños sacrificios, como ligeras caídas de frames en el mundo central de Conton City.
+- **Los Picos de Dificultad** son comunes en el modo historia, lo que requiere que los jugadores aprendan mecánicas más allá de simplemente machacar botones.
+</Callout>
+
+<Section icon={Map} title="Rendimiento en Switch y Optimización Visual">
+
+El port para Nintendo Switch de este título masivo es sorprendentemente robusto, ofreciendo la experiencia completa de las versiones de sobremesa en un formato portátil. Sin embargo, para sacar el máximo provecho de **Dragon Ball Xenoverse 2 Nintendo Switch** en 2026, debes configurar los aspectos técnicos correctamente. El juego viene por defecto con una configuración que puede parecer apagada y desaturada, lo que a menudo lleva a los nuevos jugadores a pensar que el port es de menor calidad de lo que realmente es.
+
+**Puntos Destacados del Vídeo:**
+- La importancia crítica de ajustar el brillo para mejorar el impacto visual.
+- Comparación de métricas de rendimiento entre el modo acoplado (docked) y portátil.
+- Descripción general del mundo central (Conton City) y mecánicas de exploración.
+- Información sobre el rol de "Patrullero del Tiempo" y el progreso de la historia.
+
+<YouTubeEmbed videoId="kAEqewDgl_U" title="Dragon Ball Xenoverse 2 Switch Review - ¿El mejor juego de DBZ?" />
+
+La fidelidad visual varía dependiendo de cómo juegues. Mientras que el combate se mantiene fluido con una tasa de fotogramas constante, el mundo central puede sufrir ocasionalmente al renderizar a docenas de otros jugadores en línea.
+
+| Modo de Juego | Resolución Objetivo | Tasa de Fotogramas | Calidad Visual |
+| :--- | :--- | :--- | :--- |
+| **Acoplado (Dock)** | 900p | 30-60 FPS | Alta claridad, colores vibrantes |
+| **Portátil** | 720p | 30 FPS | Bordes ligeramente "pixelados" |
+| **Mundo Central** | Variable | 25-30 FPS | Mayor densidad de NPCs/Jugadores |
+| **Batallas** | Estable | 60 FPS (1v1) | Optimizado para juego competitivo |
+
+<Callout type="warning" title="Corrección Visual Crítica">
+En tu primer inicio de sesión, ve directamente al menú de Opciones y ajusta el **Brillo** al máximo. La configuración predeterminada aplica un filtro gris que hace que el juego se vea descolorido. Maximizar el brillo restaura los colores vibrantes y fieles al anime que los desarrolladores pretendían.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Elección de Raza y Personalización de Personaje">
+
+Antes de comenzar tu viaje como Patrullero del Tiempo, debes crear un personaje original. Esta elección es más que estética; tu raza determina tus estadísticas base, la regeneración de salud y tus transformaciones únicas. En **Dragon Ball Xenoverse 2 Nintendo Switch**, la individualidad es clave, especialmente cuando ves los diseños únicos de cientos de otros jugadores en el lobby en línea.
+
+<CardGrid cols={3}>
+  <Card title="Saiyajin">
+    - **Alto Poder de Ataque**
+    - Poca salud base
+    - Incluye transformaciones de Super Saiyajin
+  </Card>
+  <Card title="Namekianos">
+    - **Alta Salud y Resistencia**
+    - La salud se regenera cuando está baja
+    - Mayor velocidad de uso de objetos
+  </Card>
+  <Card title="Terrícolas">
+    - **Estadísticas Equilibradas**
+    - Recuperación automática de Ki
+    - El ataque aumenta cuando el Ki está al máximo
+  </Card>
+  <Card title="Raza de Freezer">
+    - **Alta Velocidad**
+    - La resistencia se recupera al atacar
+    - Transformación única "Golden"
+  </Card>
+  <Card title="Majins">
+    - **Alta Defensa**
+    - Recuperación lenta de resistencia
+    - La defensa aumenta con la resistencia al máximo
+  </Card>
+</CardGrid>
+
+| Raza | Mejor Rol | Dificultad | Atributo Clave |
+| :--- | :--- | :--- | :--- |
+| **Saiyajin** | Cañón de Cristal | Media | Impulso Zenkai (Poder tras salud baja) |
+| **Namekiano** | Tanque / Soporte | Fácil | Gran cantidad de salud |
+| **Terrícola** | Polivalente | Fácil | Gestión de Ki |
+| **Raza Freezer** | Velocista | Difícil | Velocidad de movimiento |
+| **Majin** | Muro Defensivo | Media | Mitigación de daño |
+
+<Callout type="tip" title="Consejo Pro">
+Si eres nuevo en la serie Xenoverse, la raza **Terrícola** es la más accesible. Sus estadísticas equilibradas y la recuperación pasiva de Ki te permiten concentrarte en aprender las mecánicas de combate sin preocuparte por una gestión compleja de recursos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando el Combate y la Adquisición de Habilidades">
+
+El combate en **Dragon Ball Xenoverse 2 Nintendo Switch** es una evolución del género de brawler de arena. Aunque inicialmente puede parecer un juego de machacar botones, a mitad del juego se presentan picos de dificultad significativos que requieren precisión, gestión de resistencia y un amplio repertorio de movimientos. No se desbloquean movimientos solo por subir de nivel; debes buscar activamente a personajes legendarios para que te enseñen.
+
+<Steps>
+  <Step num="1" title="Localiza a un Instructor">
+    Encuentra personajes icónicos como Krillin, Vegeta o Piccolo estacionados por Conton City. Aparecerán como iconos en tu mapa tras ciertos hitos de la historia.
+  </Step>
+  <Step num="2" title="Pasa el Examen de Ingreso">
+    Cada mentor requiere que pases una prueba de combate básica para demostrar tu valía. Esto suele implicar realizar combos específicos o usar su movimiento característico.
+  </Step>
+  <Step num="3" title="Completa las Lecciones de Entrenamiento">
+    Los mentores ofrecen cuatro lecciones distintas. Completarlas te otorgará sus Superataques y, eventualmente, su Ataque Definitivo (ej. Destello Final o Kienzan).
+  </Step>
+  <Step num="4" title="Domina la Habilidad">
+    Usa las habilidades recién adquiridas en Misiones Secundarias para aumentar tu maestría y desbloquear oportunidades de entrenamiento avanzado adicionales.
+  </Step>
+</Steps>
+
+| Tipo de Habilidad | Propósito | Coste de Recursos | Ejemplo |
+| :--- | :--- | :--- | :--- |
+| **Superataque** | Daño rápido / Relleno de combo | 100-200 Ki | Galick Gun |
+| **Ataque Definitivo** | Daño masivo de remate | 300+ Ki | Super Kamehameha |
+| **Habilidad Evasiva** | Escapar de combos enemigos | 200-300 Resistencia | Ola Explosiva |
+| **Habilidad Despertada** | Transformación de forma | Variable | Super Saiyajin |
+
+<Callout type="info" title="Mecánicas de Fijación">
+El sistema de fijación de objetivos (lock-on) puede ser algo impreciso en Switch. No siempre apunta al enemigo más cercano. Practica el uso del stick derecho para alternar objetivos rápidamente, especialmente durante Misiones Secundarias con múltiples enemigos donde el posicionamiento lo es todo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Multijugador y Misiones Secundarias">
+
+El corazón de la longevidad de **Dragon Ball Xenoverse 2 Nintendo Switch** reside en su comunidad en línea. El juego se siente como un "Universo Dragon Ball" donde los jugadores se reúnen para enfrentar desafíos juntos. Las Misiones Secundarias (PQs) son la forma principal de farmear ropa rara, equipo y habilidades.
+
+- **PQs sin conexión**: Ideales para practicar con compañeros de IA y subir de nivel al principio.
+- **PQs en línea**: Únete a otros dos jugadores para afrontar misiones de alta dificultad con mejores tasas de obtención de objetos.
+- **Misiones de Experto**: Incursiones de 6 jugadores contra jefes masivos como Vegeta Gran Simio.
+
+| Actividad | Jugadores | Dificultad | Recompensas Principales |
+| :--- | :--- | :--- | :--- |
+| **Modo Historia** | Solo | Escalada | Progresión / Desbloqueos |
+| **Misiones Secundarias** | 1-3 Jugadores | Baja a Alta | Habilidades / Atuendos / Zenis |
+| **Misiones Experto** | 1-6 Jugadores | Muy Alta | Medallas TP / Almas Raras |
+| **Combates Online** | 1v1 / 3v3 | Competitivo | Ranking / Prestigio |
+
+<Callout type="success" title="Estabilidad del Servidor">
+En 2026, los servidores de Switch siguen estando muy activos. El emparejamiento para Misiones Secundarias suele ser rápido. Si encuentras partidas con lag, comprueba tu tipo de NAT en los ajustes de internet de la Switch; se requiere NAT Tipo A o B para una experiencia estable en Xenoverse.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Objetivos para Completistas 2026">
+
+Para dominar verdaderamente el juego y prepararte para el contenido final, todo Patrullero del Tiempo debería aspirar a completar estos hitos. Esto asegura que tu personaje sea lo suficientemente poderoso para manejar los repentinos picos de dificultad en los capítulos posteriores de los DLC.
+
+<Checklist
+  id="xenoverse-2-goals"
+  title="Hitos del Patrullero del Tiempo:"
+  items={[
+    "Completar el arco de la historia principal 'Patrulla del Tiempo'",
+    "Alcanzar el Nivel 99 para desbloquear los límites de atributos avanzados",
+    "Reunir las 7 Bolas de Dragón para pedir un deseo en el pedestal",
+    "Encontrar y entrenar con al menos 10 mentores diferentes",
+    "Adquirir un QQ Bang de 5 estrellas para potenciar estadísticas",
+    "Completar las más de 100 Misiones Secundarias del juego base"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes de Dragon Ball Xenoverse 2">
+
+<FAQ items={[
+  {
+    question: "¿Vale la pena Dragon Ball Xenoverse 2 en Nintendo Switch en 2026?",
+    answer: "Absolutamente. La portabilidad de la Switch la convierte en la mejor plataforma para farmear Misiones Secundarias, y la comunidad sigue siendo una de las más activas en la franquicia de juegos de DBZ."
+  },
+  {
+    question: "¿Cómo soluciono los gráficos borrosos en la versión de Switch?",
+    answer: "Ve a Opciones > Brillo y súbelo al máximo. Esto elimina la capa 'grisácea' y hace que el estilo artístico del anime resalte significativamente más."
+  },
+  {
+    question: "¿Puedo cambiar mi raza más adelante en el juego?",
+    answer: "No, tu raza es permanente para ese espacio de personaje. Sin embargo, puedes crear múltiples personajes (hasta 8 ranuras) para experimentar diferentes razas y estilos de juego."
+  },
+  {
+    question: "¿Cuál es la mejor raza para principiantes?",
+    answer: "Se recomiendan los Terrícolas para principiantes debido a sus estadísticas equilibradas y la regeneración automática de Ki, lo que simplifica la curva de aprendizaje del combate."
+  }
+]} />
+
+</Section>

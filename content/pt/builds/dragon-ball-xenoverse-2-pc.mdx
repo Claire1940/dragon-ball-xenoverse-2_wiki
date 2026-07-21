@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Dragon Ball Xenoverse 2 PC: Melhores Builds e Guia de Configuração",
+  description: "Otimize sua experiência em Dragon Ball Xenoverse 2 PC. Descubra as melhores builds nível 199, receitas de QQ Bang de 6 estrelas, tier lists e guias de instalação de mods.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=PC+Builds+and+Setup+Guide",
+  date: "2026-07-17",
+  author: "Equipe Wiki Dragon Ball Xenoverse 2",
+  keywords: "dragon ball xenoverse 2 pc, builds nível 199, qq bang 6 estrelas, mods xenoverse 2, guia de raças"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Vantagem do PC**: Jogar **dragon ball xenoverse 2 pc** permite que você experimente taxas de quadros desbloqueadas, resoluções ultra-wide e uma comunidade de modding ativa.
+- **Limite de Nível 199**: O meta de 2026 gira em torno do limite de nível 199, oferecendo um total de 600 pontos de atributo para especializar totalmente seu Patrulheiro do Tempo.
+- **Gerenciamento de Stamina**: A stamina continua sendo o recurso mais crítico no combate; uma quebra total de stamina deixa você completamente vulnerável a ataques supremos.
+- **QQ Bangs de 6 Estrelas**: Sempre use a Super Cápsula de Mistura Z para criar QQ Bangs de 6 estrelas, permitindo anular os atributos das roupas e maximizar até quatro atributos.
+- **Eficiência de Farm**: Utilize a Missão Paralela 23 para farmar Esferas do Dragão rapidamente e a Missão Paralela 134 para desbloquear habilidades de carga de elite, como Carga Explosiva e Carga Máxima.
+</Callout>
+
+<Section icon={Map} title="Seleção de Raça e Roteiro de Criação de Personagem">
+
+Começar sua jornada em Conton City exige a seleção de uma raça, gênero e constituição física. Embora todas as raças em **dragon ball xenoverse 2 pc** possam utilizar habilidades de Ataque Físico, Explosão de Ki e Ataque Básico, seus traços passivos e dimensões corporais influenciam fortemente seus papéis ideais em combate. Personagens mais altos ganham um bônus natural de saúde, mas movem-se mais devagar, enquanto personagens mais baixos ganham um aumento na velocidade de movimento à custa da saúde máxima. Além disso, constituições físicas mais robustas favorecem Ataques Básicos e dano de Ataque Físico, enquanto constituições mais magras se especializam em dano de Explosão de Ki.
+
+Para garantir que seu Patrulheiro do Tempo se alinhe ao seu estilo de jogo desejado, consulte a análise racial abaixo:
+
+| Raça | Melhor Atributo | Traço Passivo | Avaliação |
+| :--- | :--- | :--- | :--- |
+| **Saiyajin Masculino** | Ataque Básico | Dano alto com vida baixa, bônus de reviver | ★★★★★ |
+| **Saiyajin Feminina** | Explosão de Ki | Escalonamento de Ki de elite, vida natural baixa | ★★★★☆ |
+| **Terráqueo Masculino** | Ataque Físico | Recuperação automática de Ki, atributos equilibrados | ★★★★★ |
+| **Terráquea Feminina** | Explosão de Ki | Atributos equilibrados, alto dano de Ki máximo | ★★★★☆ |
+| **Raça Freeza** | Explosão de Ki | Alta velocidade de movimento, regen de stamina em combo | ★★★★☆ |
+| **Namequiano** | Saúde | Regen de vida crítica, recuperação rápida de stamina | ★★★★☆ |
+
+### Customização de Regras Corporais
+Ao finalizar seu personagem, aplique estas duas regras fundamentais de escalonamento:
+1. **Altura**: Maximize a altura para tanques defensivos (Namequianos, Majins Masculinos) para aumentar a saúde total. Minimize a altura para causadores de dano "glass-cannon" (Raça Freeza, Saiyajins Femininas) para maximizar a velocidade de movimento e o posicionamento.
+2. **Largura**: Maximize a largura física para especialistas em Ataque Físico e Ataque Básico. Minimize a largura física para a opção mais magra em builds dedicadas a Explosão de Ki.
+
+<Callout type="warning" title="Aviso de Stamina">
+Evite investir muitos pontos de atributo em stamina logo no início. Embora uma barra de stamina maior permita mais esquivas (vanishes), ela também prolonga a duração de uma quebra de stamina, deixando você indefeso contra ataques supremos prolongados.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Desempenho e Mods de Dragon Ball Xenoverse 2 no PC">
+
+Jogar **dragon ball xenoverse 2 pc** oferece vantagens massivas de desempenho em relação às plataformas de console, incluindo suporte nativo a 4K, compatibilidade com monitores ultra-wide e tempos de carregamento mais rápidos quando instalado em um SSD NVMe. Além disso, a versão para PC hospeda uma robusta comunidade de modding que introduz personagens personalizados, shaders gráficos avançados e ajustes de qualidade de vida.
+
+<CardGrid cols={3}>
+  <Card title="Otimização de Gráficos">
+    - **Jogabilidade 60+ FPS**: Desative o V-Sync no jogo e force-o através do painel de controle da sua GPU para eliminar o atraso de entrada (input lag).
+    - **Suporte Ultra-Wide**: Utilize configurações personalizadas do motor para corrigir problemas de campo de visão em monitores 21:9.
+    - **Anti-Aliasing**: Use anti-aliasing temporal (TXAA) para suavizar as bordas serrilhadas do estilo cel-shaded de anime.
+  </Card>
+  <Card title="Configuração do Instalador de Mods">
+    - **Eternity Tools**: Baixe o instalador XV2 e o patcher mais recentes que correspondam à versão atual do seu jogo.
+    - **Modo Offline**: Execute o jogo em modo offline para evitar que o Easy Anti-Cheat (EAC) bloqueie arquivos personalizados.
+    - **Segurança do Diretório**: Sempre instale mods em uma pasta "mods" separada dentro do seu diretório raiz para manter os arquivos base limpos.
+  </Card>
+  <Card title="Compatibilidade e Atualizações">
+    - **Controle de Versão**: Grandes patches oficiais quebrarão temporariamente a compatibilidade com os mods existentes.
+    - **Backups de Save**: Faça backup manual do diretório do seu arquivo de save antes de aplicar qualquer script de personagem personalizado.
+    - **Verificação Steam**: Use a ferramenta "Verificar integridade dos arquivos" do Steam para restaurar facilmente seu jogo ao estado original.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Melhor Prática de Modding">
+Sempre desative as atualizações automáticas do jogo no Steam. Isso garante que sua configuração modificada permaneça estável até que o patcher da comunidade seja atualizado para a versão oficial mais recente do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Builds Nível 199 e Criação de QQ Bang">
+
+O limite de nível 199 fornece um orçamento total de 600 pontos de atributo. Neste nível, as builds ideais focam em maximizar os ataques básicos e se especializar em super ataques Físicos ou de Explosão de Ki, em vez de distribuir os pontos uniformemente. Para anular os atributos negativos das roupas e alcançar o desempenho máximo, a criação de uma QQ Bang de 6 estrelas é obrigatória.
+
+A tabela abaixo descreve as configurações de nível meta para as principais builds em 2026:
+
+| Nome da Build | Raça/Gênero | Atributos Principais | Habilidade Desperta |
+| :--- | :--- | :--- | :--- |
+| **SSG Básico/Físico** | Saiyajin Masc. | Básico 200, Físico 200, Vida 179 | Super Saiyajin Deus |
+| **Super Vegeta Ki** | Saiyajin Fem. | Ki Blast 200, Básico 200, Vida 179 | Super Vegeta 2 |
+| **Terráqueo Físico** | Terráqueo Masc. | Básico 200, Físico 200, Vida 179 | Potencial Liberado |
+| **Golden Glass Cannon** | Raça Freeza | Ki Blast 200, Básico 200, Vida 179 | Torne-se Dourado |
+
+### Criando QQ Bangs de 6 Estrelas
+Para criar QQ Bangs de 6 estrelas de alto nível, você deve adquirir a **Super Cápsula de Mistura Z** completando missões paralelas online ou misturando uma Super Cápsula de Mistura padrão com um Cristal do Reino dos Demônios na loja de misturas. Combine esses materiais com itens de vestuário de nível 5 na estação de mistura da Corporação Cápsula.
+
+Use estas receitas comprovadas para focar em distribuições de atributos específicas:
+
+| Componente A | Componente B | Catalisador | Atributos Alvo |
+| :--- | :--- | :--- | :--- |
+| **Roupas do Beerus** | Traje de Batalha do Bardock | Super Cápsula de Mistura Z | +5 Ki, +5 Stamina, +5 Básico, +5 Ki Blast |
+| **Roupas do Beerus** | Roupas do Beerus | Super Cápsula de Mistura Z | +5 Ki, +5 Stamina, +5 Ki Blast, Vida neutra |
+| **Roupas do Cabba** | Traje de Batalha do Bardock | Super Cápsula de Mistura Z | +5 Ki, +5 Stamina, +5 Básico, +5 Físico |
+
+<Callout type="success" title="Sucesso da QQ Bang">
+Uma QQ Bang de 6 estrelas perfeita pode render até +24 pontos positivos com zero penalidades negativas, substituindo completamente qualquer alteração de atributo das suas roupas cosméticas equipadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tier List de Personagens para PvP e PvE">
+
+Embora os Patrulheiros do Tempo personalizados ofereçam a maior versatilidade, os personagens do elenco oficial e parceiros personalizados se destacam em PvP competitivo e missões PvE de alta dificuldade. Personagens de alto nível apresentam cancelamentos de combo seguros, setups confiáveis de quebra de stamina, grandes reservas de vida e ataques supremos devastadores.
+
+| Personagem | Tier | Modo de Jogo | Vantagem Principal |
+| :--- | :--- | :--- | :--- |
+| **Hit (Desperto)** | S Tier | PvP | Escalonamento de Pure Progress, pressão rápida de Salto no Tempo |
+| **Goku (Custom)** | S Tier | PvP / PvE | Predefinições de atributos flexíveis, vasto conjunto de habilidades de mestre |
+| **Gohan (Besta)** | S Tier | PvE | Dano de explosão excepcional, movimentos exclusivos fortes |
+| **Orange Piccolo** | S Tier | PvE | Reserva de vida massiva, hitboxes de ataque em área amplas |
+| **Toppo (Deus da Destruição)** | A Tier | PvP / PvE | Alto dano bruto, imunidade a explosões de Ki normais |
+
+Para desbloquear personagens de elite como Hit, Eis Shenron, Nuova Shenron e Omega Shenron, você deve coletar todas as sete Esferas do Dragão e fazer desejos no pedestal em Conton City.
+
+<Steps>
+  <Step num="1" title="Equipe uma Build de Farm de Dano Alto">
+    Equipe uma build rápida de Explosão de Ki com habilidades de rastreamento como Bending Kamehameha e uma habilidade de carga rápida como Carga Explosiva.
+  </Step>
+  <Step num="2" title="Farme a Missão Paralela 23">
+    Selecione a PQ 23 (A Explosão de Namek). Derrote Freeza em menos de 3 minutos para ativar o Final Supremo, fazendo com que três Patrulheiros do Tempo apareçam.
+  </Step>
+  <Step num="3" title="Derrote os Patrulheiros do Tempo">
+    Derrote todos os três Patrulheiros do Tempo. Observe a parte inferior da tela para uma notificação de "Item Chave", que indica o drop de uma Esfera do Dragão.
+  </Step>
+  <Step num="4" title="Invoque Shenlong e Faça o Desejo">
+    Leve as sete Esferas do Dragão para o pedestal central em Conton City. Selecione "Eu quero mais personagens jogáveis!" para desbloquear um lutador do elenco.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Parceiros Personalizados">
+Sempre desbloqueie as chaves de Parceiro Personalizado durante eventos de Invasão (Raid). Parceiros Personalizados permitem que você ajuste os atributos, habilidades e Super Almas dos personagens do elenco, tornando-os altamente competitivos em todos os modos de jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Missões Paralelas de Alto Valor e Rotas de Farm">
+
+As Missões Paralelas (PQs) são a principal fonte para desbloquear habilidades raras, equipamentos, Super Almas e materiais de criação. Obter um Ranking Z exige completar as missões rapidamente, ativar Finais Supremos, manter a vida alta e executar ações de combate específicas (como realizar 3 arremessos, 3 Just Guards ou finalizar com um ataque supremo).
+
+| Missão | Drops Principais | Condição de Desbloqueio | Estratégia |
+| :--- | :--- | :--- | :--- |
+| **PQ 23** | Esferas do Dragão, Zeni | Concluir Saga Freeza | Derrote Freeza em menos de 3 min para spawnar Patrulheiros |
+| **PQ 100** | x100 Big Bang Kamehameha | Concluir história principal | Conclua em menos de 8 min, derrote SSGSS Goku/Vegeta |
+| **PQ 122** | Meditação, Power Rush | DLC Extra Pack 2 | Leve cápsulas de cura, use quebras de stamina antes de supremos |
+| **PQ 134** | Carga Explosiva/Máxima | DLC Ultra Pack 1 | Mantenha Whis vivo, priorize UI Goku e SSGSS Evolved Vegeta |
+
+<Checklist
+  id="farming-checklist"
+  title="Marcos Essenciais de Farm:"
+  items={[
+    "Desbloqueie o Potencial Liberado obtendo Rankings Z em todos os cinco Testes de Avanço padrão.",
+    "Colete as sete Esferas do Dragão para desbloquear Hit e os Dragões Malignos.",
+    "Farme a PQ 134 para obter Carga Explosiva para PvP e Carga Máxima para raids PvE.",
+    "Obtenha Meditação na PQ 122 para expandir temporariamente sua barra de Ki para 10 barras.",
+    "Adquira a Super Alma 'Nossas duas forças não estão apenas somadas' para compensar o dreno de Ki do SSGSS."
+  ]}
+/>
+
+<Callout type="info" title="Dica para Missões de Escolta">
+Para missões de escolta difíceis como a PQ 134, onde você deve manter Whis vivo, equipe a habilidade suprema **Zona de Energia**. Esta habilidade cria um campo de cura localizado que restaura a saúde dos NPCs aliados que estiverem dentro do raio.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como otimizo Dragon Ball Xenoverse 2 no PC para eliminar o input lag?",
+    answer: "Desative a opção V-Sync dentro do jogo e ative-a globalmente através do Painel de Controle NVIDIA ou Software AMD Radeon. Além disso, execute o jogo em modo tela cheia em vez de janela ou janela sem bordas."
+  },
+  {
+    question: "Qual é a maneira mais rápida de chegar ao nível 199 no PC?",
+    answer: "Farme Medalhas TP através da Missão Especialista 16 (Vegeta) ou 17 (Goku). Assim que tiver um grande estoque de medalhas, fale com Tosok em Conton City, que subirá o nível do seu personagem em troca de Zeni (níveis iniciais) e Medalhas TP (níveis avançados)."
+  },
+  {
+    question: "Posso usar mods enquanto jogo o multiplayer online?",
+    answer: "Não. O patcher do Xenoverse 2 desativa automaticamente o Easy Anti-Cheat (EAC) para carregar arquivos de mods personalizados. Tentar se conectar aos servidores oficiais do jogo com mods ativados resultará em erro de conexão ou banimento permanente da conta."
+  },
+  {
+    question: "Como reseto meus pontos de atributo se eu cometer um erro?",
+    answer: "Reúna as sete Esferas do Dragão usando o método de farm da PQ 23. Invoque Shenlong no pedestal e selecione o desejo 'Eu quero uma segunda chance na vida!' para resetar completamente seus pontos de atributo alocados."
+  }
+]} />
+
+<Callout type="success" title="Nota da Comunidade">
+A comunidade de PC permanece altamente ativa em 2026. Junte-se a servidores locais do Discord e ao subreddit r/dbxv para encontrar parceiros de raid ativos, torneios PvP e os últimos lançamentos de mods.
+</Callout>
+
+</Section>

@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Dragon Ball Xenoverse 2 CaC : Comparatif des Builds et Statistiques",
+  description: "Découvrez le guide ultime du CaC dans Dragon Ball Xenoverse 2. Comparez les races, les genres, les tailles, les poids et les styles de départ pour créer le guerrier personnalisé parfait.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=CaC+Build+and+Stats",
+  date: "2026-07-21",
+  author: "Équipe du Wiki Dragon Ball Xenoverse 2"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Choix principal** : Votre race et votre genre déterminent vos multiplicateurs de base et vos capacités de combat passives.
+- **Ajustement physique** : La taille modifie directement votre santé et votre vitesse, tandis que le poids corporel modifie vos dégâts de frappe et de Kikoha.
+- **Style de départ** : Choisir un style de départ n'affecte que les compétences du début de partie et ne verrouille pas votre build de fin de jeu.
+- **Priorité aux QQ Bangs** : Utilisez toujours des QQ Bangs de haut niveau pour écraser les statistiques des vêtements et maximiser le potentiel de votre personnage personnalisé.
+- **Limites d'attributs** : Augmentez vos statistiques principales pour correspondre aux forces de votre race plutôt que de chercher à tout équilibrer.
+</Callout>
+
+<Section icon={Swords} title="Choix de Race et de Genre dans Dragon Ball Xenoverse 2">
+
+Créer votre personnage personnalisé, ou **CaC dans Dragon Ball Xenoverse 2**, est la décision la plus importante que vous prendrez dans le jeu. Votre choix de race et de genre détermine vos attributs de base, vos enchaînements de combos et vos capacités passives. Contrairement aux compétences ou à l'équipement, vous ne pourrez pas changer de race et de genre plus tard sans créer un tout nouveau personnage.
+
+Chaque race possède des mécaniques passives intégrées qui se déclenchent pendant le combat. Par exemple, les Saiyans bénéficient d'augmentations de puissance massives lorsque leur santé est basse, tandis que les Terriens régénèrent automatiquement leur Ki au fil du temps. Comprendre ces différences est essentiel pour planifier votre build de fin de jeu.
+
+| Race & Genre | Évaluation de la santé | Dégâts de frappe | Dégâts de Kikoha | Capacité passive unique |
+| :--- | :--- | :--- | :--- | :--- |
+| Terrien (Homme) | Moyenne | Élevés | Moyens | Le Ki se recharge automatiquement ; l'attaque augmente au Ki max |
+| Terrien (Femme) | Moyenne | Moyens | Élevés | Le Ki se recharge automatiquement ; l'attaque augmente au Ki max |
+| Saiyan (Homme) | Basse | Élevés (Corps) | Moyens | L'attaque augmente à PV bas ; les stats augmentent après réanimation |
+| Saiyan (Femme) | Basse | Moyens | Élevés | Meilleure récupération de Ki/Endurance ; Z Assists plus puissants |
+| Majin (Homme) | Élevée | Moyens | Moyens | Dégâts réduits à endurance élevée ; récupération d'endurance lente |
+| Majin (Femme) | Moyenne | Moyens | Moyens | Durée de bris d'endurance plus courte ; récupération lente |
+| Namekien | Élevée | Faibles | Faibles | Recharge rapide de l'endurance ; la santé se régénère lorsqu'elle est basse |
+| Race de Freezer | Basse | Moyens | Élevés | Vitesse de déplacement élevée ; l'endurance se récupère en attaquant |
+
+<Callout type="tip" title="Conseil de pro : Sélection de la race">
+Si vous souhaitez vous concentrer entièrement sur les super Kikohas, choisissez une Terrienne ou une Saiyan (Femme). Pour les configurations basées sur les frappes physiques, les Terriens (Hommes) et les Saiyans (Hommes) offrent les multiplicateurs de base les plus élevés.
+</Callout>
+
+Chaque race propose également des options cosmétiques et des animations de combat uniques. La race de Freezer s'appuie sur des attaques de base rapides et une grande mobilité, ce qui la rend excellente pour maintenir la pression sur les adversaires. Les Namekiens, quant à eux, agissent comme les survivants ultimes grâce à leur immense jauge de santé et à leur régénération de santé passive.
+
+</Section>
+
+<Section icon={Map} title="Impact de la Personnalisation de la Taille et du Poids">
+
+Les dimensions physiques dans l'éditeur de personnage ne sont pas purement cosmétiques. La taille et le poids de votre personnage personnalisé introduisent des modificateurs de pourcentage directs sur vos statistiques de base. Ajuster ces curseurs vous permet de peaufiner votre guerrier pour qu'il corresponde à votre style de jeu préféré.
+
+La taille modifie l'équilibre entre votre jauge de santé maximale et votre vitesse de déplacement. Les personnages plus grands peuvent encaisser plus de dégâts et ont une portée physique plus longue au corps à corps, mais ils se déplacent plus lentement sur le champ de bataille. Les personnages plus petits sont extrêmement agiles mais plus fragiles.
+
+| Niveau de taille | Modificateur de santé | Modificateur de vitesse | Style de jeu recommandé |
+| :--- | :--- | :--- | :--- |
+| 1 (Le plus petit) | 95% | 110% | Combattants rapides, builds d'esquive |
+| 2 (Sous la moyenne) | 100% | 105% | Configurations offensives équilibrées |
+| 3 (Au-dessus de la moyenne) | 105% | 100% | Configurations de cogneur, builds de corps à corps standards |
+| 4 (Le plus grand) | 110% | 95% | Builds de tank, attaquants physiques à grande portée |
+
+<Callout type="info" title="Note sur la portée physique">
+La taille affecte également subtilement la portée de vos attaques de base. Les personnages grands peuvent enchaîner des combos physiques d'un peu plus loin, ce qui est très avantageux pour les builds axés sur les frappes.
+</Callout>
+
+La corpulence, ou le poids, modifie directement votre puissance offensive. Ce paramètre crée un compromis entre les super frappes et les super Kikohas. Les personnages plus minces excellent dans les attaques d'énergie à longue portée, tandis que les personnages plus costauds infligent nettement plus de dégâts avec les frappes physiques et les attaques de base.
+
+| Corpulence | Dégâts physiques & de base | Dégâts de Kikoha | Classe recommandée |
+| :--- | :--- | :--- | :--- |
+| Mince | Bonus de 0,0 % | Bonus de 7,0 % | Spammeurs de Kikohas, Terriennes |
+| Moyenne | Bonus de 3,5 % | Bonus de 3,5 % | Configurations hybrides, combattants polyvalents |
+| Costaud | Bonus de 7,0 % | Bonus de 0,0 % | Spécialistes des frappes, Saiyans (Hommes) |
+
+</Section>
+
+<Section icon={Target} title="Comment créer votre build de CaC dans Dragon Ball Xenoverse 2">
+
+Pour maximiser l'efficacité de votre personnage personnalisé, vous devez aligner vos attributs, vos équipements et vos compétences. Éparpiller vos points d'attributs de manière trop équitable sur toutes les statistiques donnera un personnage faible. Privilégiez plutôt une spécialisation dans un archétype de combat précis.
+
+Lors de l'attribution de vos points d'attributs, concentrez-vous sur votre principale source de dégâts. Si vous avez choisi un Saiyan (Homme) costaud, attribuez vos points dans les attaques de base et les super frappes. Si vous avez choisi une Terrienne mince, maximisez les super Kikohas et le Ki max.
+
+<CardGrid cols={3}>
+  <Card title="Spécialiste des frappes">
+    - **Choix de race** : Terrien (Homme) ou Saiyan (Homme)
+    - **Poids** : Costaud (7 % de bonus de frappe)
+    - **Priorité** : Attaques de base, Super frappes, Endurance max
+  </Card>
+  <Card title="Annihilateur de Kikohas">
+    - **Choix de race** : Terrienne, Saiyan (Femme) ou Race de Freezer
+    - **Poids** : Mince (7 % de bonus de Kikoha)
+    - **Priorité** : Super Kikohas, Ki max, Santé max
+  </Card>
+  <Card title="Hybride équilibré">
+    - **Choix de race** : Saiyan (Homme) ou Terrien (Homme)
+    - **Poids** : Moyen (Bonus équilibrés)
+    - **Priorité** : Répartition équitable entre Frappes et Kikohas
+  </Card>
+</CardGrid>
+
+Votre choix de style de combat au début du jeu détermine vos compétences de départ. Bien que vous puissiez débloquer toutes les compétences par la suite, choisir le bon style facilitera grandement votre progression en début de partie.
+
+| Style de combat | Compétence de départ 1 | Compétence de départ 2 | Attaque ultime | Focus du style de jeu |
+| :--- | :--- | :--- | :--- | :--- |
+| Style Frappe | Frappe météore | Enchaînement météore | Enchaînement de Kikohas puissance max | Combat au corps à corps |
+| Style Kikoha | Kikohas consécutifs | Tir d'énergie | Enchaînement de Kikohas puissance max | Contrôle à distance |
+| Style Mixte | Image rémanente | Enchaînement météore | Enchaînement de Kikohas puissance max | Combat hybride équilibré |
+
+<Callout type="warning" title="Avertissement concernant les QQ Bangs">
+Ne choisissez pas vos vêtements en fonction de leurs modificateurs de statistiques. En milieu et fin de partie, vous devez équiper un QQ Bang. Les QQ Bangs annulent et remplacent complètement toutes les statistiques des vêtements, vous permettant de porter n'importe quelle tenue pour le style sans gâcher votre build.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Création et Optimisation du Personnage Étape par Étape">
+
+Suivez cette progression structurée pour créer, optimiser et concevoir votre personnage personnalisé à partir de zéro. Cela vous évitera de gaspiller de précieux points d'attributs ou des ressources au cours de votre aventure.
+
+<Steps>
+  <Step num="1" title="Sélectionnez votre race et votre genre">
+    Choisissez une combinaison de race et de genre qui correspond au style de jeu que vous souhaitez. Référez-vous aux modificateurs de statistiques pour vous assurer que votre choix s'aligne soit avec le combat physique (frappes), soit avec les Kikohas à longue portée.
+  </Step>
+  <Step num="2" title="Ajustez les curseurs de taille et de poids">
+    Réglez votre taille pour ajuster l'équilibre entre votre santé et votre vitesse. Réglez votre poids sur mince pour les builds Kikoha, costaud pour les builds physiques, ou moyen pour les configurations hybrides.
+  </Step>
+  <Step num="3" title="Choisissez votre style de combat de départ">
+    Sélectionnez le style Frappe, Kikoha ou Mixte. Cela vous octroie votre premier ensemble de compétences actives. Le style Mixte est fortement recommandé pour les débutants car il fournit la compétence polyvalente Image rémanente.
+  </Step>
+  <Step num="4" title="Attribuez judicieusement vos points d'attributs">
+    À mesure que vous montez de niveau, investissez des points dans les statistiques qui entrent en synergie avec votre race. Évitez de mettre des points dans des statistiques que vous n'utilisez pas. Par exemple, n'augmentez pas les super frappes sur un build purement axé Kikoha.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Option de réinitialisation des statistiques">
+Si vous faites une erreur avec vos points d'attributs, ne vous inquiétez pas. Vous pouvez rassembler les sept Dragon Balls et formuler un vœu auprès de Shenron pour obtenir une seconde chance, ce qui réinitialisera complètement vos points d'attributs.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objectifs de Fin de Jeu et Liste de Contrôle">
+
+Une fois votre personnage créé, votre objectif doit se tourner vers le déblocage de son plein potentiel. Cela implique d'accomplir des étapes spécifiques pour débloquer des transformations avancées, des limites de niveau plus élevées et des équipements de haut niveau.
+
+Pour atteindre le sommet absolu de la puissance, vous devez progresser dans l'histoire, suivre les entraînements de divers mentors et débloquer de puissantes compétences d'éveil comme la forme Bête ou le Potentiel éveillé. Utilisez cette liste de contrôle pour suivre votre progression.
+
+<Checklist
+  id="cac-progression"
+  title="Étapes essentielles :"
+  items={[
+    "Terminer le mode histoire principal pour débloquer toutes les quêtes parallèles",
+    "Visiter la maison du Grand Chef Namek pour débloquer la limite d'attributs et dépasser le niveau 80",
+    "Débloquer la compétence d'éveil spécifique à votre race et les transformations universelles comme la forme Bête",
+    "Créer un QQ Bang 6 étoiles à la faille temporelle de la Capsule Corporation",
+    "Maximiser l'amitié avec les mentors clés pour débloquer des attaques ultimes avancées"
+  ]}
+/>
+
+<Callout type="info" title="Progression de la limite de niveau">
+Par défaut, vos attributs sont limités à 100 points et votre niveau est limité à 80. Vous devez défendre la maison du Grand Chef Namek à plusieurs reprises dans la faille temporelle des Namekiens pour qu'il libère votre potentiel, augmentant la limite d'attributs à 125 et vous permettant de monter jusqu'au niveau 99 et au-delà.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire Aux Questions">
+
+<Callout type="tip" title="Besoin de réponses rapides ?">
+Consultez la foire aux questions ci-dessous pour résoudre les problèmes courants concernant la personnalisation des personnages, la réinitialisation des statistiques et l'optimisation des builds.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Puis-je modifier l'apparence ou le nom de mon CaC de Dragon Ball Xenoverse 2 plus tard ?",
+    answer: "Vous pouvez modifier l'apparence physique, la voix et les couleurs de votre personnage en rassemblant les sept Dragon Balls et en faisant un vœu à Shenron. Cependant, vous ne pouvez pas changer le nom ou la race de votre personnage sans recommencer sur un nouvel emplacement de personnage."
+  },
+  {
+    question: "Quelle est la meilleure race pour un joueur débutant ?",
+    answer: "Les Terriens (Humains) sont le meilleur choix pour les débutants. Ils disposent d'enchaînements d'attaques de base très intuitifs, de statistiques offensives équilibrées et d'une régénération passive du Ki, ce qui facilite grandement la gestion des ressources lors des premières missions."
+  },
+  {
+    question: "Comment fonctionnent les QQ Bangs et pourquoi sont-ils importants ?",
+    answer: "Les QQ Bangs sont des équipements qui annulent et remplacent complètement les modificateurs de statistiques de vos vêtements. Cela vous permet de porter n'importe quelle tenue cosmétique de votre choix sans vous soucier des pénalités de statistiques négatives. Ils sont fabriqués dans la faille temporelle de la Capsule Corporation."
+  },
+  {
+    question: "Comment débloquer la transformation en Bête pour mon personnage personnalisé ?",
+    answer: "Pour débloquer la forme Bête, vous devez maximiser votre niveau d'amitié avec les mentors Gohan et Videl, ainsi que Piccolo. Une fois cela fait, parlez à Piccolo à l'Académie de la Police du Temps et terminez le combat d'entraînement spécial."
+  }
+]} />
+
+</Section>

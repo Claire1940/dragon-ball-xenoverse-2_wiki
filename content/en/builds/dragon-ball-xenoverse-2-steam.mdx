@@ -1,0 +1,142 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dragon Ball Xenoverse 2 Steam: Modding & Downgrade Guide",
+  description: "Learn how to manage your Dragon Ball Xenoverse 2 Steam version, handle version updates, and maintain your modded game environment in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Xenoverse+2+Steam+Guide",
+  date: "2026-07-17",
+  author: "dragon ball xenoverse 2 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Dragon Ball Xenoverse 2 Steam** updates can often break custom mod installations.
+- **Version downgrading** is a reliable method to maintain compatibility with older mods.
+- **Eternity Tools** remain the industry standard for managing game modifications.
+- Always back up your **game files** before attempting to modify the installation directory.
+</Callout>
+
+<Section icon={Settings} title="Managing Steam Updates">
+
+Maintaining a stable modding environment for **Dragon Ball Xenoverse 2** on Steam requires careful handling of game updates. When developers release final patches, existing mod frameworks often become incompatible, leading to crashes or failure to launch.
+
+**Video Highlights:**
+- How to access the Steam console for manual depot downloading.
+- Step-by-step process to download specific version manifests.
+- Best practices for keeping your modded game files intact.
+
+<YouTubeEmbed videoId="Q5uk6qgtW0A" title="HOW TO MOD DRAGON BALL: XENOVERSE 2 IN 2026" />
+
+If you find that your mods are broken after an automatic Steam update, you can revert to a previous version using the Steam console. This ensures that your favorite character packs and gameplay tweaks continue to function while waiting for updated tool patches.
+
+</Section>
+
+<Section icon={Target} title="Downgrading Version Steps">
+
+Follow these steps to revert your game version to a stable state. This process requires using the Windows 'Run' command to interact with the Steam console directly.
+
+<Steps>
+  <Step num="1" title="Open Steam Console">
+    Press Win+R on your keyboard, type `steam://open/console`, and hit Enter to launch the hidden Steam console tab.
+  </Step>
+  <Step num="2" title="Identify Manifest">
+    Visit the SteamDB website to find the specific patch number or manifest ID that corresponds to your preferred game version.
+  </Step>
+  <Step num="3" title="Execute Download">
+    In the console, enter `download_depot 454650 454651 [ManifestID]` to begin downloading the specific game files.
+  </Step>
+  <Step num="4" title="Replace Files">
+    Navigate to your SteamApps/content folder to locate the downloaded files and overwrite your current game installation.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Backup Required">
+Always create a backup of your current `bin` and `data` folders before overwriting files to avoid losing progress or custom data.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparison of Modding Tools">
+
+Choosing the right tools is essential for a smooth experience. Below is a comparison of common utilities used by the community to manage game assets and modifications.
+
+| Tool Name | Primary Function | Difficulty | Compatibility |
+| :--- | :--- | :--- | :--- |
+| Eternity Tools | Asset injection, file patching | Moderate | High |
+| XV2INS | Character/Skill installation | Easy | High |
+| Steam Console | Version management | Advanced | Native |
+| Save Editor | Data modification | Easy | Moderate |
+
+<CardGrid cols={3}>
+  <Card title="Eternity Tools">
+    - Core framework for all mods.
+    - Essential for patch updates.
+    - Highly stable performance.
+  </Card>
+  <Card title="XV2INS">
+    - User-friendly installer.
+    - Handles custom skillsets.
+    - Drag-and-drop interface.
+  </Card>
+  <Card title="Steam Console">
+    - Official valve utility.
+    - No external downloads.
+    - Perfect for version control.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Modding Best Practices">
+
+To keep your **Dragon Ball Xenoverse 2** instance healthy, adhere to these maintenance standards. Consistent file hygiene prevents long-term corruption of save data.
+
+| Task | Frequency | Action |
+| :--- | :--- | :--- |
+| File Backup | Weekly | Copy save folder to cloud |
+| Mod Audit | Monthly | Check for outdated files |
+| Cache Clear | Post-update | Delete temporary shader files |
+| Tool Updates | As needed | Check Eternity's official site |
+
+<Callout type="success" title="Pro Tip">
+Using a dedicated mod organizer folder outside of the Steam installation directory can help prevent accidental file deletion during game updates.
+</Callout>
+
+<Checklist
+  id="modding-checklist"
+  title="Modding Maintenance Checklist:"
+  items={[
+    "Verify game files integrity via Steam",
+    "Update Eternity Tools to the latest version",
+    "Remove deprecated X2M files",
+    "Test game stability in offline mode"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is it safe to mod Dragon Ball Xenoverse 2 on Steam?",
+    answer: "Yes, provided you play in offline mode. Modding is generally safe, but avoid using mods in online lobbies to prevent account restrictions."
+  },
+  {
+    question: "What should I do if the game crashes after an update?",
+    answer: "Most crashes are caused by outdated mod files. Try disabling your mods or downgrading to a previous game version using the Steam console."
+  },
+  {
+    question: "Where can I find reliable modding tools?",
+    answer: "The community primarily uses Eternity Tools. Always download from official sources or trusted community hubs to ensure file safety."
+  }
+]} />
+
+</Section>

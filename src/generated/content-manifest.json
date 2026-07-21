@@ -2,6 +2,42 @@
   "en": {
     "builds": [
       {
+        "slug": "dragon-ball-xenoverse-2-advancement-test",
+        "file": "dragon-ball-xenoverse-2-advancement-test"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-all-transformations",
+        "file": "dragon-ball-xenoverse-2-all-transformations"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-all-wishes",
+        "file": "dragon-ball-xenoverse-2-all-wishes"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-attribute-points",
+        "file": "dragon-ball-xenoverse-2-attribute-points"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-awoken-skills",
+        "file": "dragon-ball-xenoverse-2-awoken-skills"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-beast-form",
+        "file": "dragon-ball-xenoverse-2-beast-form"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-beast-transformation",
+        "file": "dragon-ball-xenoverse-2-beast-transformation"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-beginner-guide",
+        "file": "dragon-ball-xenoverse-2-beginner-guide"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-ki-blast-supers",
+        "file": "dragon-ball-xenoverse-2-best-ki-blast-supers"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-best-qq-bang",
         "file": "dragon-ball-xenoverse-2-best-qq-bang"
       },
@@ -10,12 +46,108 @@
         "file": "dragon-ball-xenoverse-2-best-race"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-best-saiyan-build",
+        "file": "dragon-ball-xenoverse-2-best-saiyan-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-transformations",
+        "file": "dragon-ball-xenoverse-2-best-transformations"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-blue-evolution",
+        "file": "dragon-ball-xenoverse-2-blue-evolution"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-builds",
         "file": "dragon-ball-xenoverse-2-builds"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-cac",
+        "file": "dragon-ball-xenoverse-2-cac"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-clothing-list-with-pictures",
+        "file": "dragon-ball-xenoverse-2-clothing-list-with-pictures"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-controls-pc",
+        "file": "dragon-ball-xenoverse-2-controls-pc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-crossplay",
+        "file": "dragon-ball-xenoverse-2-crossplay"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-distorted-time-eggs",
+        "file": "dragon-ball-xenoverse-2-distorted-time-eggs"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-dragon-ball-farm",
+        "file": "dragon-ball-xenoverse-2-dragon-ball-farm"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-earthling-transformation",
+        "file": "dragon-ball-xenoverse-2-earthling-transformation"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-expert-missions",
+        "file": "dragon-ball-xenoverse-2-expert-missions"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-festival-of-universes",
+        "file": "dragon-ball-xenoverse-2-festival-of-universes"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-frieza-race-build",
         "file": "dragon-ball-xenoverse-2-frieza-race-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-glory-points",
+        "file": "dragon-ball-xenoverse-2-glory-points"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions",
+        "file": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-instructors",
+        "file": "dragon-ball-xenoverse-2-instructors"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-is-it-worth-it-2026",
+        "file": "dragon-ball-xenoverse-2-is-it-worth-it-2026"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-kaioken",
+        "file": "dragon-ball-xenoverse-2-kaioken"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-level-cap",
+        "file": "dragon-ball-xenoverse-2-level-cap"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-level-up-fast",
+        "file": "dragon-ball-xenoverse-2-level-up-fast"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-namekian-build",
+        "file": "dragon-ball-xenoverse-2-namekian-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-nintendo-switch",
+        "file": "dragon-ball-xenoverse-2-nintendo-switch"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-parallel-quest-list",
+        "file": "dragon-ball-xenoverse-2-parallel-quest-list"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-pc",
+        "file": "dragon-ball-xenoverse-2-pc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-potential-unleashed",
+        "file": "dragon-ball-xenoverse-2-potential-unleashed"
       },
       {
         "slug": "dragon-ball-xenoverse-2-qq-bang-recipes",
@@ -28,6 +160,54 @@
       {
         "slug": "dragon-ball-xenoverse-2-saiyan-build",
         "file": "dragon-ball-xenoverse-2-saiyan-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-shenron-wishes",
+        "file": "dragon-ball-xenoverse-2-shenron-wishes"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-steam",
+        "file": "dragon-ball-xenoverse-2-steam"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan-blue",
+        "file": "dragon-ball-xenoverse-2-super-saiyan-blue"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan-god",
+        "file": "dragon-ball-xenoverse-2-super-saiyan-god"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan",
+        "file": "dragon-ball-xenoverse-2-super-saiyan"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-tp-medals",
+        "file": "dragon-ball-xenoverse-2-tp-medals"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-ultra-ego",
+        "file": "dragon-ball-xenoverse-2-ultra-ego"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-ultra-instinct",
+        "file": "dragon-ball-xenoverse-2-ultra-instinct"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-walkthrough",
+        "file": "dragon-ball-xenoverse-2-walkthrough"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-world-tournament",
+        "file": "dragon-ball-xenoverse-2-world-tournament"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-xbox",
+        "file": "dragon-ball-xenoverse-2-xbox"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-zeni-farm",
+        "file": "dragon-ball-xenoverse-2-zeni-farm"
       }
     ],
     "characters": [
@@ -36,12 +216,52 @@
         "file": "dragon-ball-xenoverse-2-all-characters"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-android-21",
+        "file": "dragon-ball-xenoverse-2-android-21"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-bardock",
+        "file": "dragon-ball-xenoverse-2-bardock"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-best-characters",
         "file": "dragon-ball-xenoverse-2-best-characters"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-black-frieza",
+        "file": "dragon-ball-xenoverse-2-black-frieza"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-broly",
+        "file": "dragon-ball-xenoverse-2-broly"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-fu",
+        "file": "dragon-ball-xenoverse-2-fu"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-goku-black",
+        "file": "dragon-ball-xenoverse-2-goku-black"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-goku",
+        "file": "dragon-ball-xenoverse-2-goku"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-janemba",
+        "file": "dragon-ball-xenoverse-2-janemba"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-jiren",
+        "file": "dragon-ball-xenoverse-2-jiren"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-unlock-all-characters",
         "file": "dragon-ball-xenoverse-2-unlock-all-characters"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-vegeta",
+        "file": "dragon-ball-xenoverse-2-vegeta"
       }
     ],
     "dlc": [
@@ -50,8 +270,20 @@
         "file": "dragon-ball-xenoverse-2-all-dlc"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-daima-dlc",
+        "file": "dragon-ball-xenoverse-2-daima-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-dlc-in-order",
+        "file": "dragon-ball-xenoverse-2-dlc-in-order"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-dlc",
         "file": "dragon-ball-xenoverse-2-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-extra-pack-2",
+        "file": "dragon-ball-xenoverse-2-extra-pack-2"
       },
       {
         "slug": "dragon-ball-xenoverse-2-final-dlc",
@@ -89,6 +321,10 @@
       }
     ],
     "mods": [
+      {
+        "slug": "dragon-ball-xenoverse-2-cac-transformations-mod",
+        "file": "dragon-ball-xenoverse-2-cac-transformations-mod"
+      },
       {
         "slug": "dragon-ball-xenoverse-2-graphics-mod",
         "file": "dragon-ball-xenoverse-2-graphics-mod"
@@ -180,6 +416,42 @@
   "es": {
     "builds": [
       {
+        "slug": "dragon-ball-xenoverse-2-advancement-test",
+        "file": "dragon-ball-xenoverse-2-advancement-test"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-all-transformations",
+        "file": "dragon-ball-xenoverse-2-all-transformations"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-all-wishes",
+        "file": "dragon-ball-xenoverse-2-all-wishes"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-attribute-points",
+        "file": "dragon-ball-xenoverse-2-attribute-points"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-awoken-skills",
+        "file": "dragon-ball-xenoverse-2-awoken-skills"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-beast-form",
+        "file": "dragon-ball-xenoverse-2-beast-form"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-beast-transformation",
+        "file": "dragon-ball-xenoverse-2-beast-transformation"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-beginner-guide",
+        "file": "dragon-ball-xenoverse-2-beginner-guide"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-ki-blast-supers",
+        "file": "dragon-ball-xenoverse-2-best-ki-blast-supers"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-best-qq-bang",
         "file": "dragon-ball-xenoverse-2-best-qq-bang"
       },
@@ -188,12 +460,96 @@
         "file": "dragon-ball-xenoverse-2-best-race"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-best-saiyan-build",
+        "file": "dragon-ball-xenoverse-2-best-saiyan-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-transformations",
+        "file": "dragon-ball-xenoverse-2-best-transformations"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-blue-evolution",
+        "file": "dragon-ball-xenoverse-2-blue-evolution"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-builds",
         "file": "dragon-ball-xenoverse-2-builds"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-cac",
+        "file": "dragon-ball-xenoverse-2-cac"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-clothing-list-with-pictures",
+        "file": "dragon-ball-xenoverse-2-clothing-list-with-pictures"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-controls-pc",
+        "file": "dragon-ball-xenoverse-2-controls-pc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-crossplay",
+        "file": "dragon-ball-xenoverse-2-crossplay"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-distorted-time-eggs",
+        "file": "dragon-ball-xenoverse-2-distorted-time-eggs"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-dragon-ball-farm",
+        "file": "dragon-ball-xenoverse-2-dragon-ball-farm"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-earthling-transformation",
+        "file": "dragon-ball-xenoverse-2-earthling-transformation"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-expert-missions",
+        "file": "dragon-ball-xenoverse-2-expert-missions"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-festival-of-universes",
+        "file": "dragon-ball-xenoverse-2-festival-of-universes"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-frieza-race-build",
         "file": "dragon-ball-xenoverse-2-frieza-race-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-glory-points",
+        "file": "dragon-ball-xenoverse-2-glory-points"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions",
+        "file": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-instructors",
+        "file": "dragon-ball-xenoverse-2-instructors"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-is-it-worth-it-2026",
+        "file": "dragon-ball-xenoverse-2-is-it-worth-it-2026"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-level-cap",
+        "file": "dragon-ball-xenoverse-2-level-cap"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-level-up-fast",
+        "file": "dragon-ball-xenoverse-2-level-up-fast"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-nintendo-switch",
+        "file": "dragon-ball-xenoverse-2-nintendo-switch"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-parallel-quest-list",
+        "file": "dragon-ball-xenoverse-2-parallel-quest-list"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-pc",
+        "file": "dragon-ball-xenoverse-2-pc"
       },
       {
         "slug": "dragon-ball-xenoverse-2-qq-bang-recipes",
@@ -206,6 +562,46 @@
       {
         "slug": "dragon-ball-xenoverse-2-saiyan-build",
         "file": "dragon-ball-xenoverse-2-saiyan-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-shenron-wishes",
+        "file": "dragon-ball-xenoverse-2-shenron-wishes"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-steam",
+        "file": "dragon-ball-xenoverse-2-steam"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan-blue",
+        "file": "dragon-ball-xenoverse-2-super-saiyan-blue"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan-god",
+        "file": "dragon-ball-xenoverse-2-super-saiyan-god"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan",
+        "file": "dragon-ball-xenoverse-2-super-saiyan"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-tp-medals",
+        "file": "dragon-ball-xenoverse-2-tp-medals"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-ultra-instinct",
+        "file": "dragon-ball-xenoverse-2-ultra-instinct"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-walkthrough",
+        "file": "dragon-ball-xenoverse-2-walkthrough"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-world-tournament",
+        "file": "dragon-ball-xenoverse-2-world-tournament"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-xbox",
+        "file": "dragon-ball-xenoverse-2-xbox"
       }
     ],
     "characters": [
@@ -214,8 +610,28 @@
         "file": "dragon-ball-xenoverse-2-all-characters"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-bardock",
+        "file": "dragon-ball-xenoverse-2-bardock"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-best-characters",
         "file": "dragon-ball-xenoverse-2-best-characters"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-black-frieza",
+        "file": "dragon-ball-xenoverse-2-black-frieza"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-fu",
+        "file": "dragon-ball-xenoverse-2-fu"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-goku-black",
+        "file": "dragon-ball-xenoverse-2-goku-black"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-janemba",
+        "file": "dragon-ball-xenoverse-2-janemba"
       },
       {
         "slug": "dragon-ball-xenoverse-2-unlock-all-characters",
@@ -228,8 +644,20 @@
         "file": "dragon-ball-xenoverse-2-all-dlc"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-daima-dlc",
+        "file": "dragon-ball-xenoverse-2-daima-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-dlc-in-order",
+        "file": "dragon-ball-xenoverse-2-dlc-in-order"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-dlc",
         "file": "dragon-ball-xenoverse-2-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-extra-pack-2",
+        "file": "dragon-ball-xenoverse-2-extra-pack-2"
       },
       {
         "slug": "dragon-ball-xenoverse-2-final-dlc",
@@ -267,6 +695,10 @@
       }
     ],
     "mods": [
+      {
+        "slug": "dragon-ball-xenoverse-2-cac-transformations-mod",
+        "file": "dragon-ball-xenoverse-2-cac-transformations-mod"
+      },
       {
         "slug": "dragon-ball-xenoverse-2-graphics-mod",
         "file": "dragon-ball-xenoverse-2-graphics-mod"
@@ -358,6 +790,42 @@
   "fr": {
     "builds": [
       {
+        "slug": "dragon-ball-xenoverse-2-advancement-test",
+        "file": "dragon-ball-xenoverse-2-advancement-test"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-all-transformations",
+        "file": "dragon-ball-xenoverse-2-all-transformations"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-all-wishes",
+        "file": "dragon-ball-xenoverse-2-all-wishes"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-attribute-points",
+        "file": "dragon-ball-xenoverse-2-attribute-points"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-awoken-skills",
+        "file": "dragon-ball-xenoverse-2-awoken-skills"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-beast-form",
+        "file": "dragon-ball-xenoverse-2-beast-form"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-beast-transformation",
+        "file": "dragon-ball-xenoverse-2-beast-transformation"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-beginner-guide",
+        "file": "dragon-ball-xenoverse-2-beginner-guide"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-ki-blast-supers",
+        "file": "dragon-ball-xenoverse-2-best-ki-blast-supers"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-best-qq-bang",
         "file": "dragon-ball-xenoverse-2-best-qq-bang"
       },
@@ -366,12 +834,96 @@
         "file": "dragon-ball-xenoverse-2-best-race"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-best-saiyan-build",
+        "file": "dragon-ball-xenoverse-2-best-saiyan-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-transformations",
+        "file": "dragon-ball-xenoverse-2-best-transformations"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-blue-evolution",
+        "file": "dragon-ball-xenoverse-2-blue-evolution"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-builds",
         "file": "dragon-ball-xenoverse-2-builds"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-cac",
+        "file": "dragon-ball-xenoverse-2-cac"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-clothing-list-with-pictures",
+        "file": "dragon-ball-xenoverse-2-clothing-list-with-pictures"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-controls-pc",
+        "file": "dragon-ball-xenoverse-2-controls-pc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-crossplay",
+        "file": "dragon-ball-xenoverse-2-crossplay"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-distorted-time-eggs",
+        "file": "dragon-ball-xenoverse-2-distorted-time-eggs"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-dragon-ball-farm",
+        "file": "dragon-ball-xenoverse-2-dragon-ball-farm"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-earthling-transformation",
+        "file": "dragon-ball-xenoverse-2-earthling-transformation"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-expert-missions",
+        "file": "dragon-ball-xenoverse-2-expert-missions"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-festival-of-universes",
+        "file": "dragon-ball-xenoverse-2-festival-of-universes"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-frieza-race-build",
         "file": "dragon-ball-xenoverse-2-frieza-race-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-glory-points",
+        "file": "dragon-ball-xenoverse-2-glory-points"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions",
+        "file": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-instructors",
+        "file": "dragon-ball-xenoverse-2-instructors"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-is-it-worth-it-2026",
+        "file": "dragon-ball-xenoverse-2-is-it-worth-it-2026"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-level-cap",
+        "file": "dragon-ball-xenoverse-2-level-cap"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-level-up-fast",
+        "file": "dragon-ball-xenoverse-2-level-up-fast"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-nintendo-switch",
+        "file": "dragon-ball-xenoverse-2-nintendo-switch"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-parallel-quest-list",
+        "file": "dragon-ball-xenoverse-2-parallel-quest-list"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-pc",
+        "file": "dragon-ball-xenoverse-2-pc"
       },
       {
         "slug": "dragon-ball-xenoverse-2-qq-bang-recipes",
@@ -384,6 +936,46 @@
       {
         "slug": "dragon-ball-xenoverse-2-saiyan-build",
         "file": "dragon-ball-xenoverse-2-saiyan-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-shenron-wishes",
+        "file": "dragon-ball-xenoverse-2-shenron-wishes"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-steam",
+        "file": "dragon-ball-xenoverse-2-steam"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan-blue",
+        "file": "dragon-ball-xenoverse-2-super-saiyan-blue"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan-god",
+        "file": "dragon-ball-xenoverse-2-super-saiyan-god"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan",
+        "file": "dragon-ball-xenoverse-2-super-saiyan"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-tp-medals",
+        "file": "dragon-ball-xenoverse-2-tp-medals"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-ultra-instinct",
+        "file": "dragon-ball-xenoverse-2-ultra-instinct"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-walkthrough",
+        "file": "dragon-ball-xenoverse-2-walkthrough"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-world-tournament",
+        "file": "dragon-ball-xenoverse-2-world-tournament"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-xbox",
+        "file": "dragon-ball-xenoverse-2-xbox"
       }
     ],
     "characters": [
@@ -392,8 +984,28 @@
         "file": "dragon-ball-xenoverse-2-all-characters"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-bardock",
+        "file": "dragon-ball-xenoverse-2-bardock"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-best-characters",
         "file": "dragon-ball-xenoverse-2-best-characters"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-black-frieza",
+        "file": "dragon-ball-xenoverse-2-black-frieza"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-fu",
+        "file": "dragon-ball-xenoverse-2-fu"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-goku-black",
+        "file": "dragon-ball-xenoverse-2-goku-black"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-janemba",
+        "file": "dragon-ball-xenoverse-2-janemba"
       },
       {
         "slug": "dragon-ball-xenoverse-2-unlock-all-characters",
@@ -406,8 +1018,20 @@
         "file": "dragon-ball-xenoverse-2-all-dlc"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-daima-dlc",
+        "file": "dragon-ball-xenoverse-2-daima-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-dlc-in-order",
+        "file": "dragon-ball-xenoverse-2-dlc-in-order"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-dlc",
         "file": "dragon-ball-xenoverse-2-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-extra-pack-2",
+        "file": "dragon-ball-xenoverse-2-extra-pack-2"
       },
       {
         "slug": "dragon-ball-xenoverse-2-final-dlc",
@@ -445,6 +1069,10 @@
       }
     ],
     "mods": [
+      {
+        "slug": "dragon-ball-xenoverse-2-cac-transformations-mod",
+        "file": "dragon-ball-xenoverse-2-cac-transformations-mod"
+      },
       {
         "slug": "dragon-ball-xenoverse-2-graphics-mod",
         "file": "dragon-ball-xenoverse-2-graphics-mod"
@@ -536,6 +1164,42 @@
   "pt": {
     "builds": [
       {
+        "slug": "dragon-ball-xenoverse-2-advancement-test",
+        "file": "dragon-ball-xenoverse-2-advancement-test"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-all-transformations",
+        "file": "dragon-ball-xenoverse-2-all-transformations"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-all-wishes",
+        "file": "dragon-ball-xenoverse-2-all-wishes"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-attribute-points",
+        "file": "dragon-ball-xenoverse-2-attribute-points"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-awoken-skills",
+        "file": "dragon-ball-xenoverse-2-awoken-skills"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-beast-form",
+        "file": "dragon-ball-xenoverse-2-beast-form"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-beast-transformation",
+        "file": "dragon-ball-xenoverse-2-beast-transformation"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-beginner-guide",
+        "file": "dragon-ball-xenoverse-2-beginner-guide"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-ki-blast-supers",
+        "file": "dragon-ball-xenoverse-2-best-ki-blast-supers"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-best-qq-bang",
         "file": "dragon-ball-xenoverse-2-best-qq-bang"
       },
@@ -544,12 +1208,96 @@
         "file": "dragon-ball-xenoverse-2-best-race"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-best-saiyan-build",
+        "file": "dragon-ball-xenoverse-2-best-saiyan-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-transformations",
+        "file": "dragon-ball-xenoverse-2-best-transformations"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-blue-evolution",
+        "file": "dragon-ball-xenoverse-2-blue-evolution"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-builds",
         "file": "dragon-ball-xenoverse-2-builds"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-cac",
+        "file": "dragon-ball-xenoverse-2-cac"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-clothing-list-with-pictures",
+        "file": "dragon-ball-xenoverse-2-clothing-list-with-pictures"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-controls-pc",
+        "file": "dragon-ball-xenoverse-2-controls-pc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-crossplay",
+        "file": "dragon-ball-xenoverse-2-crossplay"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-distorted-time-eggs",
+        "file": "dragon-ball-xenoverse-2-distorted-time-eggs"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-dragon-ball-farm",
+        "file": "dragon-ball-xenoverse-2-dragon-ball-farm"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-earthling-transformation",
+        "file": "dragon-ball-xenoverse-2-earthling-transformation"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-expert-missions",
+        "file": "dragon-ball-xenoverse-2-expert-missions"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-festival-of-universes",
+        "file": "dragon-ball-xenoverse-2-festival-of-universes"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-frieza-race-build",
         "file": "dragon-ball-xenoverse-2-frieza-race-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-glory-points",
+        "file": "dragon-ball-xenoverse-2-glory-points"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions",
+        "file": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-instructors",
+        "file": "dragon-ball-xenoverse-2-instructors"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-is-it-worth-it-2026",
+        "file": "dragon-ball-xenoverse-2-is-it-worth-it-2026"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-level-cap",
+        "file": "dragon-ball-xenoverse-2-level-cap"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-level-up-fast",
+        "file": "dragon-ball-xenoverse-2-level-up-fast"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-nintendo-switch",
+        "file": "dragon-ball-xenoverse-2-nintendo-switch"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-parallel-quest-list",
+        "file": "dragon-ball-xenoverse-2-parallel-quest-list"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-pc",
+        "file": "dragon-ball-xenoverse-2-pc"
       },
       {
         "slug": "dragon-ball-xenoverse-2-qq-bang-recipes",
@@ -562,6 +1310,46 @@
       {
         "slug": "dragon-ball-xenoverse-2-saiyan-build",
         "file": "dragon-ball-xenoverse-2-saiyan-build"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-shenron-wishes",
+        "file": "dragon-ball-xenoverse-2-shenron-wishes"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-steam",
+        "file": "dragon-ball-xenoverse-2-steam"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan-blue",
+        "file": "dragon-ball-xenoverse-2-super-saiyan-blue"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan-god",
+        "file": "dragon-ball-xenoverse-2-super-saiyan-god"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-super-saiyan",
+        "file": "dragon-ball-xenoverse-2-super-saiyan"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-tp-medals",
+        "file": "dragon-ball-xenoverse-2-tp-medals"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-ultra-instinct",
+        "file": "dragon-ball-xenoverse-2-ultra-instinct"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-walkthrough",
+        "file": "dragon-ball-xenoverse-2-walkthrough"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-world-tournament",
+        "file": "dragon-ball-xenoverse-2-world-tournament"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-xbox",
+        "file": "dragon-ball-xenoverse-2-xbox"
       }
     ],
     "characters": [
@@ -570,8 +1358,28 @@
         "file": "dragon-ball-xenoverse-2-all-characters"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-bardock",
+        "file": "dragon-ball-xenoverse-2-bardock"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-best-characters",
         "file": "dragon-ball-xenoverse-2-best-characters"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-black-frieza",
+        "file": "dragon-ball-xenoverse-2-black-frieza"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-fu",
+        "file": "dragon-ball-xenoverse-2-fu"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-goku-black",
+        "file": "dragon-ball-xenoverse-2-goku-black"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-janemba",
+        "file": "dragon-ball-xenoverse-2-janemba"
       },
       {
         "slug": "dragon-ball-xenoverse-2-unlock-all-characters",
@@ -584,8 +1392,20 @@
         "file": "dragon-ball-xenoverse-2-all-dlc"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-daima-dlc",
+        "file": "dragon-ball-xenoverse-2-daima-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-dlc-in-order",
+        "file": "dragon-ball-xenoverse-2-dlc-in-order"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-dlc",
         "file": "dragon-ball-xenoverse-2-dlc"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-extra-pack-2",
+        "file": "dragon-ball-xenoverse-2-extra-pack-2"
       },
       {
         "slug": "dragon-ball-xenoverse-2-final-dlc",
@@ -623,6 +1443,10 @@
       }
     ],
     "mods": [
+      {
+        "slug": "dragon-ball-xenoverse-2-cac-transformations-mod",
+        "file": "dragon-ball-xenoverse-2-cac-transformations-mod"
+      },
       {
         "slug": "dragon-ball-xenoverse-2-graphics-mod",
         "file": "dragon-ball-xenoverse-2-graphics-mod"
