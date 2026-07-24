@@ -130,6 +130,10 @@
         "file": "dragon-ball-xenoverse-2-level-up-fast"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-mobile",
+        "file": "dragon-ball-xenoverse-2-mobile"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-namekian-build",
         "file": "dragon-ball-xenoverse-2-namekian-build"
       },
@@ -436,6 +440,10 @@
         "file": "dragon-ball-xenoverse-2-awoken-skills"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-ban",
+        "file": "dragon-ball-xenoverse-2-ban"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-beast-form",
         "file": "dragon-ball-xenoverse-2-beast-form"
       },
@@ -464,8 +472,16 @@
         "file": "dragon-ball-xenoverse-2-best-saiyan-build"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-best-super-soul",
+        "file": "dragon-ball-xenoverse-2-best-super-soul"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-best-transformations",
         "file": "dragon-ball-xenoverse-2-best-transformations"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-ultimate-attacks",
+        "file": "dragon-ball-xenoverse-2-best-ultimate-attacks"
       },
       {
         "slug": "dragon-ball-xenoverse-2-blue-evolution",
@@ -496,6 +512,10 @@
         "file": "dragon-ball-xenoverse-2-distorted-time-eggs"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-downloadable-content",
+        "file": "dragon-ball-xenoverse-2-downloadable-content"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-dragon-ball-farm",
         "file": "dragon-ball-xenoverse-2-dragon-ball-farm"
       },
@@ -520,8 +540,20 @@
         "file": "dragon-ball-xenoverse-2-glory-points"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-how-to-get-dragon-balls",
+        "file": "dragon-ball-xenoverse-2-how-to-get-dragon-balls"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-how-to-get-super-mix-capsule-z",
+        "file": "dragon-ball-xenoverse-2-how-to-get-super-mix-capsule-z"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions",
         "file": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-how-to-unlock-super-saiyan-god",
+        "file": "dragon-ball-xenoverse-2-how-to-unlock-super-saiyan-god"
       },
       {
         "slug": "dragon-ball-xenoverse-2-instructors",
@@ -540,8 +572,16 @@
         "file": "dragon-ball-xenoverse-2-level-up-fast"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-mobile",
+        "file": "dragon-ball-xenoverse-2-mobile"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-nintendo-switch",
         "file": "dragon-ball-xenoverse-2-nintendo-switch"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-on-switch",
+        "file": "dragon-ball-xenoverse-2-on-switch"
       },
       {
         "slug": "dragon-ball-xenoverse-2-parallel-quest-list",
@@ -606,6 +646,10 @@
     ],
     "characters": [
       {
+        "slug": "dragon-ball-xenoverse-2-all-characters-including-dlc",
+        "file": "dragon-ball-xenoverse-2-all-characters-including-dlc"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-all-characters",
         "file": "dragon-ball-xenoverse-2-all-characters"
       },
@@ -622,6 +666,10 @@
         "file": "dragon-ball-xenoverse-2-black-frieza"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-character-creation",
+        "file": "dragon-ball-xenoverse-2-character-creation"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-fu",
         "file": "dragon-ball-xenoverse-2-fu"
       },
@@ -632,6 +680,14 @@
       {
         "slug": "dragon-ball-xenoverse-2-janemba",
         "file": "dragon-ball-xenoverse-2-janemba"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-on-steam-deck",
+        "file": "dragon-ball-xenoverse-2-on-steam-deck"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-steam-charts",
+        "file": "dragon-ball-xenoverse-2-steam-charts"
       },
       {
         "slug": "dragon-ball-xenoverse-2-unlock-all-characters",
@@ -702,6 +758,10 @@
       {
         "slug": "dragon-ball-xenoverse-2-graphics-mod",
         "file": "dragon-ball-xenoverse-2-graphics-mod"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-mods-revamp",
+        "file": "dragon-ball-xenoverse-2-mods-revamp"
       },
       {
         "slug": "dragon-ball-xenoverse-2-mods",
@@ -810,6 +870,10 @@
         "file": "dragon-ball-xenoverse-2-awoken-skills"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-ban",
+        "file": "dragon-ball-xenoverse-2-ban"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-beast-form",
         "file": "dragon-ball-xenoverse-2-beast-form"
       },
@@ -838,8 +902,16 @@
         "file": "dragon-ball-xenoverse-2-best-saiyan-build"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-best-super-soul",
+        "file": "dragon-ball-xenoverse-2-best-super-soul"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-best-transformations",
         "file": "dragon-ball-xenoverse-2-best-transformations"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-ultimate-attacks",
+        "file": "dragon-ball-xenoverse-2-best-ultimate-attacks"
       },
       {
         "slug": "dragon-ball-xenoverse-2-blue-evolution",
@@ -870,6 +942,10 @@
         "file": "dragon-ball-xenoverse-2-distorted-time-eggs"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-downloadable-content",
+        "file": "dragon-ball-xenoverse-2-downloadable-content"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-dragon-ball-farm",
         "file": "dragon-ball-xenoverse-2-dragon-ball-farm"
       },
@@ -894,8 +970,20 @@
         "file": "dragon-ball-xenoverse-2-glory-points"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-how-to-get-dragon-balls",
+        "file": "dragon-ball-xenoverse-2-how-to-get-dragon-balls"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-how-to-get-super-mix-capsule-z",
+        "file": "dragon-ball-xenoverse-2-how-to-get-super-mix-capsule-z"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions",
         "file": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-how-to-unlock-super-saiyan-god",
+        "file": "dragon-ball-xenoverse-2-how-to-unlock-super-saiyan-god"
       },
       {
         "slug": "dragon-ball-xenoverse-2-instructors",
@@ -914,8 +1002,16 @@
         "file": "dragon-ball-xenoverse-2-level-up-fast"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-mobile",
+        "file": "dragon-ball-xenoverse-2-mobile"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-nintendo-switch",
         "file": "dragon-ball-xenoverse-2-nintendo-switch"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-on-switch",
+        "file": "dragon-ball-xenoverse-2-on-switch"
       },
       {
         "slug": "dragon-ball-xenoverse-2-parallel-quest-list",
@@ -980,6 +1076,10 @@
     ],
     "characters": [
       {
+        "slug": "dragon-ball-xenoverse-2-all-characters-including-dlc",
+        "file": "dragon-ball-xenoverse-2-all-characters-including-dlc"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-all-characters",
         "file": "dragon-ball-xenoverse-2-all-characters"
       },
@@ -996,6 +1096,10 @@
         "file": "dragon-ball-xenoverse-2-black-frieza"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-character-creation",
+        "file": "dragon-ball-xenoverse-2-character-creation"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-fu",
         "file": "dragon-ball-xenoverse-2-fu"
       },
@@ -1006,6 +1110,10 @@
       {
         "slug": "dragon-ball-xenoverse-2-janemba",
         "file": "dragon-ball-xenoverse-2-janemba"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-on-steam-deck",
+        "file": "dragon-ball-xenoverse-2-on-steam-deck"
       },
       {
         "slug": "dragon-ball-xenoverse-2-unlock-all-characters",
@@ -1076,6 +1184,10 @@
       {
         "slug": "dragon-ball-xenoverse-2-graphics-mod",
         "file": "dragon-ball-xenoverse-2-graphics-mod"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-mods-revamp",
+        "file": "dragon-ball-xenoverse-2-mods-revamp"
       },
       {
         "slug": "dragon-ball-xenoverse-2-mods",
@@ -1184,6 +1296,10 @@
         "file": "dragon-ball-xenoverse-2-awoken-skills"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-ban",
+        "file": "dragon-ball-xenoverse-2-ban"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-beast-form",
         "file": "dragon-ball-xenoverse-2-beast-form"
       },
@@ -1212,8 +1328,16 @@
         "file": "dragon-ball-xenoverse-2-best-saiyan-build"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-best-super-soul",
+        "file": "dragon-ball-xenoverse-2-best-super-soul"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-best-transformations",
         "file": "dragon-ball-xenoverse-2-best-transformations"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-best-ultimate-attacks",
+        "file": "dragon-ball-xenoverse-2-best-ultimate-attacks"
       },
       {
         "slug": "dragon-ball-xenoverse-2-blue-evolution",
@@ -1244,6 +1368,10 @@
         "file": "dragon-ball-xenoverse-2-distorted-time-eggs"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-downloadable-content",
+        "file": "dragon-ball-xenoverse-2-downloadable-content"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-dragon-ball-farm",
         "file": "dragon-ball-xenoverse-2-dragon-ball-farm"
       },
@@ -1268,8 +1396,20 @@
         "file": "dragon-ball-xenoverse-2-glory-points"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-how-to-get-dragon-balls",
+        "file": "dragon-ball-xenoverse-2-how-to-get-dragon-balls"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-how-to-get-super-mix-capsule-z",
+        "file": "dragon-ball-xenoverse-2-how-to-get-super-mix-capsule-z"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions",
         "file": "dragon-ball-xenoverse-2-how-to-unlock-expert-missions"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-how-to-unlock-super-saiyan-god",
+        "file": "dragon-ball-xenoverse-2-how-to-unlock-super-saiyan-god"
       },
       {
         "slug": "dragon-ball-xenoverse-2-instructors",
@@ -1288,8 +1428,16 @@
         "file": "dragon-ball-xenoverse-2-level-up-fast"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-mobile",
+        "file": "dragon-ball-xenoverse-2-mobile"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-nintendo-switch",
         "file": "dragon-ball-xenoverse-2-nintendo-switch"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-on-switch",
+        "file": "dragon-ball-xenoverse-2-on-switch"
       },
       {
         "slug": "dragon-ball-xenoverse-2-parallel-quest-list",
@@ -1354,6 +1502,10 @@
     ],
     "characters": [
       {
+        "slug": "dragon-ball-xenoverse-2-all-characters-including-dlc",
+        "file": "dragon-ball-xenoverse-2-all-characters-including-dlc"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-all-characters",
         "file": "dragon-ball-xenoverse-2-all-characters"
       },
@@ -1370,6 +1522,10 @@
         "file": "dragon-ball-xenoverse-2-black-frieza"
       },
       {
+        "slug": "dragon-ball-xenoverse-2-character-creation",
+        "file": "dragon-ball-xenoverse-2-character-creation"
+      },
+      {
         "slug": "dragon-ball-xenoverse-2-fu",
         "file": "dragon-ball-xenoverse-2-fu"
       },
@@ -1380,6 +1536,10 @@
       {
         "slug": "dragon-ball-xenoverse-2-janemba",
         "file": "dragon-ball-xenoverse-2-janemba"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-on-steam-deck",
+        "file": "dragon-ball-xenoverse-2-on-steam-deck"
       },
       {
         "slug": "dragon-ball-xenoverse-2-unlock-all-characters",
@@ -1450,6 +1610,10 @@
       {
         "slug": "dragon-ball-xenoverse-2-graphics-mod",
         "file": "dragon-ball-xenoverse-2-graphics-mod"
+      },
+      {
+        "slug": "dragon-ball-xenoverse-2-mods-revamp",
+        "file": "dragon-ball-xenoverse-2-mods-revamp"
       },
       {
         "slug": "dragon-ball-xenoverse-2-mods",
